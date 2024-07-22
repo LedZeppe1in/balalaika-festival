@@ -1,133 +1,859 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
+    <head><style>img.lazy{min-height:1px}</style><link
+        rel=preload href=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080 as=script>
+        <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel</title>
-
-        <!-- Fonts -->
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
-
-        <!-- Styles -->
-        <style>
-            /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:Figtree, sans-serif;font-feature-settings:normal}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;font-weight:inherit;line-height:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]{display:none}*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::-webkit-backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: }.relative{position:relative}.mx-auto{margin-left:auto;margin-right:auto}.mx-6{margin-left:1.5rem;margin-right:1.5rem}.ml-4{margin-left:1rem}.mt-16{margin-top:4rem}.mt-6{margin-top:1.5rem}.mt-4{margin-top:1rem}.-mt-px{margin-top:-1px}.mr-1{margin-right:0.25rem}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.h-16{height:4rem}.h-7{height:1.75rem}.h-6{height:1.5rem}.h-5{height:1.25rem}.min-h-screen{min-height:100vh}.w-auto{width:auto}.w-16{width:4rem}.w-7{width:1.75rem}.w-6{width:1.5rem}.w-5{width:1.25rem}.max-w-7xl{max-width:80rem}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.items-center{align-items:center}.justify-center{justify-content:center}.gap-6{gap:1.5rem}.gap-4{gap:1rem}.self-center{align-self:center}.rounded-lg{border-radius:0.5rem}.rounded-full{border-radius:9999px}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-red-50{--tw-bg-opacity:1;background-color:rgb(254 242 242 / var(--tw-bg-opacity))}.bg-dots-darker{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(0,0,0,0.07)'/%3E%3C/svg%3E")}.from-gray-700\/50{--tw-gradient-from:rgb(55 65 81 / 0.5);--tw-gradient-to:rgb(55 65 81 / 0);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.via-transparent{--tw-gradient-to:rgb(0 0 0 / 0);--tw-gradient-stops:var(--tw-gradient-from), transparent, var(--tw-gradient-to)}.bg-center{background-position:center}.stroke-red-500{stroke:#ef4444}.stroke-gray-400{stroke:#9ca3af}.p-6{padding:1.5rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.font-semibold{font-weight:600}.leading-relaxed{line-height:1.625}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity))}.underline{-webkit-text-decoration-line:underline;text-decoration-line:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgb(0 0 0 / 0.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-gray-500\/20{--tw-shadow-color:rgb(107 114 128 / 0.2);--tw-shadow:var(--tw-shadow-colored)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.selection\:bg-red-500 *::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white *::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.selection\:bg-red-500::selection{--tw-bg-opacity:1;background-color:rgb(239 68 68 / var(--tw-bg-opacity))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity))}.focus\:rounded-sm:focus{border-radius:0.125rem}.focus\:outline:focus{outline-style:solid}.focus\:outline-2:focus{outline-width:2px}.focus\:outline-red-500:focus{outline-color:#ef4444}.group:hover .group-hover\:stroke-gray-600{stroke:#4b5563}.z-10{z-index: 10}@media (prefers-reduced-motion: no-preference){.motion-safe\:hover\:scale-\[1\.01\]:hover{--tw-scale-x:1.01;--tw-scale-y:1.01;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}}@media (prefers-color-scheme: dark){.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:bg-gray-800\/50{background-color:rgb(31 41 55 / 0.5)}.dark\:bg-red-800\/20{background-color:rgb(153 27 27 / 0.2)}.dark\:bg-dots-lighter{background-image:url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.22676 0C1.91374 0 2.45351 0.539773 2.45351 1.22676C2.45351 1.91374 1.91374 2.45351 1.22676 2.45351C0.539773 2.45351 0 1.91374 0 1.22676C0 0.539773 0.539773 0 1.22676 0Z' fill='rgba(255,255,255,0.07)'/%3E%3C/svg%3E")}.dark\:bg-gradient-to-bl{background-image:linear-gradient(to bottom left, var(--tw-gradient-stops))}.dark\:stroke-gray-600{stroke:#4b5563}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:shadow-none{--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.dark\:ring-1{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.dark\:ring-inset{--tw-ring-inset:inset}.dark\:ring-white\/5{--tw-ring-color:rgb(255 255 255 / 0.05)}.dark\:hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity))}.group:hover .dark\:group-hover\:stroke-gray-400{stroke:#9ca3af}}@media (min-width: 640px){.sm\:fixed{position:fixed}.sm\:top-0{top:0px}.sm\:right-0{right:0px}.sm\:ml-0{margin-left:0px}.sm\:flex{display:flex}.sm\:items-center{align-items:center}.sm\:justify-center{justify-content:center}.sm\:justify-between{justify-content:space-between}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width: 768px){.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}}@media (min-width: 1024px){.lg\:gap-8{gap:2rem}.lg\:p-8{padding:2rem}}
-        </style>
+        <link rel=profile href=http://gmpg.org/xfn/11>
+        <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
+        <title>Московский джазовый фестиваль 2024</title>
+        <meta name="description" content="Официальный сайт Московского джазового фестиваля 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.">
+        <link rel=canonical href=https://moscowjazzfest.com/>
+        <meta property="og:locale" content="ru_RU">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Московский джазовый фестиваль 2024">
+        <meta property="og:description" content="Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступят на Moscow Jazz Festival в 2024 году!">
+        <meta property="og:url" content="https://moscowjazzfest.com/">
+        <meta property="og:site_name" content="Московский джазовый фестиваль">
+        <meta property="article:modified_time" content="2024-05-15T17:31:32+00:00">
+        <meta property="og:image" content="https://moscowjazzfest.com/wp-content/uploads/2022/04/event-11.jpeg">
+        <meta property="og:image:width" content="1944">
+        <meta property="og:image:height" content="1296">
+        <meta property="og:image:type" content="image/jpeg">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Московский джазовый фестиваль 2024">
+        <meta name="twitter:description" content="Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступят на Moscow Jazz Festival в 2024 году!">
+        <meta name="twitter:image" content="https://moscowjazzfest.com/wp-content/uploads/2022/04/event-11.jpeg">
+        <script type=application/ld+json class=yoast-schema-graph>{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://moscowjazzfest.com/","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль 2024","isPartOf":{"@id":"https://moscowjazzfest.com/#website"},"about":{"@id":"https://moscowjazzfest.com/#organization"},"datePublished":"2021-04-06T08:57:11+00:00","dateModified":"2024-05-15T17:31:32+00:00","description":"Официальный сайт Московского джазового фестиваля 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.","breadcrumb":{"@id":"https://moscowjazzfest.com/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://moscowjazzfest.com/"]}]},{"@type":"BreadcrumbList","@id":"https://moscowjazzfest.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница"}]},{"@type":"WebSite","@id":"https://moscowjazzfest.com/#website","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль","description":"Артисты, программа, билеты","publisher":{"@id":"https://moscowjazzfest.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://moscowjazzfest.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"Organization","@id":"https://moscowjazzfest.com/#organization","name":"Московский джазовый фестиваль","url":"https://moscowjazzfest.com/","logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://moscowjazzfest.com/#/schema/logo/image/","url":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","contentUrl":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","width":300,"height":199,"caption":"Московский джазовый фестиваль"},"image":{"@id":"https://moscowjazzfest.com/#/schema/logo/image/"}}]}</script>
+        <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента" href=https://moscowjazzfest.com/feed/>
+        <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента комментариев" href=https://moscowjazzfest.com/comments/feed/>
+        <script>window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/moscowjazzfest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.5"}};/*! This file is auto-generated */!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height), e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data), r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0), new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);</script>
+        <style id=wp-emoji-styles-inline-css>img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 0.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0 !important}</style>
+        <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/a5ff7.css?x21080 media=all>
+        <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/d5d09.css?x21080 media=all>
+        <style id=moscowjazzfest-buy-button-style-inline-css>.wp-block-moscowjazzfest-buy-button{border:unset;border-radius:100px;cursor:pointer;font-size:clamp(1.5rem,1.375rem + .625vw,1.875rem);padding:1.375rem 2.813rem;transform:translateY(0);transition:all .25s ease-in-out}.wp-block-moscowjazzfest-buy-button:focus,.wp-block-moscowjazzfest-buy-button:hover{transform:translateY(-6px)}</style>
+        <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/3a4bb.css?x21080 media=all>
+        <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/fff3f.css?x21080 media=all>
+        <style id=classic-theme-styles-inline-css>.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}</style>
+        <style id=global-styles-inline-css>/*<![CDATA[*/body{--wp--preset--color--black:#000;--wp--preset--color--cyan-bluish-gray:#abb8c3;--wp--preset--color--white:#fff;--wp--preset--color--pale-pink:#f78da7;--wp--preset--color--vivid-red:#cf2e2e;--wp--preset--color--luminous-vivid-orange:#ff6900;--wp--preset--color--luminous-vivid-amber:#fcb900;--wp--preset--color--light-green-cyan:#7bdcb5;--wp--preset--color--vivid-green-cyan:#00d084;--wp--preset--color--pale-cyan-blue:#8ed1fc;--wp--preset--color--vivid-cyan-blue:#0693e3;--wp--preset--color--vivid-purple:#9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple:linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan:linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange:linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red:linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray:linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum:linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple:linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux:linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk:linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean:linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass:linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight:linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small:13px;--wp--preset--font-size--medium:20px;--wp--preset--font-size--large:36px;--wp--preset--font-size--x-large:42px;--wp--preset--spacing--20:0.44rem;--wp--preset--spacing--30:0.67rem;--wp--preset--spacing--40:1rem;--wp--preset--spacing--50:1.5rem;--wp--preset--spacing--60:2.25rem;--wp--preset--spacing--70:3.38rem;--wp--preset--spacing--80:5.06rem;--wp--preset--shadow--natural:6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep:12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp:6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined:6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp:6px 6px 0px rgba(0, 0, 0, 1)}:where(.is-layout-flex){gap:0.5em}:where(.is-layout-grid){gap:0.5em}body .is-layout-flow>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-flow>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-flow>.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>.alignleft{float:left;margin-inline-start:0;margin-inline-end:2em}body .is-layout-constrained>.alignright{float:right;margin-inline-start:2em;margin-inline-end:0}body .is-layout-constrained>.aligncenter{margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>:where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width:var(--wp--style--global--content-size);margin-left:auto !important;margin-right:auto !important}body .is-layout-constrained>.alignwide{max-width:var(--wp--style--global--wide-size)}body .is-layout-flex{display:flex}body .is-layout-flex{flex-wrap:wrap;align-items:center}body .is-layout-flex>*{margin:0}body .is-layout-grid{display:grid}body .is-layout-grid>*{margin:0}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}.has-black-color{color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-color{color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-color{color:var(--wp--preset--color--white) !important}.has-pale-pink-color{color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-color{color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-color{color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-color{color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-color{color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-color{color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-color{color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-color{color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-color{color:var(--wp--preset--color--vivid-purple) !important}.has-black-background-color{background-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-background-color{background-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-background-color{background-color:var(--wp--preset--color--white) !important}.has-pale-pink-background-color{background-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-background-color{background-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-background-color{background-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-background-color{background-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-background-color{background-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-background-color{background-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-background-color{background-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-background-color{background-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-background-color{background-color:var(--wp--preset--color--vivid-purple) !important}.has-black-border-color{border-color:var(--wp--preset--color--black) !important}.has-cyan-bluish-gray-border-color{border-color:var(--wp--preset--color--cyan-bluish-gray) !important}.has-white-border-color{border-color:var(--wp--preset--color--white) !important}.has-pale-pink-border-color{border-color:var(--wp--preset--color--pale-pink) !important}.has-vivid-red-border-color{border-color:var(--wp--preset--color--vivid-red) !important}.has-luminous-vivid-orange-border-color{border-color:var(--wp--preset--color--luminous-vivid-orange) !important}.has-luminous-vivid-amber-border-color{border-color:var(--wp--preset--color--luminous-vivid-amber) !important}.has-light-green-cyan-border-color{border-color:var(--wp--preset--color--light-green-cyan) !important}.has-vivid-green-cyan-border-color{border-color:var(--wp--preset--color--vivid-green-cyan) !important}.has-pale-cyan-blue-border-color{border-color:var(--wp--preset--color--pale-cyan-blue) !important}.has-vivid-cyan-blue-border-color{border-color:var(--wp--preset--color--vivid-cyan-blue) !important}.has-vivid-purple-border-color{border-color:var(--wp--preset--color--vivid-purple) !important}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background:var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background:var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background:var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background:var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important}.has-cool-to-warm-spectrum-gradient-background{background:var(--wp--preset--gradient--cool-to-warm-spectrum) !important}.has-blush-light-purple-gradient-background{background:var(--wp--preset--gradient--blush-light-purple) !important}.has-blush-bordeaux-gradient-background{background:var(--wp--preset--gradient--blush-bordeaux) !important}.has-luminous-dusk-gradient-background{background:var(--wp--preset--gradient--luminous-dusk) !important}.has-pale-ocean-gradient-background{background:var(--wp--preset--gradient--pale-ocean) !important}.has-electric-grass-gradient-background{background:var(--wp--preset--gradient--electric-grass) !important}.has-midnight-gradient-background{background:var(--wp--preset--gradient--midnight) !important}.has-small-font-size{font-size:var(--wp--preset--font-size--small) !important}.has-medium-font-size{font-size:var(--wp--preset--font-size--medium) !important}.has-large-font-size{font-size:var(--wp--preset--font-size--large) !important}.has-x-large-font-size{font-size:var(--wp--preset--font-size--x-large) !important}.wp-block-navigation a:where(:not(.wp-element-button)){color:inherit}:where(.wp-block-post-template.is-layout-flex){gap:1.25em}:where(.wp-block-post-template.is-layout-grid){gap:1.25em}:where(.wp-block-columns.is-layout-flex){gap:2em}:where(.wp-block-columns.is-layout-grid){gap:2em}.wp-block-pullquote{font-size:1.5em;line-height:1.6}/*]]>*/</style>
+        <link rel=stylesheet id=eno-pro-print-style-css href='https://moscowjazzfest.com/wp-content/themes/eno-pro/print.css?x21080&amp;ver=6.4.5' media=print>
+        <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/2cb10.css?x21080 media=all>
+        <!--[if lt IE 9]><script src="https://moscowjazzfest.com/wp-content/themes/eno-pro/assets/js/html5.min.js?x21080&amp;ver=6.4.5" id=html5-js defer></script> <![endif]-->
+        <script src="https://moscowjazzfest.com/wp-content/themes/eno-pro/assets/js/uikit.min.js?x21080&amp;ver=3.5.9" id=uikit-js-js defer></script>
+        <script src="https://moscowjazzfest.com/wp-content/themes/eno-pro/assets/js/uikit-icons.min.js?x21080&amp;ver=3.5.9" id=uikit-icons-js-js defer></script> <script src="https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/js/listim-tickets.min.js?x21080&amp;ver=1.0.15" id=listim-tickets-js-js defer></script>
+        <script src="https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/js/moscowjazzfest.min.js?x21080&amp;ver=1.0.15" id=moscowjazzfest-js-js defer></script>
+        <link rel=https://api.w.org/ href=https://moscowjazzfest.com/wp-json/>
+        <link rel=alternate type=application/json href=https://moscowjazzfest.com/wp-json/wp/v2/pages/2>
+        <link rel=EditURI type=application/rsd+xml title=RSD href=https://moscowjazzfest.com/xmlrpc.php?rsd>
+        <meta name="generator" content="WordPress 6.4.5">
+        <link rel=shortlink href=https://moscowjazzfest.com/>
+        <link rel=alternate type=application/json+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2F">
+        <link rel=alternate type=text/xml+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2F&#038;format=xml">
+        <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
+        <link rel=icon href=https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-150x150.png?x21080 sizes=32x32>
+        <link rel=icon href=https://moscowjazzfest.com/wp-content/uploads/2021/04/logo.png?x21080 sizes=192x192>
+        <link rel=apple-touch-icon href=https://moscowjazzfest.com/wp-content/uploads/2021/04/logo.png?x21080>
+        <meta name="msapplication-TileImage" content="https://moscowjazzfest.com/wp-content/uploads/2021/04/logo.png">
+        <style id=wp-custom-css>.lang-switcher{display:none !important}.page-id-56 .wp-block-table tr td:last-of-type{width:110px}@media screen and (max-width: 768px){.page-id-56 .wp-block-table tr td{font-size:14px}}#main-navigation>.uk-navbar-left{max-width:fit-content}@media screen and (max-width: 375px){.lang-switcher{display:none}#main-navigation>.uk-width-expand{display:none}}#menu-social li:nth-of-type(2) a{padding:3px}#site-header .header-social-menu .uk-icon-button{margin-left:5px}.dep-culture-logo{display:flex;align-items:center}.border-box{box-sizing:border-box}.visibility-hidden{visibility:hidden}.height-max-content{height:max-content}.margin-auto{margin:auto !important}.artists-header{text-align:center;margin:0 auto}@media screen and (max-width: 400px){.slider .tm-heading-xlarge{font-size:4.7rem;line-height:6rem}.slider .slide .uk-section-large{padding-right:0;padding-top:0;padding:20px}.slider .wp-block-webminimalism-grid.alignwide .wp-block-image{margin:0 !important}}@media screen and (min-width: 400px) and (max-width: 767px){.slider .uk-padding-large{padding:40px}}@media screen and (max-width: 767px){.slider .uk-margin-bottom{margin-bottom:5px !important}.slider .tm-heading-xlarge{font-size:5rem;line-height:5rem}.slider .buy-button{font-size:16px}.artists-wrap{padding:10px !important}.artists__artist{max-width:100% !important}}@media screen and (min-width: 1200px){.tm-heading-xlarge{font-size:10rem;line-height:11rem}}.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:14px;max-width:640px}@media screen and (min-width: 960px){.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:20px}}.slide .wp-block-webminimalism-grid.alignwide{max-width:600px}.page-id-44 .entry-header{display:none}.page-id-44 .entry-content-wrapper{padding:0}.page-id-44 #site-content{margin-bottom:0}.page-id-44 #site-footer{display:none}@media screen and (max-width: 690px){body.home .uk-slider-items .uk-panel h3{font-size:14px}body.home .uk-section .uk-panel.uk-width-large{padding:20px}body.home .uk-tile-secondary{max-width:80%}body.home .uk-countdown-number{font-weight:bold}body.home .uk-countdown{margin-top:10px !important;margin-bottom:10px !important}.page-id-44 h1{font-size:50px !important}.page-id-44 h3:nth-of-type(2){font-size:39px !important}.sm-text-align-center>*{text-align:center !important}}.alignwide .wp-block-group__inner-container .yoast-breadcrumbs{margin-left:0 !important}#site-header .header-social-menu .uk-icon-button{background-color:#fff;width:42px;height:42px;border-radius:42px}#site-header.uk-background-primary .header-social-menu .menu-item a{color:#202020}</style>
     </head>
-    <body class="antialiased">
-        <div class="relative sm:flex sm:justify-center sm:items-center min-h-screen bg-dots-darker bg-center bg-gray-100 dark:bg-dots-lighter dark:bg-gray-900 selection:bg-red-500 selection:text-white">
-            @if (Route::has('login'))
-                <div class="sm:fixed sm:top-0 sm:right-0 p-6 text-right z-10">
-                    @auth
-                        <a href="{{ url('/home') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Log in</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 font-semibold text-gray-600 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Register</a>
-                        @endif
-                    @endauth
+    <body class="home page-template page-template-templates page-template-homepage page-template-templateshomepage-php page page-id-2 page-parent wp-custom-logo wp-embed-responsive missing-post-thumbnail hide-avatars site-footer-has-background">
+
+    <a class="skip-link screen-reader-text" href=#site-content title="Перейти к содержанию">Перейти к содержанию</a>
+
+    <div id=site-wrapper class=uk-offcanvas-content>
+        <div class=tm-header>
+            <header id=site-header data-uk-scrollspy="cls: uk-animation-slide-top-small; delay: 500" style="visibility: hidden;" role=banner data-uk-sticky="cls-active: uk-background-primary;">
+                <div class="uk-container uk-container-expand">
+                    <nav id=main-navigation class="uk-navbar-container uk-navbar-transparent" role=navigation aria-label="Главное меню" data-uk-navbar>
+                        <div class=uk-navbar-left>
+                        <a href=/ >
+                            <svg class=mjf-svg-logotype xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17824.54 13809.39" xmlns:xlink="http://www.w3.org/1999/xlink"><style>.fil1{fill:#009FB4}.fil3{fill:#E23548}.fil2{fill:#FAAF16}.fil0{fill:#373435;fill-rule:nonzero}</style>
+                                <g id=mjf2024>
+                                    <g id=mjf2024_1523141608>
+                                        <path class=fil0 d="M5992.56 898.59l101.49 0 0 -710 -101.49 0 0 710zm-3966.11 11026.35l0 -623.49 -1993 0 0 2451.86 826.64 0 0 -784.61 1022.74 0 0 -623.41 -1022.74 0 0 -420.35 1166.36 0zm1075.38 1204.87l0 -322.22 1036.78 0 0 -595.41 -1036.78 0 0 -287.24 1180.4 0 0 -623.49 -1993.09 0 0 2451.86 2038.58 0 0 -623.5 -1225.89 0zm2458.84 679.58c760.05,0 1141.89,-378.3 1141.89,-826.64 0,-904.28 -1355.56,-659.08 -1355.56,-952.7 0,-84.09 77.11,-154.13 318.78,-154.13 213.66,0 441.37,59.53 683.02,182.13l248.65 -599.02c-255.71,-143.54 -595.41,-213.58 -924.7,-213.58 -760.05,0 -1141.89,371.24 -1141.89,826.65 0,914.18 1355.56,664.84 1355.56,973.71 0,84 -84.09,133.11 -318.77,133.11 -269.67,0 -577.92,-87.53 -809.08,-224.18l-266.22 602.39c245.2,150.69 658.48,252.26 1068.32,252.26zm1884.45 -56.08l826.65 0 0 -1810.88 718 0 0 -640.98 -2262.67 0 0 640.98 718.01 0 0 1810.88zm1758.32 0l826.73 0 0 -2451.86 -826.73 0 0 2451.86zm3033.32 -2451.86l-598.86 1432.65 -585.07 -1432.65 -889.54 0 1036.7 2451.86 812.69 0 1036.78 -2451.86 -812.69 0zm2641.05 2451.86l854.65 0 -1071.76 -2451.86 -812.69 0 -1071.76 2451.86 840.6 0 164.65 -427.25 931.67 0 164.64 427.25zm-868.61 -1022.74l238.14 -616.43 238.22 616.43 -476.35 0zm1856.37 1022.74l1933.47 0 0 -640.9 -1106.82 0 0 -1810.96 -826.65 0 0 2451.86zm-14163.58 -3480.54c1215.81,0 1869.03,-607.9 1869.03,-1849.56l0 -2780.97 -3046.07 0 0 1151.19 1539.23 0 0 1720.24c0,368.66 -174.64,562.67 -491.51,562.67 -252.26,0 -478.58,-148.7 -717.83,-446.28l-821.31 970.09c375.04,439.83 963.55,672.61 1668.46,672.61zm5859.26 -103.48l1578 0 -1978.96 -4527.05 -1500.37 0 -1978.97 4527.05 1552.15 0 303.87 -788.99 1720.33 0 303.95 788.99zm-1603.84 -1888.41l439.74 -1138.18 439.82 1138.18 -879.55 0zm5251.27 704.91l2069.51 -2405.76 0 -937.79 -3990.24 0 0 1183.5 2004.81 0 -2069.51 2405.85 0 937.7 4158.41 0 0 -1183.5 -2172.98 0zm4442.97 0l2069.42 -2405.76 0 -937.79 -3990.23 0 0 1183.5 2004.89 0 -2069.51 2405.85 0 937.7 4158.32 0 0 -1183.5 -2172.89 0zm-12716.36 -4371.46l-6.89 -2418.17 -670.19 0 -766.94 1288.53 -787.62 -1288.53 -670.19 0 0 2418.17 742.73 0 0 -1064 525.1 846.37 359.27 0 525.02 -884.37 6.98 1102 742.73 0zm1661.66 55.31c787.62,0 1364.51,-531.99 1364.51,-1264.4 0,-732.39 -576.88,-1264.4 -1364.51,-1264.4 -787.71,0 -1364.61,532 -1364.61,1264.4 0,732.4 576.89,1264.4 1364.61,1264.4zm0 -659.85c-300.6,0 -542.43,-228.05 -542.43,-604.54 0,-376.58 241.84,-604.54 542.43,-604.54 300.5,0 542.33,227.97 542.33,604.54 0,376.5 -241.84,604.54 -542.33,604.54zm2563.25 659.85c749.63,0 1126.21,-373.05 1126.21,-815.36 0,-891.78 -1336.94,-649.94 -1336.94,-939.6 0,-82.88 75.99,-151.97 314.38,-151.97 210.73,0 435.25,58.75 673.63,179.63l245.2 -590.76c-252.09,-141.64 -587.22,-210.73 -911.94,-210.73 -749.63,0 -1126.21,366.24 -1126.21,815.27 0,901.69 1336.94,655.81 1336.94,960.45 0,82.88 -82.88,131.22 -314.38,131.22 -265.96,0 -569.99,-86.33 -797.95,-221.08l-262.6 594.2c241.83,148.45 649.51,248.73 1053.66,248.73zm2618.57 0c473.24,0 846.29,-172.82 1084.77,-483.66l-514.85 -459.47c-141.56,179.64 -310.85,283.28 -528.47,283.28 -338.59,0 -566.54,-234.94 -566.54,-604.54 0,-369.6 227.96,-604.54 566.54,-604.54 217.63,0 386.92,103.64 528.47,283.28l514.85 -459.38c-238.48,-311.02 -611.52,-483.75 -1084.77,-483.75 -777.28,0 -1347.28,521.66 -1347.28,1264.4 0,742.73 569.99,1264.4 1347.28,1264.4zm2535.6 0c787.71,0 1364.6,-531.99 1364.6,-1264.4 0,-732.39 -576.88,-1264.4 -1364.6,-1264.4 -787.62,0 -1364.51,532 -1364.51,1264.4 0,732.4 576.88,1264.4 1364.51,1264.4zm0 -659.85c-300.51,0 -542.34,-228.05 -542.34,-604.54 0,-376.58 241.84,-604.54 542.34,-604.54 300.51,0 542.34,227.97 542.34,604.54 0,376.5 -241.84,604.54 -542.34,604.54zm4736.24 -1813.63l-445.68 1392.26 -421.38 -1392.26 -749.71 0 -445.6 1374.94 -421.47 -1374.94 -839.49 0 773.84 2418.17 874.03 0 411.05 -1291.97 390.37 1291.97 874.03 0 773.84 -2418.17 -773.84 0zm-10743.6 -1297.57l101.4 0 0 -710 -101.4 0 0 710zm314.46 0l101.41 0 0 -710 -101.41 0 0 710zm1347.55 0l-1.04 -710 -83.22 0 -292.33 499.09 -296.54 -499.09 -83.14 0 0 710 97.35 0 0 -514.25 256.83 428.1 46.87 0 256.74 -431.03 1.03 517.18 97.45 0zm321.96 -88.23l0 -229.17 356.08 0 0 -86.33 -356.08 0 0 -217.97 399.67 0 0 -88.31 -501.07 0 0 710 515.2 0 0 -88.23 -413.8 0zm1360.2 88.23l118.64 0 -234.34 -367.11 217.11 -342.9 -108.47 0 -190.75 308.44 -135.86 0 0 -308.44 -99.43 0 0 308.44 -138.02 0 -189.62 -308.44 -108.56 0 217.11 340.83 -234.26 369.18 118.64 0 198.76 -312.4 135.95 0 0 312.4 99.43 0 0 -312.4 134.83 0 198.84 312.4zm811.4 -88.23l0 -621.77 -498.48 0 -7.15 228.23c-7.07,216.08 -30.41,387.52 -127.77,393.55l-34.46 0 -1.03 243.48 94.34 0 1.03 -155.25 583.69 0 0 155.25 94.34 0 0 -243.48 -104.51 0zm-416.3 -384.33l5.09 -149.14 310.84 0 0 533.46 -400.19 0c60.91,-54.79 78.15,-210.99 84.26,-384.33zm1140.51 -237.45l-236.32 450.42 -230.29 -450.42 -108.47 0 286.03 538.64 -16.19 25.41c-31.45,50.66 -69.01,70.99 -110.54,70.99 -21.37,0 -43.68,-5.08 -67.03,-13.27l-26.36 81.16c32.48,14.22 64.96,21.28 95.37,21.28 77.11,0 148.1,-43.59 198.76,-138.96l315.5 -585.25 -100.46 0zm714.05 0l0 305.34 -407.69 0 0 -305.34 -101.49 0 0 710 101.49 0 0 -316.45 407.69 0 0 316.45 101.49 0 0 -710 -101.49 0zm862.23 710l106.4 0 -322.48 -710 -100.46 0 -321.44 710 104.42 0 78.14 -177.4 377.36 0 78.06 177.4zm-420.01 -258.55l153.27 -347.98 153.1 347.98 -306.37 0zm926.07 -451.46l-276.81 0 0 710 101.4 0 0 -215.05 175.41 0c184.72,0 296.29,-93.22 296.29,-247.52 0,-154.04 -111.57,-247.44 -296.29,-247.44zm-3.01 406.83l-172.4 0 0 -318.52 172.4 0c129.83,0 197.81,57.81 197.81,159.13 0,101.58 -67.98,159.39 -197.81,159.39zm769.87 311.36c216.08,0 376.24,-154.13 376.24,-363.14 0,-208.93 -160.16,-363.15 -376.24,-363.15 -218.06,0 -378.39,155.26 -378.39,363.15 0,207.89 160.33,363.14 378.39,363.14zm0 -90.29c-159.22,0 -276.9,-115.62 -276.9,-272.85 0,-157.23 117.68,-272.85 276.9,-272.85 157.23,0 274.92,115.62 274.92,272.85 0,157.23 -117.69,272.85 -274.92,272.85zm1092.35 -6.12l0 -621.77 -498.48 0 -7.07 228.23c-7.15,216.08 -30.5,387.52 -127.85,393.55l-34.47 0 -0.94 243.48 94.25 0 1.03 -155.25 583.78 0 0 155.25 94.26 0 0 -243.48 -104.51 0zm-416.3 -384.33l5.08 -149.14 310.85 0 0 533.46 -400.11 0c60.83,-54.79 78.06,-210.99 84.18,-384.33zm1169.03 -237.45l0 305.34 -407.86 0 0 -305.34 -101.41 0 0 710 101.41 0 0 -316.45 407.86 0 0 316.45 101.4 0 0 -710 -101.4 0zm633.83 247.44l-210.91 0 0 -247.44 -100.45 0 0 710 293.09 0c177.57,0 280.01,-81.07 280.01,-238.31 0,-148.1 -93.31,-224.26 -261.74,-224.26zm374.34 462.57l100.46 0 0 -710 -100.46 0 0 710zm-396.57 -80.04l-188.68 0 0 -302.32 188.68 0c118.64,0 182.56,45.66 182.56,146.12 0,102.44 -64.87,156.2 -182.56,156.2zm1023.43 -679.58c109.5,0 172.39,-50.75 173.43,-138.97l-70.99 0c-2.07,52.73 -41.62,83.14 -102.44,83.14 -62.98,0 -101.49,-30.41 -102.53,-83.14l-72.02 0c1.03,88.22 62.98,138.97 174.55,138.97zm-305.34 759.62l93.31 0 420.95 -546.65 0 546.65 99.43 0 0 -710 -93.31 0 -420 547.77 0 -547.77 -100.38 0 0 710z"/>
+                                        <polygon
+                                            class=fil1 points="4399.34,898.61 5269.94,898.61 5269.94,154.5 4399.34,154.5 "/>
+                                        <polygon
+                                            class=fil2 points="2415.51,898.61 4399.34,898.61 4399.34,154.5 2415.51,154.5 "/>
+                                        <polygon
+                                            class=fil3 points="-0,898.61 2415.51,898.61 2415.51,154.5 -0,154.5 "/>
+                                    </g>
+                                </g>
+                            </svg>
+                        </a>
+                        </div>
+                        <div class="uk-width-expand uk-flex uk-flex-center">
+                            <div class="uk-navbar-item uk-visible@m">
+                                <ul id=menu-navbar class=uk-navbar-nav>
+                                    <li id=menu-item-18 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18">
+                                        <a href=#>О фестивале<span data-uk-icon="icon: chevron-down; ratio: .65" style="margin-left: 2px;"></span></a>
+                                        <div data-uk-dropdown="animation: uk-animation-slide-top-small" class="uk-navbar-dropdown ">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav sub-menu menu-odd  menu-depth-1">
+                                                <li id=menu-item-66 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66">
+                                                    <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/ >Moscow Jazz Festival 2024</a>
+                                                </li>
+                                                <li id=menu-item-808 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-808">
+                                                    <a href=/schedule/ >Программа фестиваля</a>
+                                                </li>
+                                                <li id=menu-item-204 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
+                                                    <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/opening-and-closing/>Открытие в Зале им. П.Чайковского и Закрытие в Зале «Зарядье»</a>
+                                                </li>
+                                                <li id=menu-item-207 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207">
+                                                    <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/kontserty-v-sadu-ermitazh/>Концерты в Саду «Эрмитаж» 2024</a>
+                                                </li>
+                                                <li id=menu-item-3894 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894">
+                                                    <a href=https://moscowjazzfest.com/jazz-laboratory-gazprombank/>Джазовая лаборатория Газпромбанка</a>
+                                                </li>
+                                                <li id=menu-item-1268 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268">
+                                                    <a href=https://moscowjazzfest.com/club-program/>Клубная программа</a>
+                                                </li>
+                                                <li id=menu-item-1583 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1583">
+                                                    <a href=https://moscowjazzfest.com/moscowjazzfest-2024/lectorium/>Знание.Лекторий на Выставке «Россия» на ВДНХ</a>
+                                                </li>
+                                                <li id=menu-item-3048 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3048">
+                                                    <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/lektorium-gazprombank/>Музыкальный лекторий Газпромбанкаи «Музторг»</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li id=menu-item-19 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19">
+                                        <a href=#>Конкурсы<span data-uk-icon="icon: chevron-down; ratio: .65" style="margin-left: 2px;"></span></a>
+                                        <div data-uk-dropdown="animation: uk-animation-slide-top-small" class="uk-navbar-dropdown">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav sub-menu menu-odd menu-depth-1">
+                                                <li id=menu-item-69 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
+                                                    <a href=https://moscowjazzfest.com/contest/>Всероссийский конкурс молодежных джазовых коллективов</a>
+                                                </li>
+                                                <li id=menu-item-3254 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3254">
+                                                    <a href=https://moscowjazzfest.com/contest-winners/>Победители конкурса 2024</a>
+                                                </li>
+                                                <li id=menu-item-3158 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3158">
+                                                    <a href=https://moscowjazzfest.com/jazzprom/>JAZZПРОМ</a>
+                                                </li>
+                                                <li id=menu-item-3700 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700">
+                                                    <a href=https://moscowjazzfest.com/jazzprom-2024-winners/>Победители конкурса JAZZPROM</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li id=menu-item-156 class="menu-item menu-item-type-post_type_archive menu-item-object-artist menu-item-156">
+                                        <a
+                                        href=https://moscowjazzfest.com/artists/>Артисты</a>
+                                    </li>
+                                    <li id=menu-item-75 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75">
+                                        <a href=https://moscowjazzfest.com/tickets/ >Билеты<span data-uk-icon="icon: chevron-down; ratio: .65" style="margin-left: 2px;"></span></a>
+                                        <div data-uk-dropdown="animation: uk-animation-slide-top-small" class="uk-navbar-dropdown ">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav sub-menu menu-odd  menu-depth-1">
+                                                <li id=menu-item-1772 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1772">
+                                                    <a href=https://moscowjazzfest.com/tickets/ >О билетах</a>
+                                                </li>
+                                                <li id=menu-item-1554 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1554">
+                                                    <a href=https://moscowjazzfest.com/tickets/rules/ >ПРАВИЛА ПОСЕЩЕНИЯ III МЕЖДУНАРОДНОГО МОСКОВСКОГО ДЖАЗОВОГО ФЕСТИВАЛЯ </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li id=menu-item-17 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17">
+                                        <a href=https://moscowjazzfest.com/news/ >Новости<span data-uk-icon="icon: chevron-down; ratio: .65" style="margin-left: 2px;"></span></a>
+                                        <div data-uk-dropdown="animation: uk-animation-slide-top-small" class="uk-navbar-dropdown ">
+                                            <ul class="uk-nav uk-navbar-dropdown-nav sub-menu menu-odd  menu-depth-1">
+                                                <li id=menu-item-629 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629">
+                                                    <a href=https://moscowjazzfest.com/media-about-us/ >СМИ о нас</a>
+                                                </li>
+                                                <li id=menu-item-784 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784">
+                                                    <a href=https://moscowjazzfest.com/special-projects/ >Спецпроекты</a>
+                                                </li>
+                                                <li id=menu-item-74 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
+                                                    <a href=https://moscowjazzfest.com/for-press/ >Информация для СМИ</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li id=menu-item-73 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+                                        <a href=https://moscowjazzfest.com/partners/ >Партнёры</a>
+                                    </li>
+                                    <li id=menu-item-72 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
+                                        <a href=https://moscowjazzfest.com/contacts/ >Контакты</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class=uk-navbar-item>
+                                <a class=lang-switcher href=https://en.moscowjazzfest.com/ >En</a>
+                            </div>
+                        </div>
+                        <div class=uk-navbar-right>
+                            <nav class="header-social-menu uk-width-auto uk-navbar-container uk-navbar-transparent" role=navigation aria-label="Ссылки на социальные сети" data-uk-navbar>
+                                <ul id=menu-social class="uk-navbar-nav uk-navbar-center">
+                                    <li id=menu-item-77 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77">
+                                        <div class="uk-display-inline tm-padding-xsmall">
+                                            <a target=_blank rel=nofollow href=https://vk.com/moscowjazzfestival class=uk-icon-button data-uk-icon="icon: eno-pro-vk; ratio: .8"><span class=screen-reader-text>Вконтакте</span></a>
+                                        </div>
+                                    </li>
+                                    <li id=menu-item-78 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78">
+                                        <div class="uk-display-inline tm-padding-xsmall">
+                                            <a target=_blank rel=nofollow href=https://ok.ru/group/62290400247925 class=uk-icon-button data-uk-icon="icon: eno-pro-odnoklassniki; ratio: .6"><span class=screen-reader-text>Одноклассники</span></a>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <div class="uk-navbar-item uk-padding-remove">
+                                <button class="uk-button uk-button-link" id=search-modal-toggle data-uk-toggle="target: #search-modal" data-uk-icon="icon: eno-pro-search; ratio: .85">
+                                    <span class=screen-reader-text>Искать</span>
+                                </button>
+                            </div>
+                            <div class=uk-navbar-item>
+                                <button id=offcanvas-navigation-toggle class="uk-button uk-button-text" data-uk-toggle="target: #offcanvas-navigation" data-uk-icon="icon: eno-pro-menu; ratio: .9">
+                                    <span class=screen-reader-text>Меню</span>
+                                </button>
+                            </div>
+                        </div>
+                    </nav>
                 </div>
-            @endif
+            </header>
+        </div>
 
-            <div class="max-w-7xl mx-auto p-6 lg:p-8">
-                <div class="flex justify-center">
-                    <svg viewBox="0 0 62 65" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto bg-gray-100 dark:bg-gray-900">
-                        <path d="M61.8548 14.6253C61.8778 14.7102 61.8895 14.7978 61.8897 14.8858V28.5615C61.8898 28.737 61.8434 28.9095 61.7554 29.0614C61.6675 29.2132 61.5409 29.3392 61.3887 29.4265L49.9104 36.0351V49.1337C49.9104 49.4902 49.7209 49.8192 49.4118 49.9987L25.4519 63.7916C25.3971 63.8227 25.3372 63.8427 25.2774 63.8639C25.255 63.8714 25.2338 63.8851 25.2101 63.8913C25.0426 63.9354 24.8666 63.9354 24.6991 63.8913C24.6716 63.8838 24.6467 63.8689 24.6205 63.8589C24.5657 63.8389 24.5084 63.8215 24.456 63.7916L0.501061 49.9987C0.348882 49.9113 0.222437 49.7853 0.134469 49.6334C0.0465019 49.4816 0.000120578 49.3092 0 49.1337L0 8.10652C0 8.01678 0.0124642 7.92953 0.0348998 7.84477C0.0423783 7.8161 0.0598282 7.78993 0.0697995 7.76126C0.0884958 7.70891 0.105946 7.65531 0.133367 7.6067C0.152063 7.5743 0.179485 7.54812 0.20192 7.51821C0.230588 7.47832 0.256763 7.43719 0.290416 7.40229C0.319084 7.37362 0.356476 7.35243 0.388883 7.32751C0.425029 7.29759 0.457436 7.26518 0.498568 7.2415L12.4779 0.345059C12.6296 0.257786 12.8015 0.211853 12.9765 0.211853C13.1515 0.211853 13.3234 0.257786 13.475 0.345059L25.4531 7.2415H25.4556C25.4955 7.26643 25.5292 7.29759 25.5653 7.32626C25.5977 7.35119 25.6339 7.37362 25.6625 7.40104C25.6974 7.43719 25.7224 7.47832 25.7523 7.51821C25.7735 7.54812 25.8021 7.5743 25.8196 7.6067C25.8483 7.65656 25.8645 7.70891 25.8844 7.76126C25.8944 7.78993 25.9118 7.8161 25.9193 7.84602C25.9423 7.93096 25.954 8.01853 25.9542 8.10652V33.7317L35.9355 27.9844V14.8846C35.9355 14.7973 35.948 14.7088 35.9704 14.6253C35.9792 14.5954 35.9954 14.5692 36.0053 14.5405C36.0253 14.4882 36.0427 14.4346 36.0702 14.386C36.0888 14.3536 36.1163 14.3274 36.1375 14.2975C36.1674 14.2576 36.1923 14.2165 36.2272 14.1816C36.2559 14.1529 36.292 14.1317 36.3244 14.1068C36.3618 14.0769 36.3942 14.0445 36.4341 14.0208L48.4147 7.12434C48.5663 7.03694 48.7383 6.99094 48.9133 6.99094C49.0883 6.99094 49.2602 7.03694 49.4118 7.12434L61.3899 14.0208C61.4323 14.0457 61.4647 14.0769 61.5021 14.1055C61.5333 14.1305 61.5694 14.1529 61.5981 14.1803C61.633 14.2165 61.6579 14.2576 61.6878 14.2975C61.7103 14.3274 61.7377 14.3536 61.7551 14.386C61.7838 14.4346 61.8 14.4882 61.8199 14.5405C61.8312 14.5692 61.8474 14.5954 61.8548 14.6253ZM59.893 27.9844V16.6121L55.7013 19.0252L49.9104 22.3593V33.7317L59.8942 27.9844H59.893ZM47.9149 48.5566V37.1768L42.2187 40.4299L25.953 49.7133V61.2003L47.9149 48.5566ZM1.99677 9.83281V48.5566L23.9562 61.199V49.7145L12.4841 43.2219L12.4804 43.2194L12.4754 43.2169C12.4368 43.1945 12.4044 43.1621 12.3682 43.1347C12.3371 43.1097 12.3009 43.0898 12.2735 43.0624L12.271 43.0586C12.2386 43.0275 12.2162 42.9888 12.1887 42.9539C12.1638 42.9203 12.1339 42.8916 12.114 42.8567L12.1127 42.853C12.0903 42.8156 12.0766 42.7707 12.0604 42.7283C12.0442 42.6909 12.023 42.656 12.013 42.6161C12.0005 42.5688 11.998 42.5177 11.9931 42.4691C11.9881 42.4317 11.9781 42.3943 11.9781 42.3569V15.5801L6.18848 12.2446L1.99677 9.83281ZM12.9777 2.36177L2.99764 8.10652L12.9752 13.8513L22.9541 8.10527L12.9752 2.36177H12.9777ZM18.1678 38.2138L23.9574 34.8809V9.83281L19.7657 12.2459L13.9749 15.5801V40.6281L18.1678 38.2138ZM48.9133 9.14105L38.9344 14.8858L48.9133 20.6305L58.8909 14.8846L48.9133 9.14105ZM47.9149 22.3593L42.124 19.0252L37.9323 16.6121V27.9844L43.7219 31.3174L47.9149 33.7317V22.3593ZM24.9533 47.987L39.59 39.631L46.9065 35.4555L36.9352 29.7145L25.4544 36.3242L14.9907 42.3482L24.9533 47.987Z" fill="#FF2D20"/>
-                    </svg>
+        <main id=site-content role=main>
+            <div class=slider data-uk-scrollspy="cls: uk-animation-fade" style="overflow: hidden;">
+                <div data-uk-slider="autoplay: true; easing: ease-in-out"  data-uk-scrollspy="cls: uk-animation-slide-right-medium">
+                    <div class="uk-width-1-1 uk-position-absolute uk-position-bottom-right uk-light" style="z-index: 2;">
+                        <div class="uk-container uk-section uk-padding-remove-bottom">
+                            <a href=# class="slide-nav-button uk-hidden-hover" data-uk-slidenav-previous data-uk-slider-item=previous></a>
+                            <a href=# class="slide-nav-button uk-hidden-hover" data-uk-slidenav-next data-uk-slider-item=next></a>
+                        </div>
+                    </div>
+                    <ul class="uk-slider-items uk-child-width-1-1" style="min-height: 90vh;">
+                        <li class="slide has-thumbnail">
+                            <div style data-bg="url('https://moscowjazzfest.com/wp-content/uploads/2021/04/banner-scaled.jpg')" class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">
+                                <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.01);"></div>
+                                <div class="uk-container uk-section-large uk-flex uk-flex-middle uk-padding-large border-box" style="margin-left: 0; padding-top: 25vh;">
+                                    <div class=slide-content-wrapper style="max-width: 90vw;">
+                                        <div class="slide-content uk-text-large uk-margin-medium-bottom">
+                                            <div class="wp-block-group uk-margin-remove-bottom is-layout-flow wp-block-group-is-layout-flow">
+                                                <div class=wp-block-group__inner-container>
+                                                    <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">
+                                                        <div class=wp-block-webminimalism-grid__inner>
+                                                            <div class="wp-block-webminimalism-grid-item column-start-m_6 column-end-m_10 column-start-t_6 column-end-t_10 column-start-d_6 column-end-d_10 no-stacking margin-top-d_2 margin-top-t_2 margin-top-m_2 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
+                                                                <figure class="wp-block-image size-medium">
+                                                                    <img decoding=async width=300 height=112 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-300x112.png?x21080 alt="Департамент культуры города Москвы" class="wp-image-449 lazy" data-srcset="https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-300x112.png 300w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-1024x383.png 1024w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-768x288.png 768w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-1536x575.png 1536w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-2048x767.png 2048w" data-sizes="(max-width: 300px) 100vw, 300px">
+                                                                </figure>
+                                                            </div>
+                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_6 column-start-t_1 column-end-t_6 column-start-d_1 column-end-d_6 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
+                                                                <figure class="wp-block-image size-large">
+                                                                    <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/06/pfki-logotype.png?x21080 alt="ПФКИ - Президентский фонд культурных инициатив" class="wp-image-1735 lazy">
+                                                                </figure>
+                                                            </div>
+                                                            <div class="wp-block-webminimalism-grid-item column-start-m_10 column-end-m_13 column-start-t_10 column-end-t_13 column-start-d_10 column-end-d_13 no-stacking margin-top-t_2 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_1 gutter-left-t_1 gutter-left-m_1 dep-culture-logo">
+                                                                <figure class="wp-block-image size-large">
+                                                                    <img fetchpriority=high decoding=async width=1024 height=483 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20483'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-1024x483.png?x21080 alt="Фонд Игоря Бутмана" class="wp-image-1734 lazy" data-srcset="https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-1024x483.png 1024w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-300x142.png 300w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-768x362.png 768w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman.png 1409w" data-sizes="(max-width: 1024px) 100vw, 1024px">
+                                                                </figure>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="uk-h3 uk-width-xlarge uk-scrollspy-inview uk-animation-slide-left-medium uk-margin-bottom uk-margin-remove-top" data-uk-scrollspy-class=uk-animation-slide-top-medium style><span class="tm-text-subheader uk-text-primary">С 10 по 16 июня 2024, Москва</span></div>
+                                            <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="moscow">Moscow</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="jazz">Jazz Festival</h2>
+                                            <p class=uk-width-xlarge>Игорь Бутман и Московский джазовый оркестр, Дафер Юсеф, Ришар Бона, Авишай Коэн, Константин Хабенский, Роберто Фонсека, Дмитрий Маликов с программой Pianomaniя Jazz, Виктор Добронравов и ансамбль «Кинопроектор» и другие</p>
+                                            <p class="has-text-color uk-text-bold uk-width-xlarge uk-hidden" style="font-size: 16px;">Бесплатные концерты на открытых сценах на площади у ЦУМа, в парках «Музеон» и «Зарядье», на ВДНХ и Северном речном вокзале будут перенесены. Следите за информацией в нашем
+                                                <a href=https://vk.com/moscowjazzfestival target=_blank rel="noopenere nofolllow noopener">сообществе в ВК</a>.
+                                            </p>
+                                            <div class="uk-margin-top uk-text-bold uk-text-uppercase uk-scrollspy-inview uk-animation-slide-right-medium" data-uk-scrollspy-class=uk-animation-slide-bottom-medium style>
+                                                <a class="uk-button uk-button-default uk-button-large buy-button uk-margin-small-bottom" href=# onclick=listimWidget.openModal() />Купить билеты</a>
+                                                <a class="uk-button uk-button-primary uk-button-large buy-button uk-margin-small-bottom" href=/schedule/ >Программа</a>
+                                            </div>
+                                        </div>
+                                        <div class="slide-buttons uk-margin uk-margin-bottom"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
-
-                <div class="mt-16">
-                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
-                        <a href="https://laravel.com/docs" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-                                    </svg>
+            </div>
+            <section class="section-margin uk-container uk-container-large">
+                <div class="artists-header uk-padding">
+                    <h1 class="tm-heading-large uk-text-secondary" style="">Артисты</h1>
+                    <p class="uk-text-bold uk-text-secondary" style>Более 1000 ведущих музыкантов из России и стран зарубежья представят свои лучшие джазовые программы на Moscow Jazz Festival в 2024 году!</p>
+                </div>
+                <div class="artists-wrap uk-padding">
+                    <div class="artists uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-wdith-1-5@l uk-grid" data-uk-grid>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/igor-butman/ >
+                                    <img width=443 height=666 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2023-04-25-v-20.10.51.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2023-04-25-v-20.10.51.png 443w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2023-04-25-v-20.10.51-200x300.png 200w" data-sizes="(max-width: 443px) 100vw, 443px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Игорь Бутман и Московский джазовый оркестр</h3>
                                 </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Documentation</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
-                                </p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <a href="https://laracasts.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-                                    </svg>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/richard-bona/>
+                                    <img width=1706 height=2560 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201706%202560'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-scaled.jpg?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-scaled.jpg 1706w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-200x300.jpg 200w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-683x1024.jpg 683w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-768x1152.jpg 768w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-1024x1536.jpg 1024w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-1365x2048.jpg 1365w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-600x900.jpg 600w" data-sizes="(max-width: 1706px) 100vw, 1706px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Richard Bona</h3>
                                 </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laracasts</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <a href="https://laravel-news.com" class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 7.5h1.5m-1.5 3h1.5m-7.5 3h7.5m-7.5 3h7.5m3-9h3.375c.621 0 1.125.504 1.125 1.125V18a2.25 2.25 0 01-2.25 2.25M16.5 7.5V18a2.25 2.25 0 002.25 2.25M16.5 7.5V4.875c0-.621-.504-1.125-1.125-1.125H4.125C3.504 3.75 3 4.254 3 4.875V18a2.25 2.25 0 002.25 2.25h13.5M6 7.5h3v3H6v-3z" />
-                                    </svg>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/avishai-cohen-trio/ >
+                                    <img width=428 height=656 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20656'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-19-v-18.28.02-1.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-19-v-18.28.02-1.png 428w, https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-19-v-18.28.02-1-196x300.png 196w" data-sizes="(max-width: 428px) 100vw, 428px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Avishai Cohen Trio</h3>
                                 </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Laravel News</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </p>
                             </div>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="self-center shrink-0 stroke-red-500 w-6 h-6 mx-6">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12h15m0 0l-6.75-6.75M19.5 12l-6.75 6.75" />
-                            </svg>
-                        </a>
-
-                        <div class="scale-100 p-6 bg-white dark:bg-gray-800/50 dark:bg-gradient-to-bl from-gray-700/50 via-transparent dark:ring-1 dark:ring-inset dark:ring-white/5 rounded-lg shadow-2xl shadow-gray-500/20 dark:shadow-none flex motion-safe:hover:scale-[1.01] transition-all duration-250 focus:outline focus:outline-2 focus:outline-red-500">
-                            <div>
-                                <div class="h-16 w-16 bg-red-50 dark:bg-red-800/20 flex items-center justify-center rounded-full">
-                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-7 h-7 stroke-red-500">
-                                        <path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" />
-                                    </svg>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/dhafer-youssef/ >
+                                    <img width=425 height=631 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_76.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_76.png 425w, https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_76-202x300.png 202w" data-sizes="(max-width: 425px) 100vw, 425px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Dhafer Youssef</h3>
                                 </div>
-
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</h2>
-
-                                <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Forge</a>, <a href="https://vapor.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Vapor</a>, <a href="https://nova.laravel.com" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Nova</a>, and <a href="https://envoyer.io" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">Telescope</a>, and more.
-                                </p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/konstantin-khabensky/ >
+                                    <img width=608 height=970 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20608%20970'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-08-v-21.28.39-e1712601644503.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-08-v-21.28.39-e1712601644503.png 608w, https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-08-v-21.28.39-e1712601644503-188x300.png 188w" data-sizes="(max-width: 608px) 100vw, 608px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Константин Хабенский</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/dmitry-malikov-pianomaniya-jazz/ >
+                                    <img width=379 height=573 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20379%20573'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2024-04-08-v-21.43.13.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2024-04-08-v-21.43.13.png 379w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2024-04-08-v-21.43.13-198x300.png 198w" data-sizes="(max-width: 379px) 100vw, 379px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Дмитрий Маликов Pianomaniя Jazz</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                            <a class=artists__permalink href=https://moscowjazzfest.com/artists/roberto-fonseca/ >
+                                <img width=417 height=636 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20417%20636'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_81.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_81.png 417w, https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_81-197x300.png 197w" data-sizes="(max-width: 417px) 100vw, 417px">
+                            </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Roberto Fonseca</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/allan-harris/ >
+                                    <img width=464 height=700 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20464%20700'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/Snimok-ekrana-2024-05-06-v-21.08.11-e1715019931960.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/05/Snimok-ekrana-2024-05-06-v-21.08.11-e1715019931960.png 464w, https://moscowjazzfest.com/wp-content/uploads/2024/05/Snimok-ekrana-2024-05-06-v-21.08.11-e1715019931960-199x300.png 199w" data-sizes="(max-width: 464px) 100vw, 464px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Allan Harris</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/dobronravov-kinoproektor/ >
+                                    <img width=420 height=632 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20420%20632'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Screenshot_80.png?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2022/04/Screenshot_80.png 420w, https://moscowjazzfest.com/wp-content/uploads/2022/04/Screenshot_80-199x300.png 199w" data-sizes="(max-width: 420px) 100vw, 420px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Виктор Добронравов и ансамбль «Кинопроектор»</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/stavlittleband/ >
+                                    <img width=1707 height=2560 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201707%202560'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-scaled.jpg?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-scaled.jpg 1707w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-200x300.jpg 200w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-683x1024.jpg 683w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-768x1152.jpg 768w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-1024x1536.jpg 1024w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-1366x2048.jpg 1366w, https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-600x900.jpg 600w" data-sizes="(max-width: 1707px) 100vw, 1707px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">StavLittleBand</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/fantine/ >
+                                    <img width=1200 height=1800 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201800'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1.webp?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1.webp 1200w, https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-200x300.webp 200w, https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-683x1024.webp 683w, https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-768x1152.webp 768w, https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-1024x1536.webp 1024w, https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-600x900.webp 600w" data-sizes="(max-width: 1200px) 100vw, 1200px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Fantine</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href=https://moscowjazzfest.com/artists/anastasiya-lyutova-the-band/ >
+                                    <img width=1200 height=1800 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201200%201800'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova.webp?x21080 class="artists__img wp-post-image lazy" alt decoding=async data-srcset="https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova.webp 1200w, https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-200x300.webp 200w, https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-683x1024.webp 683w, https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-768x1152.webp 768w, https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-1024x1536.webp 1024w, https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-600x900.webp 600w" data-sizes="(max-width: 1200px) 100vw, 1200px">
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Анастасия Лютова и The Band</h3>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="uk-section-small uk-text-center">
+                    <a href="/artists/" class="uk-button uk-button-large uk-button-primary uk-border-rounded" />Все артисты
+                </div>
+            </section>
 
-                <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm sm:text-left">
-                        &nbsp;
+            <div style="width: 110vw;">
+                <div style="width: 100%; height: 430px;" data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/moscow.png?x21080 data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
+            </div>
+            <div class="uk-section uk-section-large uk-container-expand uk-hidden">
+                <div class=uk-grid>
+                    <div class="uk-width-1-3@m uk-width-2-5@l uk-width-1-3@xl">
+                        <div class=uk-padding>
+                            <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-secondary" style="white-space: nowrap;">Артисты</h2>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-secondary">Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступили на Moscow Jazz Festival в 2023 году!</p>
+                        </div>
                     </div>
+                    <div class="uk-width-2-3@m uk-width-3-5@l uk-width-3-3@xl">
+                        <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true; delay: 300" class="uk-position-relative uk-visible-toggle uk-light" tabindex=-1 >
+                            <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl uk-grid uk-grid-small" style="transform: translate3d(0px, 0px, 0px); max-width: calc(100% - 20px); margin: 0 auto;">
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/igor-butman/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2023-04-25-v-20.10.51.png?x21080 alt="Игорь Бутман и Московский джазовый оркестр">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Игорь Бутман и Московский джазовый оркестр</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/richard-bona/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-600x900.jpg?x21080 alt="Richard Bona">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Richard Bona</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/avishai-cohen-trio/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20656'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-19-v-18.28.02-1.png?x21080 alt="Avishai Cohen Trio">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Avishai Cohen Trio</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/dhafer-youssef/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_76.png?x21080 alt="Dhafer Youssef">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Dhafer Youssef</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/konstantin-khabensky/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-08-v-21.28.39-e1712601644503-600x900.png?x21080 alt="Константин Хабенский">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Константин Хабенский</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/dmitry-malikov-pianomaniya-jazz/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20379%20573'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2024-04-08-v-21.43.13.png?x21080 alt="Дмитрий Маликов Pianomaniя Jazz">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Дмитрий Маликов Pianomaniя Jazz</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/roberto-fonseca/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20417%20636'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_81.png?x21080 alt=Roberto Fonseca>
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Roberto Fonseca</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/allan-harris/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20464%20700'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/Snimok-ekrana-2024-05-06-v-21.08.11-e1715019931960.png?x21080 alt=Allan Harris>
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Allan Harris</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/dobronravov-kinoproektor/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20420%20632'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Screenshot_80.png?x21080 alt="Виктор Добронравов и ансамбль «Кинопроектор»">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Виктор Добронравов и ансамбль «Кинопроектор»</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/stavlittleband/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-600x900.jpg?x21080 alt=StavLittleBand>
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">StavLittleBand</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/fantine/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-600x900.webp?x21080 alt=Fantine>
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Fantine</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div style="padding-bottom: 15px; padding-right: 15px;">
+                                    <a href=https://moscowjazzfest.com/artists/anastasiya-lyutova-the-band/ >
+                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
+                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-600x900.webp?x21080 alt="Анастасия Лютова и The Band">
+                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                                <h3 class="uk-text-secondary">Анастасия Лютова и The Band</h3>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div style="width: 110vw;">
+                        <div style="width: 100%; height: 430px;" data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/moscow.png?x21080 data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
+                <div class="uk-padding uk-text-center">
+                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Площадки</h2>
+                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-primary">Артисты с мировым именем. Лучшие площадки Москвы. Семь дней фестиваля.</p>
+                </div>
+                <div class=uk-grid>
+                    <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
+                        <div class="uk-panel uk-width-large">
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Концертные залы «Зарядье» и  Зал им.П.И.Чайковского</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Открытие Фестиваля пройдет на сцене КЗЧ им.П.И. Чайковского, а Закрытие - в Зале «Зарядье» - одних из лучших концертных площадках города в самом центре столицы.</p>
+                        </div>
+                    </div>
+                    <div class=uk-width-1-2@m>
+                        <figure class=uk-position-relative>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-10.jpeg?x21080 data-uk-img alt>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/jazz-thumbnail.jpeg?x21080 data-uk-img class="uk-position-aboslute uk-position-top-right uk-visible@m" style="max-width: 500px;" data-uk-parallax="y: 100, -200; viewport: 1" alt>
+                        </figure>
+                    </div>
+                </div>
+                <div class=uk-grid>
+                    <div class=uk-width-1-2@m>
+                        <figure class=uk-position-relative>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-11.jpeg?x21080 data-uk-img alt>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-13.jpg?x21080 data-uk-img class="uk-position-aboslute uk-position-center uk-visible@m" style="max-width: 450px;" data-uk-parallax="y: 200, -100; viewport: 1" alt>
+                        </figure>
+                    </div>
+                    <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
+                        <div class="uk-panel uk-width-large">
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Сад «Эрмитаж», ВДНХ, Парк искусств «Музеон», Парк «Зарядье», Площадь у ЦУМа, Фудмолл «Депо», Северный Речной вокзал</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Вновь летняя событийная карта столицы будет включать в себя недельную программу выступлений ведущих джазовых коллективов страны в лучших парках города.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class=uk-grid>
+                    <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
+                        <div class="uk-panel uk-width-large">
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">А также:</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Большая музыкальная программа в главных джаз-клубах города: в Клубе Алексея Козлова, Джаз-клубе Игоря Бутмана, Джаз-клубе «Эссе», The Hat Moscow и Jam Club. Серии мастер-классов и лекций на площадках фестиваля, специальные мероприятия, музыкальные пленэры и многое другое. Следите за новостями!</p>
+                        </div>
+                    </div>
+                    <div class=uk-width-1-2@m>
+                        <figure class=uk-position-relative>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-20.jpg?x21080 data-uk-img alt>
+                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-21.jpg?x21080 data-uk-img class="uk-position-aboslute uk-position-top-left uk-visible@m" style="max-width: 520px; margin-left: -200px;" data-uk-parallax="y: 300, -50; viewport: 1" alt>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-container uk-container-expand uk-padding-remove-horizontal">
+                <div class="uk-grid uk-grid-collapse uk-child-width-expand" data-uk-grid>
+                    <div>
+                        <figure data-0-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-50-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-100-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-150-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-200-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-250-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-300-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-350-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-400-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-450-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;">
+                        </figure>
+                    </div>
+                </div>
+                <div class="uk-grid uk-grid-collapse uk-child-width-expand" data-uk-grid>
+                    <div>
+                        <figure data-450-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-400-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-350-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-300-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-250-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-200-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-150-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-100-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-50-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                    <div>
+                        <figure data-0-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
+                    </div>
+                </div>
+                <div data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/moscowjazzfest-zaryadye.jpg?x21080 data-uk-img class="uk-background-center-center uk-background-cover uk-position-relative uk-margin-large-top">
+                    <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.55);"></div>
+                    <div class="uk-section uk-section-xlarge">
+                        <div class="uk-tile-secondary uk-tile uk-width-xlarge uk-margin-auto" style="color: white !important;">
+                            <div class="uk-h5 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class style="color: white;">До начала фестиваля</div>
+                            <div class="uk-child-width-auto uk-grid-small uk-flex-center uk-margin-medium uk-text-center uk-countdown uk-grid uk-scrollspy-inview uk-animation-fade" data-uk-countdown="date: 2024-06-10T19:00" uk-grid uk-scrollspy-class style>
+                                <div class=uk-first-column>
+                                    <div class="uk-countdown-number uk-countdown-days"><span>0</span><span>6</span></div>
+                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Дни</div>
+                                </div>
+                                <div class=uk-countdown-separator>:</div>
+                                <div>
+                                    <div class="uk-countdown-number uk-countdown-hours"><span>0</span><span>7</span></div>
+                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Часы</div></div>
+                                <div class=uk-countdown-separator>:</div>
+                                <div>
+                                    <div class="uk-countdown-number uk-countdown-minutes"><span>0</span><span>5</span></div>
+                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Мин</div>
+                                </div>
+                                <div class=uk-countdown-separator>:</div>
+                                <div>
+                                    <div class="uk-countdown-number uk-countdown-seconds"><span>0</span><span>1</span></div>
+                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Сек</div>
+                                </div>
+                            </div>
+                            <div class="uk-text-center uk-hidden">
+                                <a href=# class="uk-button uk-button-default uk-text-bold uk-text-uppercase" onclick=listimWidget.openModal()>Билеты продаже</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
+                <div class="uk-padding uk-text-center">
+                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="uk-margin-remove-bottom tm-heading-large uk-text-secondary">Билеты уже в продаже</h2>
+                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-margin-small-top uk-text-bold uk-text-secondary">Приобретайте билеты заранее с отличной скидкой.</p>
+                    <div class="uk-text-center uk-margin-medium-top">
+                        <a href=# onclick="listimWidget.openModal();" class="uk-button uk-button-large uk-button-primary uk-text-bold uk-text-uppercase buy-button" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 300">Купить билеты </a>
+                    </div>
+                </div>
+            </div>
+        </main>
 
-                    <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+        <footer id=site-footer data-uk-scrollspy="cls: uk-animation-fade" style="visibility: hidden;">
+            <div class="uk-container uk-container-large">
+                <div class="uk-grid uk-child-width-1-3@l" data-uk-gird>
+                    <div class="uk-flex-last uk-flex-first@l"></div>
+                    <div></div><div></div>
+                </div>
+            </div>
+        </footer>
+
+        <div id=offcanvas-navigation data-uk-offcanvas="overlay: true; container: #site-wrapper" style="display: none;">
+            <div class=uk-offcanvas-bar>
+                <div class=uk-padding>
+                <button
+                    class=uk-offcanvas-close data-uk-icon="icon: eno-pro-close; ratio: .9"></button>
+                    <button class="uk-button uk-border-rounded uk-button-primary uk-margin-bottom" type=button data-uk-toggle="target: #search-modal">Поиск артистов </button>
+                    <nav role=navigation aria-label="Выпадающее меню">
+                        <ul id=menu-navbar-1 class="offcanvas-navigation uk-nav-default uk-nav-parent-icon" data-uk-nav>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18 uk-parent">
+                                <a href=#>О фестивале</a>
+                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66">
+                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/ >Moscow Jazz Festival 2024</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-808">
+                                        <a href=/schedule/ >Программа фестиваля</a></li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
+                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/opening-and-closing/ >Открытие в Зале им. П.Чайковского и Закрытие в Зале «Зарядье»</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207">
+                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/kontserty-v-sadu-ermitazh/ >Концерты в Саду «Эрмитаж» 2024</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894">
+                                        <a href=https://moscowjazzfest.com/jazz-laboratory-gazprombank/ >Джазовая лаборатория Газпромбанка</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268">
+                                        <a href=https://moscowjazzfest.com/club-program/ >Клубная программа</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1583">
+                                        <a href=https://moscowjazzfest.com/moscowjazzfest-2024/lectorium/ >Знание.Лекторий на Выставке «Россия» на ВДНХ</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3048">
+                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/lektorium-gazprombank/ >Музыкальный лекторий Газпромбанкаи «Музторг»</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 uk-parent">
+                                <a href=#>Конкурсы</a>
+                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
+                                        <a href=https://moscowjazzfest.com/contest/ >Всероссийский конкурс молодежных джазовых коллективов</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3254">
+                                        <a href=https://moscowjazzfest.com/contest-winners/ >Победители конкурса 2024</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3158">
+                                        <a href=https://moscowjazzfest.com/jazzprom/ >JAZZПРОМ</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700">
+                                        <a href=https://moscowjazzfest.com/jazzprom-2024-winners/ >Победители конкурса JAZZPROM</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type_archive menu-item-object-artist menu-item-156">
+                                <a href=https://moscowjazzfest.com/artists/ >Артисты</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75 uk-parent">
+                                <a href=https://moscowjazzfest.com/tickets/ >Билеты</a>
+                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
+                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1772">
+                                        <a href=https://moscowjazzfest.com/tickets/ >О билетах</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1554">
+                                        <a href=https://moscowjazzfest.com/tickets/rules/ >ПРАВИЛА ПОСЕЩЕНИЯ III МЕЖДУНАРОДНОГО МОСКОВСКОГО ДЖАЗОВОГО ФЕСТИВАЛЯ </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17 uk-parent">
+                                <a href=https://moscowjazzfest.com/news/ >Новости</a>
+                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629">
+                                        <a href=https://moscowjazzfest.com/media-about-us/ >СМИ о нас</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784">
+                                        <a href=https://moscowjazzfest.com/special-projects/ >Спецпроекты</a>
+                                    </li>
+                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
+                                        <a href=https://moscowjazzfest.com/for-press/ >Информация для СМИ</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
+                                <a href=https://moscowjazzfest.com/partners/ >Партнёры</a>
+                            </li>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
+                                <a href=https://moscowjazzfest.com/contacts/ >Контакты</a>
+                            </li>
+                        </ul>
+                    </nav><br>
+                    <nav role=navigation aria-label="Ссылки на социальные сети">
+                        <ul id=menu-social-1 class=uk-nav-default data-uk-nav>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77">
+                                <a href=https://vk.com/moscowjazzfestival>Вконтакте</a>
+                            </li>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78">
+                                <a href=https://ok.ru/group/62290400247925>Одноклассники</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div id=search-modal class="uk-modal-full uk-overflow-hidden" data-uk-modal="container: #site-wrapper">
+            <div class=uk-modal-dialog>
+            <button class="uk-modal-close-full uk-margin-top uk-margin-right" data-uk-icon="icon: eno-pro-close; ratio: .9"></button>
+                <div class="uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
+                    <div class="uk-text-center uk-padding" data-uk-scrollspy="cls: uk-animation-slide-top-small; delay: 250;" style="visibility: hidden;">
+                        <form class="search-form uk-width-1-1" role=search  method=get action=https://moscowjazzfest.com/ >
+                            <label for=search-form-1>
+                                <span class=screen-reader-text>Поиск артиста</span>
+                                <input class="uk-input uk-form-large" type=search id=search-form-1 placeholder="Поиск артиста&hellip;" value name=s>
+                                <span class=uk-text-meta>Нажмите Enter, чтобы начать поиск.</span>
+                            </label><br>
+                            <input type=submit class="search-submit uk-button uk-button-link" value=Искать>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
+        <script src=https://image.sendsay.ru/app/js/forms/forms.min.js async=true></script>
+        <script>(function(w){var sendsay=function(evt){console.log("Страница загружена");if(w.hasOwnProperty('SENDSAY')){console.log('Sendsay здесь');SENDSAY.activatePopup('https://sendsay.ru/form/x_1680768577572988/1/');}};w.addEventListener("load",sendsay);})(window);</script>
+    </div>
+
+    <script>var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3510959",type:"pageView",start:(new Date()).getTime()});(function(d,w,id){if(d.getElementById(id))return;var ts=d.createElement("script");ts.type="text/javascript";ts.async=true;ts.id=id;ts.src="https://top-fwz1.mail.ru/js/code.js";var f=function(){var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(ts,s);};if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"tmr-code");</script>
+    <noscript>
+        <div>
+            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://top-fwz1.mail.ru/counter?id=3510959;js=na" style=position:absolute;left:-9999px; alt="">
+        </div>
+    </noscript>
+    <script >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(88558476,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,ecommerce:"dataLayer"});</script>
+    <noscript>
+        <div>
+            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src=https://mc.yandex.ru/watch/88558476 style="position:absolute; left:-9999px;" alt>
+        </div>
+    </noscript>
+    <script>var buy_listim_shows_buttons=document.querySelectorAll('.buy-listim-shows-button');for(var i=0;i<buy_listim_shows_buttons.length;i++){buy_listim_shows_buttons[i].addEventListener("click",function(event){event.preventDefault();console.log('Afisha Shows открыт.');var eid=this.getAttribute('data-event-id');if(eid){listimWidgetShows.openModal({event_id:eid});}else{listimWidgetShows.openModal();}ym(88558476,'reachGoal','click_button_buy_ticket');},false);}</script>
+    <script src="https://moscowjazzfest.com/wp-content/plugins/webminimalism-blocks/dist/js/frontend.blocks.js?x21080&amp;ver=1645350106" id=webminimalism-scripts-js></script>
+    <script src="https://moscowjazzfest.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?x21080&amp;ver=3.1.2" id=wp-polyfill-inert-js></script> <script src="https://moscowjazzfest.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?x21080&amp;ver=0.14.0" id=regenerator-runtime-js></script>
+    <script src="https://moscowjazzfest.com/wp-includes/js/dist/vendor/wp-polyfill.min.js?x21080&amp;ver=3.15.0" id=wp-polyfill-js></script> <script src="https://moscowjazzfest.com/wp-content/plugins/aino-accordion-faq-block/build/frontend.js?x21080&amp;ver=e5a8ddb2ccd1448bfe0df19a7c867f4d" id=-frontend-js></script>
+    <script id=eno-pro-js-js-extra>var eno_pro_settings={"ajaxurl":"https:\/\/moscowjazzfest.com\/wp-admin\/admin-ajax.php","nonce":"9c925ff1fa","blog_pagination_type":"classic","strings":{"load_more":"\u0417\u0430\u0433\u0440\u0443\u0437\u0438\u0442\u044c \u0435\u0449\u0451"}};</script>
+    <script src="https://moscowjazzfest.com/wp-content/themes/eno-pro/assets/js/eno-pro.min.js?x21080&amp;ver=6.4.5" id=eno-pro-js-js defer></script>
+    <script>window.w3tc_lazyload=1,window.lazyLoadOptions={elements_selector:".lazy",callback_loaded:function(t){var e;try{e=new CustomEvent("w3tc_lazyload_loaded",{detail:{e:t}})}catch(a){(e=document.createEvent("CustomEvent")).initCustomEvent("w3tc_lazyload_loaded",!1,!1,{e:t})}window.dispatchEvent(e)}}</script>
+    <script async src=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080></script>
     </body>
 </html>
