@@ -630,99 +630,30 @@
         <div id=offcanvas-navigation data-uk-offcanvas="overlay: true; container: #site-wrapper" style="display: none;">
             <div class=uk-offcanvas-bar>
                 <div class=uk-padding>
-                <button
-                    class=uk-offcanvas-close data-uk-icon="icon: eno-pro-close; ratio: .9"></button>
-                    <button class="uk-button uk-border-rounded uk-button-primary uk-margin-bottom" type=button data-uk-toggle="target: #search-modal">Поиск артистов </button>
+                    <button class=uk-offcanvas-close data-uk-icon="icon: eno-pro-close; ratio: .9"></button>
                     <nav role=navigation aria-label="Выпадающее меню">
                         <ul id=menu-navbar-1 class="offcanvas-navigation uk-nav-default uk-nav-parent-icon" data-uk-nav>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-18 uk-parent">
-                                <a href=#>О фестивале</a>
-                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-66">
-                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/ >Moscow Jazz Festival 2024</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-808">
-                                        <a href=/schedule/ >Программа фестиваля</a></li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-204">
-                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/opening-and-closing/ >Открытие в Зале им. П.Чайковского и Закрытие в Зале «Зарядье»</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-207">
-                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/kontserty-v-sadu-ermitazh/ >Концерты в Саду «Эрмитаж» 2024</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3894">
-                                        <a href=https://moscowjazzfest.com/jazz-laboratory-gazprombank/ >Джазовая лаборатория Газпромбанка</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1268">
-                                        <a href=https://moscowjazzfest.com/club-program/ >Клубная программа</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1583">
-                                        <a href=https://moscowjazzfest.com/moscowjazzfest-2024/lectorium/ >Знание.Лекторий на Выставке «Россия» на ВДНХ</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3048">
-                                        <a href=https://moscowjazzfest.com/moscow-jazz-festival-2024/lektorium-gazprombank/ >Музыкальный лекторий Газпромбанкаи «Музторг»</a>
-                                    </li>
-                                </ul>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1">
+                                <a href="<?= url('about'); ?>">О фестивале</a>
                             </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-19 uk-parent">
-                                <a href=#>Конкурсы</a>
-                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69">
-                                        <a href=https://moscowjazzfest.com/contest/ >Всероссийский конкурс молодежных джазовых коллективов</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3254">
-                                        <a href=https://moscowjazzfest.com/contest-winners/ >Победители конкурса 2024</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3158">
-                                        <a href=https://moscowjazzfest.com/jazzprom/ >JAZZПРОМ</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3700">
-                                        <a href=https://moscowjazzfest.com/jazzprom-2024-winners/ >Победители конкурса JAZZPROM</a>
-                                    </li>
-                                </ul>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
+                                <a href="<?= url('participants'); ?>">Участники</a>
                             </li>
-                            <li class="menu-item menu-item-type-post_type_archive menu-item-object-artist menu-item-156">
-                                <a href=https://moscowjazzfest.com/artists/ >Артисты</a>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3">
+                                <a href="<?= url('posters'); ?>">Программа</a>
                             </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-75 uk-parent">
-                                <a href=https://moscowjazzfest.com/tickets/ >Билеты</a>
-                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
-                                    <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1772">
-                                        <a href=https://moscowjazzfest.com/tickets/ >О билетах</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1554">
-                                        <a href=https://moscowjazzfest.com/tickets/rules/ >ПРАВИЛА ПОСЕЩЕНИЯ III МЕЖДУНАРОДНОГО МОСКОВСКОГО ДЖАЗОВОГО ФЕСТИВАЛЯ </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17 uk-parent">
-                                <a href=https://moscowjazzfest.com/news/ >Новости</a>
-                                <ul class="uk-nav-sub sub-menu menu-odd  menu-depth-1">
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-629">
-                                        <a href=https://moscowjazzfest.com/media-about-us/ >СМИ о нас</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-784">
-                                        <a href=https://moscowjazzfest.com/special-projects/ >Спецпроекты</a>
-                                    </li>
-                                    <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-74">
-                                        <a href=https://moscowjazzfest.com/for-press/ >Информация для СМИ</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-73">
-                                <a href=https://moscowjazzfest.com/partners/ >Партнёры</a>
-                            </li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
-                                <a href=https://moscowjazzfest.com/contacts/ >Контакты</a>
+                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4">
+                                <a href="<?= url('contacts'); ?>">Контакты</a>
                             </li>
                         </ul>
                     </nav><br>
                     <nav role=navigation aria-label="Ссылки на социальные сети">
                         <ul id=menu-social-1 class=uk-nav-default data-uk-nav>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-77">
-                                <a href=https://vk.com/moscowjazzfestival>Вконтакте</a>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5">
+                                <a href=#>Вконтакте</a>
                             </li>
-                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-78">
-                                <a href=https://ok.ru/group/62290400247925>Одноклассники</a>
+                            <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6">
+                                <a href=#>Телеграм</a>
                             </li>
                         </ul>
                     </nav>
