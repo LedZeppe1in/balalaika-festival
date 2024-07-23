@@ -15,3 +15,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [MainController::class, 'index']);
+Route::get('about', [MainController::class, 'about']);
+Route::get('participants', [MainController::class, 'participants']);
+Route::get('posters', [MainController::class, 'posters']);
+Route::get('contacts', [MainController::class, 'contacts']);
