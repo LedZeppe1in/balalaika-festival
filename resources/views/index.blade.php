@@ -96,7 +96,7 @@
                                         <a href="<?= url('posters'); ?>">Программа</a>
                                     </li>
                                     <li id=menu-item-4 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4">
-                                        <a href="<?= url('contacts'); ?>">Программа</a>
+                                        <a href="<?= url('contacts'); ?>">Контакты</a>
                                     </li>
                                 </ul>
                             </div>
@@ -138,7 +138,8 @@
                     </div>
                     <ul class="uk-slider-items uk-child-width-1-1" style="min-height: 90vh;">
                         <li class="slide has-thumbnail">
-                            <div style data-bg="url('https://moscowjazzfest.com/wp-content/uploads/2021/04/banner-scaled.jpg')" class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">
+                            <div class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">
+{{--                            <div style data-bg="url('https://moscowjazzfest.com/wp-content/uploads/2021/04/banner-scaled.jpg')" class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">--}}
                                 <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.01);"></div>
                                 <div class="uk-container uk-section-large uk-flex uk-flex-middle uk-padding-large border-box" style="margin-left: 0; padding-top: 25vh;">
                                     <div class=slide-content-wrapper style="max-width: 90vw;">
@@ -147,19 +148,9 @@
                                                 <div class=wp-block-group__inner-container>
                                                     <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">
                                                         <div class=wp-block-webminimalism-grid__inner>
-                                                            <div class="wp-block-webminimalism-grid-item column-start-m_6 column-end-m_10 column-start-t_6 column-end-t_10 column-start-d_6 column-end-d_10 no-stacking margin-top-d_2 margin-top-t_2 margin-top-m_2 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
-                                                                <figure class="wp-block-image size-medium">
-                                                                    <img decoding=async width=300 height=112 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-300x112.png?x21080 alt="Департамент культуры города Москвы" class="wp-image-449 lazy" data-srcset="https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-300x112.png 300w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-1024x383.png 1024w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-768x288.png 768w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-1536x575.png 1536w, https://moscowjazzfest.com/wp-content/uploads/2021/04/depcult-2048x767.png 2048w" data-sizes="(max-width: 300px) 100vw, 300px">
-                                                                </figure>
-                                                            </div>
-                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_6 column-start-t_1 column-end-t_6 column-start-d_1 column-end-d_6 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
+                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
                                                                 <figure class="wp-block-image size-large">
-                                                                    <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/06/pfki-logotype.png?x21080 alt="ПФКИ - Президентский фонд культурных инициатив" class="wp-image-1735 lazy">
-                                                                </figure>
-                                                            </div>
-                                                            <div class="wp-block-webminimalism-grid-item column-start-m_10 column-end-m_13 column-start-t_10 column-end-t_13 column-start-d_10 column-end-d_13 no-stacking margin-top-t_2 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_1 gutter-left-t_1 gutter-left-m_1 dep-culture-logo">
-                                                                <figure class="wp-block-image size-large">
-                                                                    <img fetchpriority=high decoding=async width=1024 height=483 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20483'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-1024x483.png?x21080 alt="Фонд Игоря Бутмана" class="wp-image-1734 lazy" data-srcset="https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-1024x483.png 1024w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-300x142.png 300w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman-768x362.png 768w, https://moscowjazzfest.com/wp-content/uploads/2021/04/fundigorbutman.png 1409w" data-sizes="(max-width: 1024px) 100vw, 1024px">
+                                                                    <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="" data-sizes="(max-width: 300px) 100vw, 300px">
                                                                 </figure>
                                                             </div>
                                                         </div>
@@ -167,7 +158,7 @@
                                                 </div>
                                             </div>
                                             <div class="uk-h3 uk-width-xlarge uk-scrollspy-inview uk-animation-slide-left-medium uk-margin-bottom uk-margin-remove-top" data-uk-scrollspy-class=uk-animation-slide-top-medium style><span class="tm-text-subheader uk-text-primary">С 10 по 16 июня 2024, Москва</span></div>
-                                            <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="moscow">Moscow</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="jazz">Jazz Festival</h2>
+                                            <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="moscow">Балалайка</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="jazz">XXI века</h2>
                                             <p class=uk-width-xlarge>Игорь Бутман и Московский джазовый оркестр, Дафер Юсеф, Ришар Бона, Авишай Коэн, Константин Хабенский, Роберто Фонсека, Дмитрий Маликов с программой Pianomaniя Jazz, Виктор Добронравов и ансамбль «Кинопроектор» и другие</p>
                                             <p class="has-text-color uk-text-bold uk-width-xlarge uk-hidden" style="font-size: 16px;">Бесплатные концерты на открытых сценах на площади у ЦУМа, в парках «Музеон» и «Зарядье», на ВДНХ и Северном речном вокзале будут перенесены. Следите за информацией в нашем
                                                 <a href=https://vk.com/moscowjazzfestival target=_blank rel="noopenere nofolllow noopener">сообществе в ВК</a>.
@@ -187,7 +178,7 @@
             </div>
             <section class="section-margin uk-container uk-container-large">
                 <div class="artists-header uk-padding">
-                    <h1 class="tm-heading-large uk-text-secondary" style="">Артисты</h1>
+                    <h1 class="tm-heading-large uk-text-secondary" style="">Участники</h1>
                     <p class="uk-text-bold uk-text-secondary" style>Более 1000 ведущих музыкантов из России и стран зарубежья представят свои лучшие джазовые программы на Moscow Jazz Festival в 2024 году!</p>
                 </div>
                 <div class="artists-wrap uk-padding">
