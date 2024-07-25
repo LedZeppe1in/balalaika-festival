@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head><style>img.lazy{min-height:1px}</style><link
-        rel=preload href=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080 as=script>
+    <head>
+        <style>img.lazy{min-height:1px}</style>
+        <link rel=preload href=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080 as=script>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel=profile href=http://gmpg.org/xfn/11>
@@ -58,8 +59,6 @@
     </head>
 
     <body class="home page-template page-template-templates page-template-homepage page-template-templateshomepage-php page page-id-2 page-parent wp-custom-logo wp-embed-responsive missing-post-thumbnail hide-avatars site-footer-has-background">
-
-    <a class="skip-link screen-reader-text" href=#site-content title="Перейти к содержанию">Перейти к содержанию</a>
 
     <div id=site-wrapper class=uk-offcanvas-content>
         <div class=tm-header>
@@ -651,25 +650,6 @@
                 </div>
             </div>
         </div>
-        <div id=search-modal class="uk-modal-full uk-overflow-hidden" data-uk-modal="container: #site-wrapper">
-            <div class=uk-modal-dialog>
-            <button class="uk-modal-close-full uk-margin-top uk-margin-right" data-uk-icon="icon: eno-pro-close; ratio: .9"></button>
-                <div class="uk-flex uk-flex-center uk-flex-middle" data-uk-height-viewport>
-                    <div class="uk-text-center uk-padding" data-uk-scrollspy="cls: uk-animation-slide-top-small; delay: 250;" style="visibility: hidden;">
-                        <form class="search-form uk-width-1-1" role=search  method=get action=https://moscowjazzfest.com/ >
-                            <label for=search-form-1>
-                                <span class=screen-reader-text>Поиск артиста</span>
-                                <input class="uk-input uk-form-large" type=search id=search-form-1 placeholder="Поиск артиста&hellip;" value name=s>
-                                <span class=uk-text-meta>Нажмите Enter, чтобы начать поиск.</span>
-                            </label><br>
-                            <input type=submit class="search-submit uk-button uk-button-link" value=Искать>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <script src=https://image.sendsay.ru/app/js/forms/forms.min.js async=true></script>
-        <script>(function(w){var sendsay=function(evt){console.log("Страница загружена");if(w.hasOwnProperty('SENDSAY')){console.log('Sendsay здесь');SENDSAY.activatePopup('https://sendsay.ru/form/x_1680768577572988/1/');}};w.addEventListener("load",sendsay);})(window);</script>
     </div>
 
     <script>var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3510959",type:"pageView",start:(new Date()).getTime()});(function(d,w,id){if(d.getElementById(id))return;var ts=d.createElement("script");ts.type="text/javascript";ts.async=true;ts.id=id;ts.src="https://top-fwz1.mail.ru/js/code.js";var f=function(){var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(ts,s);};if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"tmr-code");</script>
