@@ -2,33 +2,22 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <style>img.lazy{min-height:1px}</style>
-    <link rel=preload href=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080 as=script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=profile href=http://gmpg.org/xfn/11>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-    <title>Московский джазовый фестиваль 2024</title>
-    <meta name="description" content="Официальный сайт Московского джазового фестиваля 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.">
-    <link rel=canonical href=https://moscowjazzfest.com/>
+    <title>Фестиваль «Балалайка XXI века» 2024</title>
+    <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.">
+    <link rel=canonical href=https://balalaika21veka.ru/>
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Московский джазовый фестиваль 2024">
-    <meta property="og:description" content="Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступят на Moscow Jazz Festival в 2024 году!">
-    <meta property="og:url" content="https://moscowjazzfest.com/">
-    <meta property="og:site_name" content="Московский джазовый фестиваль">
-    <meta property="article:modified_time" content="2024-05-15T17:31:32+00:00">
-    <meta property="og:image" content="https://moscowjazzfest.com/wp-content/uploads/2022/04/event-11.jpeg">
-    <meta property="og:image:width" content="1944">
-    <meta property="og:image:height" content="1296">
-    <meta property="og:image:type" content="image/jpeg">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Московский джазовый фестиваль 2024">
-    <meta name="twitter:description" content="Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступят на Moscow Jazz Festival в 2024 году!">
-    <meta name="twitter:image" content="https://moscowjazzfest.com/wp-content/uploads/2022/04/event-11.jpeg">
+    <meta property="og:title" content="Фестиваль «Балалайка XXI века» 2024">
+    <meta property="og:description" content="">
+    <meta property="og:url" content="https://balalaika21veka.ru/">
+    <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
+    <meta property="article:modified_time" content="2024-07-72T17:31:32+00:00">
+
     <script type=application/ld+json class=yoast-schema-graph>{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://moscowjazzfest.com/","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль 2024","isPartOf":{"@id":"https://moscowjazzfest.com/#website"},"about":{"@id":"https://moscowjazzfest.com/#organization"},"datePublished":"2021-04-06T08:57:11+00:00","dateModified":"2024-05-15T17:31:32+00:00","description":"Официальный сайт Московского джазового фестиваля 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.","breadcrumb":{"@id":"https://moscowjazzfest.com/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://moscowjazzfest.com/"]}]},{"@type":"BreadcrumbList","@id":"https://moscowjazzfest.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница"}]},{"@type":"WebSite","@id":"https://moscowjazzfest.com/#website","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль","description":"Артисты, программа, билеты","publisher":{"@id":"https://moscowjazzfest.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://moscowjazzfest.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"Organization","@id":"https://moscowjazzfest.com/#organization","name":"Московский джазовый фестиваль","url":"https://moscowjazzfest.com/","logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://moscowjazzfest.com/#/schema/logo/image/","url":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","contentUrl":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","width":300,"height":199,"caption":"Московский джазовый фестиваль"},"image":{"@id":"https://moscowjazzfest.com/#/schema/logo/image/"}}]}</script>
-    <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента" href=https://moscowjazzfest.com/feed/>
-    <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента комментариев" href=https://moscowjazzfest.com/comments/feed/>
     <script>window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/moscowjazzfest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.5"}};/*! This file is auto-generated */!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height), e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data), r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0), new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);</script>
     <style id=wp-emoji-styles-inline-css>img.wp-smiley,img.emoji{display:inline !important;border:none !important;box-shadow:none !important;height:1em !important;width:1em !important;margin:0 0.07em !important;vertical-align:-0.1em !important;background:none !important;padding:0 !important}</style>
     <link rel=stylesheet href=https://moscowjazzfest.com/wp-content/cache/minify/1/a5ff7.css?x21080 media=all>
@@ -187,6 +176,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Александр Николайчук</h3>
+                                    <p class="uk-text-secondary">Художественный руководитель фестиваля</p>
                                 </div>
                             </div>
                         </div>
@@ -197,6 +187,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Алексей Вродливец</h3>
+                                    <p class="uk-text-secondary">Директор фестиваля</p>
                                 </div>
                             </div>
                         </div>
@@ -207,6 +198,8 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Андрей Горбачев</h3>
+                                    <p class="uk-text-secondary">Заведующий кафедрой домры, балалайки, гитары РАМ имени Гнесиных, профессор
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -217,6 +210,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Олег Пискунов</h3>
+                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -227,6 +221,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Артур Давлетшин</h3>
+                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -237,6 +232,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Никита Говоров</h3>
+                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -247,6 +243,8 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Дмитрий Дмитриенко</h3>
+                                    <p class="uk-text-secondary">Заслуженный артист России, Художественный руководитель ГАРНА «Россия», профессор
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -256,7 +254,8 @@
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Александр Николайчук</h3>
+                                    <h3 class="uk-text-secondary">Сергей Тарарин</h3>
+                                    <p class="uk-text-secondary">Дирижер симфонического оркестра Москвы «Русская филармония»</p>
                                 </div>
                             </div>
                         </div>
@@ -266,27 +265,19 @@
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Александр Николайчук</h3>
+                                    <h3 class="uk-text-secondary">Даниил Стаднюк</h3>
+                                    <p class="uk-text-secondary">Дирижер НАОНИР им Н.П. Осипова</p>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Александр Николайчук</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Louise_Mintsayeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Louise_Mintsayeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Луиза Минцаева</h3>
+                                    <p class="uk-text-secondary">Арфа</p>
                                 </div>
                             </div>
                         </div>
@@ -297,6 +288,18 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Десислава Бобрина</h3>
+                                    <p class="uk-text-secondary">Фортепиано</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href="<?= url('participants'); ?>">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alina_Timofeeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                    <h3 class="uk-text-secondary">Алина Тимофеева</h3>
+                                    <p class="uk-text-secondary">Фортепиано</p>
                                 </div>
                             </div>
                         </div>
@@ -308,195 +311,57 @@
             </section>
 
             <div style="width: 110vw;">
-                <div style="width: 100%; height: 430px;" data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/moscow.png?x21080 data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
+                <div style="width: 100%; height: 430px;" data-src={{URL::asset('/images/Moscow.png')}} data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
             </div>
-            <div class="uk-section uk-section-large uk-container-expand uk-hidden">
-                <div class=uk-grid>
-                    <div class="uk-width-1-3@m uk-width-2-5@l uk-width-1-3@xl">
-                        <div class=uk-padding>
-                            <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-secondary" style="white-space: nowrap;">Артисты</h2>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-secondary">Более 1000 ведущих джазовых музыкантов из России и стран зарубежья выступили на Moscow Jazz Festival в 2023 году!</p>
-                        </div>
-                    </div>
-                    <div class="uk-width-2-3@m uk-width-3-5@l uk-width-3-3@xl">
-                        <div data-uk-scrollspy="cls: uk-animation-slide-right-medium; repeat: true; delay: 300" class="uk-position-relative uk-visible-toggle uk-light" tabindex=-1 >
-                            <div class="uk-child-width-1-2@s uk-child-width-1-2@m uk-child-width-1-3@l uk-child-width-1-4@xl uk-grid uk-grid-small" style="transform: translate3d(0px, 0px, 0px); max-width: calc(100% - 20px); margin: 0 auto;">
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/igor-butman/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2023-04-25-v-20.10.51.png?x21080 alt="Игорь Бутман и Московский джазовый оркестр">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Игорь Бутман и Московский джазовый оркестр</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/richard-bona/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Richard-Bona-pic-credit-Tania-Velasco-600x900.jpg?x21080 alt="Richard Bona">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Richard Bona</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/avishai-cohen-trio/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20656'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-19-v-18.28.02-1.png?x21080 alt="Avishai Cohen Trio">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Avishai Cohen Trio</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/dhafer-youssef/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_76.png?x21080 alt="Dhafer Youssef">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Dhafer Youssef</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/konstantin-khabensky/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Snimok-ekrana-2024-04-08-v-21.28.39-e1712601644503-600x900.png?x21080 alt="Константин Хабенский">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Константин Хабенский</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/dmitry-malikov-pianomaniya-jazz/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20379%20573'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Snimok-ekrana-2024-04-08-v-21.43.13.png?x21080 alt="Дмитрий Маликов Pianomaniя Jazz">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Дмитрий Маликов Pianomaniя Jazz</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/roberto-fonseca/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20417%20636'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/04/Screenshot_81.png?x21080 alt=Roberto Fonseca>
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Roberto Fonseca</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/allan-harris/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20464%20700'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/Snimok-ekrana-2024-05-06-v-21.08.11-e1715019931960.png?x21080 alt=Allan Harris>
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Allan Harris</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/dobronravov-kinoproektor/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20420%20632'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/04/Screenshot_80.png?x21080 alt="Виктор Добронравов и ансамбль «Кинопроектор»">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Виктор Добронравов и ансамбль «Кинопроектор»</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/stavlittleband/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2022/05/20220503-DSC00545-600x900.jpg?x21080 alt=StavLittleBand>
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">StavLittleBand</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/fantine/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/fantine-1-600x900.webp?x21080 alt=Fantine>
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Fantine</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                                <div style="padding-bottom: 15px; padding-right: 15px;">
-                                    <a href=https://moscowjazzfest.com/artists/anastasiya-lyutova-the-band/ >
-                                        <div class="uk-panel uk-margin-auto" style="width: max-content; max-width: 100%;">
-                                            <img class="uk-border-rounded lazy" src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20600%20900'%3E%3C/svg%3E" data-src=https://moscowjazzfest.com/wp-content/uploads/2024/05/lutova-600x900.webp?x21080 alt="Анастасия Лютова и The Band">
-                                            <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                                <h3 class="uk-text-secondary">Анастасия Лютова и The Band</h3>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div style="width: 110vw;">
-                        <div style="width: 100%; height: 430px;" data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/moscow.png?x21080 data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
-                    </div>
-                </div>
-            </div>
+
             <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
                 <div class="uk-padding uk-text-center">
-                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Площадки</h2>
-                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-primary">Артисты с мировым именем. Лучшие площадки Москвы. Семь дней фестиваля.</p>
+                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Программа</h2>
+                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-primary">Артисты с мировым именем представят свои лучшие программы на площадках Москвы.</p>
                 </div>
                 <div class=uk-grid>
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
                         <div class="uk-panel uk-width-large">
-                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Концертные залы «Зарядье» и  Зал им.П.И.Чайковского</h3>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Открытие Фестиваля пройдет на сцене КЗЧ им.П.И. Чайковского, а Закрытие - в Зале «Зарядье» - одних из лучших концертных площадках города в самом центре столицы.</p>
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Светлановский зал Московского международного Дома музыки</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Торжественное открытие Фестиваля пройдет на сцене ММДМ, Светлановский зал в субботу 12 октября 19:00.</p>
                         </div>
                     </div>
                     <div class=uk-width-1-2@m>
                         <figure class=uk-position-relative>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-10.jpeg?x21080 data-uk-img alt>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/jazz-thumbnail.jpeg?x21080 data-uk-img class="uk-position-aboslute uk-position-top-right uk-visible@m" style="max-width: 500px;" data-uk-parallax="y: 100, -200; viewport: 1" alt>
+                            <img data-src="{{URL::asset('/images/Svetlanovsky_Hall.jpg')}}" data-uk-img alt>
                         </figure>
                     </div>
                 </div>
                 <div class=uk-grid>
                     <div class=uk-width-1-2@m>
                         <figure class=uk-position-relative>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-11.jpeg?x21080 data-uk-img alt>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-13.jpg?x21080 data-uk-img class="uk-position-aboslute uk-position-center uk-visible@m" style="max-width: 450px;" data-uk-parallax="y: 200, -100; viewport: 1" alt>
+                            <img data-src="{{URL::asset('/images/Pushkin_State_Museum.jpg')}}" data-uk-img alt>
+                            <img data-src="{{URL::asset('/images/Gnessin_Russian_Academy_1.jpg')}}" data-uk-img class="uk-position-aboslute uk-position-center uk-visible@m" style="max-width: 450px;" data-uk-parallax="y: 200, -100; viewport: 1" alt>
                         </figure>
                     </div>
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
                         <div class="uk-panel uk-width-large">
-                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Сад «Эрмитаж», ВДНХ, Парк искусств «Музеон», Парк «Зарядье», Площадь у ЦУМа, Фудмолл «Депо», Северный Речной вокзал</h3>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Вновь летняя событийная карта столицы будет включать в себя недельную программу выступлений ведущих джазовых коллективов страны в лучших парках города.</p>
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Государственный музей имени А.С. Пушкина</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Камерный концерт в государственном музеи имени А.С. Пушкина пройдет в среду 16 октября 19:00,</p>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Концерт ансамблей в государственном музеи имени А.С. Пушкина пройдет в среду 30 октября 19:00.</p>
                         </div>
                     </div>
                 </div>
                 <div class=uk-grid>
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
                         <div class="uk-panel uk-width-large">
-                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">А также:</h3>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Большая музыкальная программа в главных джаз-клубах города: в Клубе Алексея Козлова, Джаз-клубе Игоря Бутмана, Джаз-клубе «Эссе», The Hat Moscow и Jam Club. Серии мастер-классов и лекций на площадках фестиваля, специальные мероприятия, музыкальные пленэры и многое другое. Следите за новостями!</p>
+                            <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Концертный зал Российской академии музыки имени Гнесиных</h3>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Закрытие Фестиваля пройдет на сцене Концертного зала РАМ имени Гнесиных.</p>
                         </div>
                     </div>
                     <div class=uk-width-1-2@m>
                         <figure class=uk-position-relative>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-20.jpg?x21080 data-uk-img alt>
-                            <img data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/event-21.jpg?x21080 data-uk-img class="uk-position-aboslute uk-position-top-left uk-visible@m" style="max-width: 520px; margin-left: -200px;" data-uk-parallax="y: 300, -50; viewport: 1" alt>
+                            <img data-src="{{URL::asset('/images/Gnessin_Russian_Academy_2.jpg')}}" data-uk-img alt>
                         </figure>
                     </div>
                 </div>
             </div>
+
             <div class="uk-container uk-container-expand uk-padding-remove-horizontal">
                 <div class="uk-grid uk-grid-collapse uk-child-width-expand" data-uk-grid>
                     <div>
@@ -563,12 +428,13 @@
                         <figure data-0-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
                     </div>
                 </div>
-                <div data-src=https://moscowjazzfest.com/wp-content/themes/moscowjazzfest/assets/images/events/moscowjazzfest-zaryadye.jpg?x21080 data-uk-img class="uk-background-center-center uk-background-cover uk-position-relative uk-margin-large-top">
+
+                <div data-src="{{URL::asset('/images/background_bottom.jpg')}}" data-uk-img class="uk-background-center-center uk-background-cover uk-position-relative uk-margin-large-top">
                     <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.55);"></div>
                     <div class="uk-section uk-section-xlarge">
                         <div class="uk-tile-secondary uk-tile uk-width-xlarge uk-margin-auto" style="color: white !important;">
                             <div class="uk-h5 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class style="color: white;">До начала фестиваля</div>
-                            <div class="uk-child-width-auto uk-grid-small uk-flex-center uk-margin-medium uk-text-center uk-countdown uk-grid uk-scrollspy-inview uk-animation-fade" data-uk-countdown="date: 2024-06-10T19:00" uk-grid uk-scrollspy-class style>
+                            <div class="uk-child-width-auto uk-grid-small uk-flex-center uk-margin-medium uk-text-center uk-countdown uk-grid uk-scrollspy-inview uk-animation-fade" data-uk-countdown="date: 2024-10-16T19:00" uk-grid uk-scrollspy-class style>
                                 <div class=uk-first-column>
                                     <div class="uk-countdown-number uk-countdown-days"><span>0</span><span>6</span></div>
                                     <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Дни</div>
