@@ -15,7 +15,7 @@
     <meta property="og:description" content="">
     <meta property="og:url" content="https://balalaika21veka.ru/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
-    <meta property="article:modified_time" content="2024-07-72T17:31:32+00:00">
+    <meta property="article:modified_time" content="2024-07-27T17:31:32+00:00">
 
     <script type=application/ld+json class=yoast-schema-graph>{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://moscowjazzfest.com/","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль 2024","isPartOf":{"@id":"https://moscowjazzfest.com/#website"},"about":{"@id":"https://moscowjazzfest.com/#organization"},"datePublished":"2021-04-06T08:57:11+00:00","dateModified":"2024-05-15T17:31:32+00:00","description":"Официальный сайт Московского джазового фестиваля 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.","breadcrumb":{"@id":"https://moscowjazzfest.com/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://moscowjazzfest.com/"]}]},{"@type":"BreadcrumbList","@id":"https://moscowjazzfest.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница"}]},{"@type":"WebSite","@id":"https://moscowjazzfest.com/#website","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль","description":"Артисты, программа, билеты","publisher":{"@id":"https://moscowjazzfest.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://moscowjazzfest.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"Organization","@id":"https://moscowjazzfest.com/#organization","name":"Московский джазовый фестиваль","url":"https://moscowjazzfest.com/","logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://moscowjazzfest.com/#/schema/logo/image/","url":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","contentUrl":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","width":300,"height":199,"caption":"Московский джазовый фестиваль"},"image":{"@id":"https://moscowjazzfest.com/#/schema/logo/image/"}}]}</script>
     <script>window._wpemojiSettings={"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/moscowjazzfest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.5"}};/*! This file is auto-generated */!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height), e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data), r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0), new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);</script>
@@ -36,8 +36,8 @@
     <link rel=https://api.w.org/ href=https://moscowjazzfest.com/wp-json/>
     <link rel=alternate type=application/json href=https://moscowjazzfest.com/wp-json/wp/v2/pages/2>
     <link rel=EditURI type=application/rsd+xml title=RSD href=https://moscowjazzfest.com/xmlrpc.php?rsd>
-    <meta name="generator" content="WordPress 6.4.5">
-    <link rel=shortlink href=https://moscowjazzfest.com/>
+
+    <link rel=shortlink href=https://balalaika21veka.ru/>
     <link rel=alternate type=application/json+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2F">
     <link rel=alternate type=text/xml+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2F&#038;format=xml">
     <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
@@ -273,33 +273,30 @@
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Louise_Mintsayeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Луиза Минцаева</h3>
-                                    <p class="uk-text-secondary">Арфа</p>
+                                    <h3 class="uk-text-secondary">Симфонический оркестр Москвы «Русская филармония»</h3>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Desislava_Bobrina.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Десислава Бобрина</h3>
-                                    <p class="uk-text-secondary">Фортепиано</p>
+                                    <h3 class="uk-text-secondary">Национальный оркестр народных инструментов России имени Н.П. Осипова</h3>
                                 </div>
                             </div>
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alina_Timofeeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Алина Тимофеева</h3>
-                                    <p class="uk-text-secondary">Фортепиано</p>
+                                    <h3 class="uk-text-secondary">Ансамбль «Россия» имени Людмилы Зыкиной</h3>
                                 </div>
                             </div>
                         </div>
@@ -464,7 +461,7 @@
             <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
                 <div class="uk-padding uk-text-center">
                     <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="uk-margin-remove-bottom tm-heading-large uk-text-secondary">Билеты уже в продаже</h2>
-                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-margin-small-top uk-text-bold uk-text-secondary">Приобретайте билеты заранее с отличной скидкой.</p>
+                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-margin-small-top uk-text-bold uk-text-secondary">Приобретайте билеты заранее!</p>
                     <div class="uk-text-center uk-margin-medium-top">
                         <a href=# onclick="listimWidget.openModal();" class="uk-button uk-button-large uk-button-primary uk-text-bold uk-text-uppercase buy-button" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 300">Купить билеты </a>
                     </div>
@@ -516,18 +513,18 @@
         </div>
     </div>
 
-    <script>var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3510959",type:"pageView",start:(new Date()).getTime()});(function(d,w,id){if(d.getElementById(id))return;var ts=d.createElement("script");ts.type="text/javascript";ts.async=true;ts.id=id;ts.src="https://top-fwz1.mail.ru/js/code.js";var f=function(){var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(ts,s);};if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"tmr-code");</script>
-    <noscript>
-        <div>
-            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://top-fwz1.mail.ru/counter?id=3510959;js=na" style=position:absolute;left:-9999px; alt="">
-        </div>
-    </noscript>
-    <script >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(88558476,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,ecommerce:"dataLayer"});</script>
-    <noscript>
-        <div>
-            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src=https://mc.yandex.ru/watch/88558476 style="position:absolute; left:-9999px;" alt>
-        </div>
-    </noscript>
+{{--    <script>var _tmr=window._tmr||(window._tmr=[]);_tmr.push({id:"3510959",type:"pageView",start:(new Date()).getTime()});(function(d,w,id){if(d.getElementById(id))return;var ts=d.createElement("script");ts.type="text/javascript";ts.async=true;ts.id=id;ts.src="https://top-fwz1.mail.ru/js/code.js";var f=function(){var s=d.getElementsByTagName("script")[0];s.parentNode.insertBefore(ts,s);};if(w.opera=="[object Opera]"){d.addEventListener("DOMContentLoaded",f,false);}else{f();}})(document,window,"tmr-code");</script>--}}
+{{--    <noscript>--}}
+{{--        <div>--}}
+{{--            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src="https://top-fwz1.mail.ru/counter?id=3510959;js=na" style=position:absolute;left:-9999px; alt="">--}}
+{{--        </div>--}}
+{{--    </noscript>--}}
+{{--    <script >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window,document,"script","https://mc.yandex.ru/metrika/tag.js","ym");ym(88558476,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,ecommerce:"dataLayer"});</script>--}}
+{{--    <noscript>--}}
+{{--        <div>--}}
+{{--            <img class=lazy src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201%201'%3E%3C/svg%3E" data-src=https://mc.yandex.ru/watch/88558476 style="position:absolute; left:-9999px;" alt>--}}
+{{--        </div>--}}
+{{--    </noscript>--}}
     <script>var buy_listim_shows_buttons=document.querySelectorAll('.buy-listim-shows-button');for(var i=0;i<buy_listim_shows_buttons.length;i++){buy_listim_shows_buttons[i].addEventListener("click",function(event){event.preventDefault();console.log('Afisha Shows открыт.');var eid=this.getAttribute('data-event-id');if(eid){listimWidgetShows.openModal({event_id:eid});}else{listimWidgetShows.openModal();}ym(88558476,'reachGoal','click_button_buy_ticket');},false);}</script>
     <script src="https://moscowjazzfest.com/wp-content/plugins/webminimalism-blocks/dist/js/frontend.blocks.js?x21080&amp;ver=1645350106" id=webminimalism-scripts-js></script>
     <script src="https://moscowjazzfest.com/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?x21080&amp;ver=3.1.2" id=wp-polyfill-inert-js></script> <script src="https://moscowjazzfest.com/wp-includes/js/dist/vendor/regenerator-runtime.min.js?x21080&amp;ver=0.14.0" id=regenerator-runtime-js></script>
