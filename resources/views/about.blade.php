@@ -2,25 +2,21 @@
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
-    <style>img.lazy{min-height:1px}</style>
-    <link rel=preload href=https://moscowjazzfest.com/wp-content/plugins/w3-total-cache/pub/js/lazyload.min.js?x21080 as=script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=profile href=http://gmpg.org/xfn/11>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-    <title>Джазовая лаборатория Газпромбанка - Московский джазовый фестиваль</title>
-    <meta name="description" content="Механика работы джазовой лаборатории Газпромбанка. Зарегистрироваться в Джазовую лабораторию на официальном сайте фестиваля.">
-    <link rel=canonical href=https://moscowjazzfest.com/jazz-laboratory-gazprombank/>
+    <title>Фестиваль «Балалайка XXI века» 2024 - О Фестивале</title>
+    <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее о фестивале.">
+    <link rel=canonical href=https://balalaika21veka.ru/about/>
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Джазовая лаборатория Газпромбанка - Московский джазовый фестиваль">
-    <meta property="og:description" content="Механика работы джазовой лаборатории Газпромбанка. Зарегистрироваться в Джазовую лабораторию на официальном сайте фестиваля.">
-    <meta property="og:url" content="https://moscowjazzfest.com/jazz-laboratory-gazprombank/">
-    <meta property="og:site_name" content="Московский джазовый фестиваль">
-    <meta property="article:modified_time" content="2024-06-04T14:58:59+00:00">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:label1" content="Примерное время для чтения">
-    <meta name="twitter:data1" content="2 минуты">
+    <meta property="og:title" content="Фестиваль «Балалайка XXI века» 2024 - О Фестивале">
+    <meta property="og:description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее о фестивале.">
+    <meta property="og:url" content="https://balalaika21veka.ru/about/">
+    <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
+    <meta property="article:modified_time" content="2024-07-27T17:31:32+00:00">
+
     <script type=application/ld+json class=yoast-schema-graph>{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://moscowjazzfest.com/jazz-laboratory-gazprombank/","url":"https://moscowjazzfest.com/jazz-laboratory-gazprombank/","name":"Джазовая лаборатория Газпромбанка - Московский джазовый фестиваль","isPartOf":{"@id":"https://moscowjazzfest.com/#website"},"datePublished":"2024-06-04T14:57:18+00:00","dateModified":"2024-06-04T14:58:59+00:00","description":"Механика работы джазовой лаборатории Газпромбанка. Зарегистрироваться в Джазовую лабораторию на официальном сайте фестиваля.","breadcrumb":{"@id":"https://moscowjazzfest.com/jazz-laboratory-gazprombank/#breadcrumb"},"inLanguage":"ru-RU","potentialAction":[{"@type":"ReadAction","target":["https://moscowjazzfest.com/jazz-laboratory-gazprombank/"]}]},{"@type":"BreadcrumbList","@id":"https://moscowjazzfest.com/jazz-laboratory-gazprombank/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Главная страница","item":"https://moscowjazzfest.com/"},{"@type":"ListItem","position":2,"name":"Джазовая лаборатория Газпромбанка"}]},{"@type":"WebSite","@id":"https://moscowjazzfest.com/#website","url":"https://moscowjazzfest.com/","name":"Московский джазовый фестиваль","description":"Артисты, программа, билеты","publisher":{"@id":"https://moscowjazzfest.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://moscowjazzfest.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"ru-RU"},{"@type":"Organization","@id":"https://moscowjazzfest.com/#organization","name":"Московский джазовый фестиваль","url":"https://moscowjazzfest.com/","logo":{"@type":"ImageObject","inLanguage":"ru-RU","@id":"https://moscowjazzfest.com/#/schema/logo/image/","url":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","contentUrl":"https://moscowjazzfest.com/wp-content/uploads/2021/04/logo-black.png","width":300,"height":199,"caption":"Московский джазовый фестиваль"},"image":{"@id":"https://moscowjazzfest.com/#/schema/logo/image/"}}]}</script>
     <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента" href=https://moscowjazzfest.com/feed/ >
     <link rel=alternate type=application/rss+xml title="Московский джазовый фестиваль &raquo; Лента комментариев" href=https://moscowjazzfest.com/comments/feed/ >
@@ -45,8 +41,8 @@
     <link rel=https://api.w.org/ href=https://moscowjazzfest.com/wp-json/ >
     <link rel=alternate type=application/json href=https://moscowjazzfest.com/wp-json/wp/v2/pages/3888>
     <link rel=EditURI type=application/rsd+xml title=RSD href=https://moscowjazzfest.com/xmlrpc.php?rsd>
-    <meta name="generator" content="WordPress 6.4.5">
-    <link rel=shortlink href='https://moscowjazzfest.com/?p=3888'>
+
+    <link rel=shortlink href='https://balalaika21veka.ru/about/'>
     <link rel=alternate type=application/json+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2Fjazz-laboratory-gazprombank%2F">
     <link rel=alternate type=text/xml+oembed href="https://moscowjazzfest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fmoscowjazzfest.com%2Fjazz-laboratory-gazprombank%2F&#038;format=xml">
     <script>document.documentElement.className=document.documentElement.className.replace('no-js','js');</script>
@@ -81,7 +77,7 @@
                         <div class="uk-width-expand uk-flex uk-flex-center">
                             <div class="uk-navbar-item uk-visible@m">
                                 <ul id=menu-navbar class=uk-navbar-nav>
-                                    <li id="menu-item-1" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-62 current_page_item menu-item-1">
+                                    <li id="menu-item-1" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-1 current_page_item menu-item-1">
                                         <a href="<?= url('about'); ?>">О фестивале</a>
                                     </li>
                                     <li id=menu-item-2 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
@@ -141,7 +137,6 @@
                     </div>
                 </div>
             </article>
-
         </main>
 
         <footer id=site-footer data-uk-scrollspy="cls: uk-animation-fade" style="visibility: hidden;">
