@@ -7,10 +7,12 @@
     <link rel=profile href=http://gmpg.org/xfn/11>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
     <title>Фестиваль «Балалайка XXI века» 2024 - Участники</title>
+    <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее об участниках.">
     <link rel=canonical href=https://balalaika21veka.ru/participants/>
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Фестиваль «Балалайка XXI века» 2024 - Участники">
+    <meta property="og:description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее об участниках.">
     <meta property="og:url" content="https://balalaika21veka.ru/participants/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
 
