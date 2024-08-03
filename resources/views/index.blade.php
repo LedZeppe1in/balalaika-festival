@@ -173,8 +173,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Андрей Горбачев</h3>
-                                    <p class="uk-text-secondary">Заведующий кафедрой домры, балалайки, гитары РАМ имени Гнесиных, профессор
-                                    </p>
+                                    <p class="uk-text-secondary">Заведующий кафедрой домры, балалайки, гитары РАМ имени Гнесиных, профессор</p>
                                 </div>
                             </div>
                         </div>
@@ -218,8 +217,7 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Дмитрий Дмитриенко</h3>
-                                    <p class="uk-text-secondary">Заслуженный артист России, Художественный руководитель ГАРНА «Россия», профессор
-                                    </p>
+                                    <p class="uk-text-secondary">Заслуженный артист России, Художественный руководитель ГАРНА «Россия», профессор</p>
                                 </div>
                             </div>
                         </div>
