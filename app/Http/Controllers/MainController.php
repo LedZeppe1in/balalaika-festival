@@ -29,6 +29,11 @@ class MainController extends Controller
         return view('alexey-vrodlivets');
     }
 
+    public function andreyGorbachev()
+    {
+        return view('andrey-gorbachev');
+    }
+
     public function posters()
     {
         return view('posters');
