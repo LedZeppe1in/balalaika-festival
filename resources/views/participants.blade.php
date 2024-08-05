@@ -179,17 +179,6 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/sergey-tararin'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
-                                    <h3 class="uk-text-secondary">Сергей Тарарин</h3>
-                                    <p class="uk-text-secondary">Дирижер симфонического оркестра Москвы «Русская филармония»</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants/daniil-stadnyuk'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
@@ -202,7 +191,7 @@
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants/moscow-symphony-orchestra'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Симфонический оркестр Москвы «Русская филармония»</h3>
@@ -211,7 +200,7 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants'); ?>">
+                                <a class=artists__permalink href="<?= url('participants/osipov-orchestra'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
@@ -221,7 +210,7 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/osipov-orchestra'); ?>">
+                                <a class=artists__permalink href="<?= url('participants/russia-band'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
@@ -231,8 +220,8 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/band-russia'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                <a class=artists__permalink href="<?= url('participants/young-soloists-band'); ?>">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
                                     <h3 class="uk-text-secondary">Ансамбль молодых солистов НАОНИР им. Н.П. Осипова</h3>
