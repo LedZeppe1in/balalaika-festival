@@ -98,7 +98,8 @@
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1></p>
+                                        <h6 class="wp-white-heading has-text-color" id="ecosystem" style="color:#ffffff">Лауреат всероссийскийх и международных конкурсов</h6>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Никита Говоров</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
