@@ -22,5 +22,6 @@ Route::get('participants/alexey-vrodlivets', [MainController::class, 'alexeyVrod
 Route::get('participants/andrey-gorbachev', [MainController::class, 'andreyGorbachev']);
 Route::get('participants/oleg-piskunov', [MainController::class, 'olegPiskunov']);
 Route::get('participants/arthur-davletshin', [MainController::class, 'arthurDavletshin']);
+Route::get('participants/nikita-govorov', [MainController::class, 'nikitaGovorov']);
 Route::get('posters', [MainController::class, 'posters']);
 Route::get('contacts', [MainController::class, 'contacts']);
