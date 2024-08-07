@@ -11,7 +11,7 @@
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Десислава Бобрина">
-    <meta property="og:description" content="">
+    <meta property="og:description" content="Десислава Бобрина ведет концертную деятельность, выступает сольно и с оркестром в филармониях и лучших залах Москвы, России, а также за рубежом (Болгария, Беларусь, Армения, Италия, Германия).">
     <meta property="og:url" content="https://balalaika21veka.ru/participants/desislava-bobrina/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
 
