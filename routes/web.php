@@ -24,8 +24,11 @@ Route::get('participants/oleg-piskunov', [MainController::class, 'olegPiskunov']
 Route::get('participants/arthur-davletshin', [MainController::class, 'arthurDavletshin']);
 Route::get('participants/nikita-govorov', [MainController::class, 'nikitaGovorov']);
 Route::get('participants/dmitry-dmitrienko', [MainController::class, 'dmitryDmitrienko']);
+Route::get('participants/daniil-stadnyuk', [MainController::class, 'daniilStadnyuk']);
+Route::get('participants/moscow-symphony-orchestra', [MainController::class, 'moscowSymphonyOrchestra']);
 Route::get('participants/osipov-orchestra', [MainController::class, 'osipovOrchestra']);
 Route::get('participants/russia-band', [MainController::class, 'russiaBand']);
+Route::get('participants/young-soloists-band', [MainController::class, 'youngSoloistsBand']);
 Route::get('participants/louise-mintsayeva', [MainController::class, 'louiseMintsayeva']);
 Route::get('participants/desislava-bobrina', [MainController::class, 'desislavaBobrina']);
 Route::get('participants/alina-timofeeva', [MainController::class, 'alinaTimofeeva']);

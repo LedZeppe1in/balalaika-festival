@@ -54,6 +54,16 @@ class MainController extends Controller
         return view('dmitry-dmitrienko');
     }
 
+    public function daniilStadnyuk()
+    {
+        return view('daniil-stadnyuk');
+    }
+
+    public function moscowSymphonyOrchestra()
+    {
+        return view('moscow-symphony-orchestra');
+    }
+
     public function osipovOrchestra()
     {
         return view('osipov-orchestra');
@@ -62,6 +72,11 @@ class MainController extends Controller
     public function russiaBand()
     {
         return view('russia-band');
+    }
+
+    public function youngSoloistsBand()
+    {
+        return view('young-soloists-band');
     }
 
     public function louiseMintsayeva()
