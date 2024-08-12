@@ -68,12 +68,12 @@
                                 <ul id=menu-social class="uk-navbar-nav uk-navbar-center">
                                     <li id=menu-item-5 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5">
                                         <div class="uk-display-inline tm-padding-xsmall">
-                                            <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="icon: eno-pro-vk; ratio: .8"><span class=screen-reader-text>Вконтакте</span></a>
+                                            <a target=_blank rel=nofollow href=https://vk.com/club226784201 class=uk-icon-button data-uk-icon="icon: eno-pro-vk; ratio: .8"><span class=screen-reader-text>Вконтакте</span></a>
                                         </div>
                                     </li>
                                     <li id=menu-item-6 class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6">
                                         <div class="uk-display-inline tm-padding-xsmall">
-                                            <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="icon: eno-pro-telegram; ratio: .6"><span class=screen-reader-text>Телеграм</span></a>
+                                            <a target=_blank rel=nofollow href=https://t.me/balalaika21veka class=uk-icon-button data-uk-icon="icon: eno-pro-telegram; ratio: .6"><span class=screen-reader-text>Телеграм</span></a>
                                         </div>
                                     </li>
                                 </ul>
@@ -147,10 +147,10 @@
                     <nav role=navigation aria-label="Ссылки на социальные сети">
                         <ul id=menu-social-1 class=uk-nav-default data-uk-nav>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-5">
-                                <a href=#>Вконтакте</a>
+                                <a href=https://vk.com/club226784201>ВКонтакте</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6">
-                                <a href=#>Телеграм</a>
+                                <a href=https://t.me/balalaika21veka>Телеграм</a>
                             </li>
                         </ul>
                     </nav>
