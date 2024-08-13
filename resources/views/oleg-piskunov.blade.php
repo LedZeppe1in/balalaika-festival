@@ -98,7 +98,7 @@
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Лауреат всероссийскийх и международных конкурсов</h6>
+                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Лауреат всероссийских и международных конкурсов</h6>
                                         <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Олег Пискунов</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
