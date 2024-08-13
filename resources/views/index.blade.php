@@ -108,26 +108,29 @@
                                 <div class="uk-container uk-section-large uk-flex uk-flex-middle uk-padding-large border-box" style="margin-left: 0; padding-top: 25vh;">
                                     <div class=slide-content-wrapper style="max-width: 90vw;">
                                         <div class="slide-content uk-text-large uk-margin-medium-bottom">
+
                                             <div class="wp-block-group uk-margin-remove-bottom is-layout-flow wp-block-group-is-layout-flow">
                                                 <div class=wp-block-group__inner-container>
-                                                    <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">
-                                                        <div class=wp-block-webminimalism-grid__inner>
-                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
-                                                                <figure class="wp-block-image size-large">
-                                                                    <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="" data-sizes="(max-width: 300px) 100vw, 300px">
+{{--                                                    <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">--}}
+{{--                                                        <div class=wp-block-webminimalism-grid__inner>--}}
+{{--                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">--}}
+                                                                <figure class="wp-block-image">
+                                                                    <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="">
                                                                 </figure>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+{{--                                                            </div>--}}
+{{--                                                        </div>--}}
+{{--                                                    </div>--}}
                                                 </div>
                                             </div>
+
                                             <div class="uk-h3 uk-width-xlarge uk-scrollspy-inview uk-animation-slide-left-medium uk-margin-bottom uk-margin-remove-top" data-uk-scrollspy-class=uk-animation-slide-top-medium style><span class="tm-text-subheader uk-text-primary">С 12 октября по 23 ноября, Москва</span></div>
-                                            <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="moscow">Балалайка</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase tm-text-animation uk-margin-remove-vertical" id="jazz">XXI века</h2>
-                                            <p class=uk-width-xlarge>Александр Николайчук, Алексей Вродливец, Андрей Горбачев, Олег Пискунов, Артур Давлетшин, Никита Говоров, Дмитрий Дмитриенко, Сергей Тарарин и Симфонический оркестр Москвы «Русская филармония» и другие</p>
-                                            <div class="uk-margin-top uk-text-bold uk-text-uppercase uk-scrollspy-inview uk-animation-slide-right-medium" data-uk-scrollspy-class=uk-animation-slide-bottom-medium style>
-                                                <a class="uk-button uk-button-default uk-button-large buy-button uk-margin-small-bottom" href=# onclick=listimWidget.openModal() />Купить билеты</a>
-                                                <a class="uk-button uk-button-primary uk-button-large buy-button uk-margin-small-bottom" href="<?= url('posters'); ?>">Программа</a>
-                                            </div>
+                                            <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">Балалайка</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">XXI века</h2>
+                                            <p class="uk-width-xlarge">«Балалайка XXI века» - всероссийский фестиваль профессионального исполнительского искусства на балалайке, привлекающий лучших исполнителей на балалайке, лучшие симфонические оркестры, лучшие оркестры народных инструментов, лучшие ансамбли народных инструментов и лучшие концертные залы. На концертах фестиваля можно услышать музыку разных стилей и эпох: Концерты для балалайки с симфоническим оркестром, Концерты для балалайки с народным оркестром, камерную музыку для балалайки и фортепиано, музыку эпохи Барокко в переложении для балалайки и арфы и, конечно, балалайку в составе ансамбля народных инструментов как неотъемлемую его часть.</p>
+                                            <ul>
+                                                <li>Художественный руководитель фестиваля – Александр Николайчук</li>
+                                                <li>Директор фестиваля – Алексей Вродливец</li>
+                                                <li>Фестиваль реализуется при поддержке Министерства культуры РФ</li>
+                                            </ul>
                                         </div>
                                         <div class="slide-buttons uk-margin uk-margin-bottom"></div>
                                     </div>
@@ -139,8 +142,7 @@
             </div>
             <section class="section-margin uk-container uk-container-large">
                 <div class="artists-header uk-padding">
-                    <h1 class="tm-heading-large uk-text-secondary" style="">Участники</h1>
-                    <p class="uk-text-bold uk-text-secondary" style>Ведущие музыканты и ансамбли из России представят свои лучшие программы на фестивале «Балалайка XXI века» в 2024 году!</p>
+                    <h1 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-secondary">Участники</h1>
                 </div>
                 <div class="artists-wrap uk-padding">
                     <div class="artists uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-wdith-1-5@l uk-grid" data-uk-grid>
@@ -149,7 +151,7 @@
                                 <a class=artists__permalink href="<?= url('participants/alexander-nikolaychuk'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Александр Николайчук</h3>
                                     <p class="uk-text-secondary">Художественный руководитель фестиваля</p>
                                 </div>
@@ -160,7 +162,7 @@
                                 <a class=artists__permalink href="<?= url('participants/alexey-vrodlivets'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201706%202560'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexey_Vrodlivets.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Алексей Вродливец</h3>
                                     <p class="uk-text-secondary">Директор фестиваля</p>
                                 </div>
@@ -171,7 +173,7 @@
                                 <a class=artists__permalink href="<?= url('participants/andrey-gorbachev'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20656'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Andrey_Gorbachev.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Андрей Горбачев</h3>
                                     <p class="uk-text-secondary">Заведующий кафедрой домры, балалайки, гитары РАМ имени Гнесиных, профессор</p>
                                 </div>
@@ -182,9 +184,9 @@
                                 <a class=artists__permalink href="<?= url('participants/oleg-piskunov'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Oleg_Piskunov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Олег Пискунов</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
+                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -193,9 +195,9 @@
                                 <a class=artists__permalink href="<?= url('participants/arthur-davletshin'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Arthur_Davletshin.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Артур Давлетшин</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
+                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -204,9 +206,9 @@
                                 <a class=artists__permalink href="<?= url('participants/nikita-govorov'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Nikita_Govorov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Никита Говоров</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийскийх и международных конкурсов</p>
+                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
                                 </div>
                             </div>
                         </div>
@@ -215,7 +217,7 @@
                                 <a class=artists__permalink href="<?= url('participants/dmitry-dmitrienko'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Dmitry_Dmitrienko.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Дмитрий Дмитриенко</h3>
                                     <p class="uk-text-secondary">Заслуженный артист России, Художественный руководитель ГАРНА «Россия», профессор</p>
                                 </div>
@@ -226,7 +228,7 @@
                                 <a class=artists__permalink href="<?= url('participants/daniil-stadnyuk'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Даниил Стаднюк</h3>
                                     <p class="uk-text-secondary">Дирижер НАОНИР им Н.П. Осипова</p>
                                 </div>
@@ -237,7 +239,7 @@
                                 <a class=artists__permalink href="<?= url('participants/moscow-symphony-orchestra'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Симфонический оркестр Москвы «Русская филармония»</h3>
                                 </div>
                             </div>
@@ -247,7 +249,7 @@
                                 <a class=artists__permalink href="<?= url('participants/osipov-orchestra'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Национальный оркестр народных инструментов России имени Н.П. Осипова</h3>
                                 </div>
                             </div>
@@ -257,7 +259,7 @@
                                 <a class=artists__permalink href="<?= url('participants/russia-band'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Ансамбль «Россия» имени Людмилы Зыкиной</h3>
                                 </div>
                             </div>
@@ -267,7 +269,7 @@
                                 <a class=artists__permalink href="<?= url('participants/young-soloists-band'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small tm-text-animation-small">
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Ансамбль молодых солистов НАОНИР им. Н.П. Осипова</h3>
                                 </div>
                             </div>
@@ -285,8 +287,7 @@
 
             <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
                 <div class="uk-padding uk-text-center">
-                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Программа</h2>
-                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-text-bold uk-text-primary">Артисты с мировым именем представят свои лучшие программы на площадках Москвы.</p>
+                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Площадки</h2>
                 </div>
                 <div class=uk-grid>
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
@@ -302,18 +303,18 @@
                     </div>
                 </div>
                 <div class=uk-grid>
-                    <div class=uk-width-1-2@m>
-                        <figure class=uk-position-relative>
-                            <img data-src="{{URL::asset('/images/Pushkin_State_Museum.jpg')}}" data-uk-img alt>
-                            <img data-src="{{URL::asset('/images/Gnessin_Russian_Academy_1.jpg')}}" data-uk-img class="uk-position-aboslute uk-position-center uk-visible@m" style="max-width: 450px;" data-uk-parallax="y: 200, -100; viewport: 1" alt>
-                        </figure>
-                    </div>
+
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
                         <div class="uk-panel uk-width-large">
                             <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Государственный музей имени А.С. Пушкина</h3>
                             <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Камерный концерт в государственном музеи имени А.С. Пушкина пройдет в среду 16 октября 19:00,</p>
                             <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Концерт ансамблей в государственном музеи имени А.С. Пушкина пройдет в среду 30 октября 19:00.</p>
                         </div>
+                    </div>
+                    <div class=uk-width-1-2@m>
+                        <figure class=uk-position-relative>
+                            <img data-src="{{URL::asset('/images/Pushkin_State_Museum.jpeg')}}" data-uk-img alt>
+                        </figure>
                     </div>
                 </div>
                 <div class=uk-grid>
@@ -325,117 +326,8 @@
                     </div>
                     <div class=uk-width-1-2@m>
                         <figure class=uk-position-relative>
-                            <img data-src="{{URL::asset('/images/Gnessin_Russian_Academy_2.jpg')}}" data-uk-img alt>
+                            <img data-src="{{URL::asset('/images/Gnessin_Russian_Academy.jpg')}}" data-uk-img alt>
                         </figure>
-                    </div>
-                </div>
-            </div>
-
-            <div class="uk-container uk-container-expand uk-padding-remove-horizontal">
-                <div class="uk-grid uk-grid-collapse uk-child-width-expand" data-uk-grid>
-                    <div>
-                        <figure data-0-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-50-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-100-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-150-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-200-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-250-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-300-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-350-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-400-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-450-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-primary style="width: 10vw; height: 10vw; border-radius: 100%;">
-                        </figure>
-                    </div>
-                </div>
-                <div class="uk-grid uk-grid-collapse uk-child-width-expand" data-uk-grid>
-                    <div>
-                        <figure data-450-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-400-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-350-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-300-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-250-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-200-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-150-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-100-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-50-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                    <div>
-                        <figure data-0-top="transform: scale(0);" data-top-bottom="transform: scale(1);" class=uk-section-secondary style="width: 10vw; height: 10vw; border-radius: 100%;"></figure>
-                    </div>
-                </div>
-
-                <div data-src="{{URL::asset('/images/background_bottom.jpg')}}" data-uk-img class="uk-background-center-center uk-background-cover uk-position-relative uk-margin-large-top">
-                    <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.55);"></div>
-                    <div class="uk-section uk-section-xlarge">
-                        <div class="uk-tile-secondary uk-tile uk-width-xlarge uk-margin-auto" style="color: white !important;">
-                            <div class="uk-h5 uk-text-center uk-scrollspy-inview uk-animation-fade" uk-scrollspy-class style="color: white;">До начала фестиваля</div>
-                            <div class="uk-child-width-auto uk-grid-small uk-flex-center uk-margin-medium uk-text-center uk-countdown uk-grid uk-scrollspy-inview uk-animation-fade" data-uk-countdown="date: 2024-10-16T19:00" uk-grid uk-scrollspy-class style>
-                                <div class=uk-first-column>
-                                    <div class="uk-countdown-number uk-countdown-days"><span>0</span><span>6</span></div>
-                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Дни</div>
-                                </div>
-                                <div class=uk-countdown-separator>:</div>
-                                <div>
-                                    <div class="uk-countdown-number uk-countdown-hours"><span>0</span><span>7</span></div>
-                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Часы</div></div>
-                                <div class=uk-countdown-separator>:</div>
-                                <div>
-                                    <div class="uk-countdown-number uk-countdown-minutes"><span>0</span><span>5</span></div>
-                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Мин</div>
-                                </div>
-                                <div class=uk-countdown-separator>:</div>
-                                <div>
-                                    <div class="uk-countdown-number uk-countdown-seconds"><span>0</span><span>1</span></div>
-                                    <div class="uk-countdown-label uk-text-center uk-visible@s uk-margin-small">Сек</div>
-                                </div>
-                            </div>
-                            <div class="uk-text-center uk-hidden">
-                                <a href=# class="uk-button uk-button-default uk-text-bold uk-text-uppercase" onclick=listimWidget.openModal()>Билеты продаже</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
-                <div class="uk-padding uk-text-center">
-                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="uk-margin-remove-bottom tm-heading-large uk-text-secondary">Билеты уже в продаже</h2>
-                    <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class="uk-margin-small-top uk-text-bold uk-text-secondary">Приобретайте билеты заранее!</p>
-                    <div class="uk-text-center uk-margin-medium-top">
-                        <a href=# onclick="listimWidget.openModal();" class="uk-button uk-button-large uk-button-primary uk-text-bold uk-text-uppercase buy-button" data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 300">Купить билеты </a>
                     </div>
                 </div>
             </div>
@@ -444,8 +336,19 @@
         <footer id=site-footer data-uk-scrollspy="cls: uk-animation-fade" style="visibility: hidden;">
             <div class="uk-container uk-container-large">
                 <div class="uk-grid uk-child-width-1-3@l" data-uk-gird>
-                    <div class="uk-flex-last uk-flex-first@l"></div>
-                    <div></div><div></div>
+                    <div class="uk-flex-last uk-flex-first@l">
+                        <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="ratio: .8"></a>
+                        © 2024 Фестиваль «Балалайка XXI века»
+                    </div>
+                    <div class="uk-text-center">
+                        <a target=_blank rel=nofollow href=https://vk.com/club226784201 class=uk-icon-button data-uk-icon="icon: eno-pro-vk; ratio: .8"><span class=screen-reader-text>Вконтакте</span></a>
+                        |
+                        <a target=_blank rel=nofollow href=https://t.me/balalaika21veka class=uk-icon-button data-uk-icon="icon: eno-pro-telegram; ratio: .6"><span class=screen-reader-text>Телеграм</span></a>
+                    </div>
+                    <div class="uk-text-right">
+                        <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="ratio: .8"></a>
+                        Разработано <a href=https://github.com/LedZeppe1in>Никита Дородных</a>
+                    </div>
                 </div>
             </div>
         </footer>
