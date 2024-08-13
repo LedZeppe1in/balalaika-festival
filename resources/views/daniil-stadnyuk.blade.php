@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=profile href=http://gmpg.org/xfn/11>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-    <title>Александр Николайчук</title>
-    <link rel=canonical href=https://balalaika21veka.ru/participants/alexander-nikolaychuk/ >
+    <title>Даниил Стаднюк</title>
+    <link rel=canonical href=https://balalaika21veka.ru/participants/daniil-stadnyuk/ >
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Александр Николайчук">
-    <meta property="og:description" content="Александр Николайчук – исполнитель на  балалайке, выпускник РАМ имени Гнесиных, лауреат всероссийских и международных конкурсов, солист НАОНИР имени Н.П. Осипова.">
-    <meta property="og:url" content="https://balalaika21veka.ru/participants/alexander-nikolaychuk/">
+    <meta property="og:title" content="Даниил Стаднюк">
+    <meta property="og:description" content="Данил Стаднюк – Дирижер Национального академического оркестра народных инструментов России имени Н.П. Осипова.">
+    <meta property="og:url" content="https://balalaika21veka.ru/participants/daniil-stadnyuk/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
 
     <link rel=stylesheet href="{{URL::asset('/css/app.css')}}" media=all>
@@ -90,59 +90,41 @@
         </div>
 
         <main id=site-content class=uk-margin-remove role=main>
-            <article id=post-146 class="post-146 artist type-artist status-publish has-post-thumbnail hentry">
+            <article id=post-3283 class="post-3283 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#f8f4e4>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#f2ebeb>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Художественный руководитель фестиваля</h6>
-                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Александр Николайчук</strong></p>
+                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Дирижер НАОНИР им Н.П. Осипова</h6>
+                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Даниил Стаднюк</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.38%>
-                                        <p class="has-text-color has-extra-small-font-size" style=color:#000000>Александр Николайчук – исполнитель на  балалайке, выпускник РАМ имени Гнесиных, лауреат всероссийских и международных конкурсов, солист НАОНИР имени Н.П. Осипова.</p>
-                                        <p>Родился в Иркутске, в возрасте семи лет начал заниматься музыкой под руководством А. Глукман. В возрасте 18 лет переехал в Москву для продолжения обучения в РАМ имени Гнесиных (класс профессора А. Горбачева), в 2020 году закончил аспирантуру (научный руководитель, профессор О. Берак).</p>
-                                        <div class="wp-block-ainoblocks-arrow-button size__xxl">
-                                            <a class="wp-block-ainoblocks-arrow-button__link icon-after" style="color:#ff6900;line-height:1.5" href="https://alexandernikolaychuk.com/" target=_self rel=noopener><strong>Перейти на сайт</strong></a>
-                                            <span class=wp-block-ainoblocks-arrow-button__icon style=transform:rotate(135deg);fill:#ff6900>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                                    <path d="M7.82 43l-2.82-2.82 31.18-31.18h-23.18v-4h30v30h-4v-23.18z"></path>
-                                                </svg>
-                                            </span>
-                                        </div>
+                                        <p>Данил Стаднюк – дирижер Национального академического оркестра народных инструментов России имени Н.П. Осипова.</p>
+                                        <p>Родился в 1984 году в г. Красный Сулин, Ростовской области. В 2003 г. окончил ростовское училище искусств (класс баяна - Галкина С.С., класс дирижирования Машиной О.А.). В 2008 г. окончил РАМ им.Гнесиных (2008, класс баяна проф.Семенова В.А., класс дирижирования проф. Чистякова В.В.).</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large">
-                                            <img fetchpriority=high decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20698%201024'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" alt="Александр Николайчук" class="wp-image-117 lazy">
-                                        </figure>
+                                        <p>В 2012 г. окончил МГК им. Чайковского (2012, оперно-симфоническое дирижирование, класс проф. Понькина В.А.).</p>
+                                        <p>С 2012 года Данил Стаднюк является помощником главного дирижера Национального Академического оркестра народных инструментов России имени Н.П.Осипова. В качестве дирижера неоднократно принимал участие в абонементных концертах МГАФ им. Чайковского. Осуществил ряд музыкальных проектов и концертных программ.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
                                         <figure class="wp-block-image size-full">
-                                            <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20600'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk_Biography_1.jpg')}}" alt="Александр Николайчук" class="wp-image-147 lazy">
+                                            <img fetchpriority=high decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201600%202400'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Danil_Stadnyuk.jpg')}}" alt="Даниил Стаднюк" class="wp-image-3285 lazy">
                                         </figure>
                                     </div>
                                 </div>
-                                <p>За годы обучения стал лауреатом более 20 всероссийских и международных конкурсов, среди которых Международный конкурс исполнителей на балалайке имени М.Ф. Рожкова (Нижний Новгород, 2013), II Всероссийский музыкальный конкурс (Москва, 2017) и других. С 2011 по 2023 был солистом проекта "Трио балалаек". В 2016 году был принят по конкурсу в НАОНИР имени Н.П. Осипова.</p>
-                                <p>Ведет активную концертную деятельность в России и за ее пределами, выступал с концертами в США, Китае, Португалии, Франции, Сербии, Израиле, Кыргызстане, Мьянме. Выступал с такими оркестрами, как: НАОНИР им. Н.П. Осипова, Китайский Национальный традиционный оркестр, АОРНИ им. Н.Н. Некрасова, "Академический ансамбль песни и пляски войск национальной гвардии Российской Федерации", Белгородский академический народный оркестр, ОРНИ "Россияне", Липецкий государственный оркестр РНИ,  ОРНИ "Тула", Русский оркестр Хабаровской краевой филармонии, Симфонический оркестр Москвы "Русская филармония", Кубанский симфонический оркестр и др.</p>
-                                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:67%>
-                                        <figure class="wp-block-image size-large">
-                                            <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20693'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk_Biography_2.jpg')}}" alt="Александр Николайчук" class="wp-image-32 lazy">
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <p class="has-text-color has-extra-small-font-size" style=color:#000000>Представлял русскую культуру на концертах государственной важности, таких как 70  летие установления дипломатических отношений между Россией и Китаем (Большой театр, 2019), Открытие перекрестного года между Россией и Кыргызстаном (Государственный Кремлевский дворец, 2020), Закрытие перекрестного года между Россией и Кыргызстаном (Бишкек, 2022). 75-летие установления дипломатитческих отношений между Россией и Китаем (Пекин, 2024).</p>
-                                    </div>
-                                </div>
-                                <p>В 2021 году награжден Почетной грамотой Кыргызской Республики за большой вклад в укрепление и развитие сотрудничества двух стран в области культуры и искусства в рамках перекрестного года Кыргызстана и России. В 2022 награжден Благодарностью Министра Правительства г. Москвы.</p>
-                                <p>В 2021 году совместно с пианисткой Елизаветой Байковой записал свой дебютный альбом «Two sides», который был выпущен лейблом «Мелодия». В мае 2022 года выпустил сингл «Гляжу в озера синие».</p>
                                 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
+                                <p>В 2017 году Данил Стаднюк стал лауреатом II Всероссийского музыкального конкурса в номинации «Дирижирование оркестром народных инструментов».</p>
+                                <p>Принимал участие в мастерклассах по дирижированию под руководством:</p>
+                                <ul>
+                                    <li>Vittorio Parisi (Пазарджик, Болгария, 2019).</li>
+                                    <li>Alim Shakh (Алим Шахмаметьев) (Оломоуц, Чехия, 2019).</li>
+                                </ul>
                             </div>
                         </div>
                     </div>
