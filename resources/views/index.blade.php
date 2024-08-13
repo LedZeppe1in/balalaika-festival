@@ -111,15 +111,15 @@
 
                                             <div class="wp-block-group uk-margin-remove-bottom is-layout-flow wp-block-group-is-layout-flow">
                                                 <div class=wp-block-group__inner-container>
-{{--                                                    <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">--}}
-{{--                                                        <div class=wp-block-webminimalism-grid__inner>--}}
-{{--                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">--}}
+                                                    <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">
+                                                        <div class=wp-block-webminimalism-grid__inner>
+                                                            <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
                                                                 <figure class="wp-block-image">
                                                                     <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="">
                                                                 </figure>
-{{--                                                            </div>--}}
-{{--                                                        </div>--}}
-{{--                                                    </div>--}}
+                                                            </div>
+                                                        </div>
+                                                    </div>
                                                 </div>
                                             </div>
 
@@ -186,6 +186,17 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Олег Пискунов</h3>
+                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href="<?= url('participants/ambrose-tarasov'); ?>">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ambrose_Tarasov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
+                                    <h3 class="uk-text-secondary">Амвросий Тарасов</h3>
                                     <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
                                 </div>
                             </div>
@@ -261,16 +272,6 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Ансамбль «Россия» имени Людмилы Зыкиной</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/young-soloists-band'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Ансамбль молодых солистов НАОНИР им. Н.П. Осипова</h3>
                                 </div>
                             </div>
                         </div>

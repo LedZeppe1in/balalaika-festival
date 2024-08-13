@@ -145,6 +145,17 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href="<?= url('participants/ambrose-tarasov'); ?>">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ambrose_Tarasov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
+                                    <h3 class="uk-text-secondary">Амвросий Тарасов</h3>
+                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants/arthur-davletshin'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Arthur_Davletshin.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
