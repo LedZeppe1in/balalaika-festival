@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel=profile href=http://gmpg.org/xfn/11>
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
-    <title>Александр Николайчук</title>
-    <link rel=canonical href=https://balalaika21veka.ru/participants/alexander-nikolaychuk/ >
+    <title>Симфонический оркестр Москвы «Русская филармония»</title>
+    <link rel=canonical href=https://balalaika21veka.ru/participants/moscow-symphony-orchestra/ >
     <meta property="og:locale" content="ru_RU">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Александр Николайчук">
-    <meta property="og:description" content="Александр Николайчук – исполнитель на  балалайке, выпускник РАМ имени Гнесиных, лауреат всероссийских и международных конкурсов, солист НАОНИР имени Н.П. Осипова.">
-    <meta property="og:url" content="https://balalaika21veka.ru/participants/alexander-nikolaychuk/">
+    <meta property="og:title" content="Симфонический оркестр Москвы «Русская филармония»">
+    <meta property="og:description" content="Симфонический оркестр Москвы «Русская филармония»">
+    <meta property="og:url" content="https://balalaika21veka.ru/participants/moscow-symphony-orchestra/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
 
     <link rel=stylesheet href="{{URL::asset('/css/app.css')}}" media=all>
@@ -25,7 +25,7 @@
     <style id=wp-custom-css>.lang-switcher{display:none !important}.page-id-56 .wp-block-table tr td:last-of-type{width:110px}@media screen and (max-width: 768px){.page-id-56 .wp-block-table tr td{font-size:14px}}#main-navigation>.uk-navbar-left{max-width:fit-content}@media screen and (max-width: 375px){.lang-switcher{display:none}#main-navigation>.uk-width-expand{display:none}}#menu-social li:nth-of-type(2) a{padding:3px}#site-header .header-social-menu .uk-icon-button{margin-left:5px}.dep-culture-logo{display:flex;align-items:center}.border-box{box-sizing:border-box}.visibility-hidden{visibility:hidden}.height-max-content{height:max-content}.margin-auto{margin:auto !important}.artists-header{text-align:center;margin:0 auto}@media screen and (max-width: 400px){.slider .tm-heading-xlarge{font-size:4.7rem;line-height:6rem}.slider .slide .uk-section-large{padding-right:0;padding-top:0;padding:20px}.slider .wp-block-webminimalism-grid.alignwide .wp-block-image{margin:0 !important}}@media screen and (min-width: 400px) and (max-width: 767px){.slider .uk-padding-large{padding:40px}}@media screen and (max-width: 767px){.slider .uk-margin-bottom{margin-bottom:5px !important}.slider .tm-heading-xlarge{font-size:5rem;line-height:5rem}.slider .buy-button{font-size:16px}.artists-wrap{padding:10px !important}.artists__artist{max-width:100% !important}}@media screen and (min-width: 1200px){.tm-heading-xlarge{font-size:10rem;line-height:11rem}}.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:14px;max-width:640px}@media screen and (min-width: 960px){.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:20px}}.slide .wp-block-webminimalism-grid.alignwide{max-width:600px}.page-id-44 .entry-header{display:none}.page-id-44 .entry-content-wrapper{padding:0}.page-id-44 #site-content{margin-bottom:0}.page-id-44 #site-footer{display:none}@media screen and (max-width: 690px){body.home .uk-slider-items .uk-panel h3{font-size:14px}body.home .uk-section .uk-panel.uk-width-large{padding:20px}body.home .uk-tile-secondary{max-width:80%}body.home .uk-countdown-number{font-weight:bold}body.home .uk-countdown{margin-top:10px !important;margin-bottom:10px !important}.page-id-44 h1{font-size:50px !important}.page-id-44 h3:nth-of-type(2){font-size:39px !important}.sm-text-align-center>*{text-align:center !important}}.alignwide .wp-block-group__inner-container .yoast-breadcrumbs{margin-left:0 !important}#site-header .header-social-menu .uk-icon-button{background-color:#fff;width:42px;height:42px;border-radius:42px}#site-header.uk-background-primary .header-social-menu .menu-item a{color:#202020}</style>
 </head>
 
-<body class="artist-template artist-template-templates artist-template-tabula-rasa artist-template-templatestabula-rasa-php single single-artist postid-146 wp-custom-logo wp-embed-responsive has-post-thumbnail hide-avatars site-footer-has-background">
+<body class="artist-template artist-template-templates artist-template-tabula-rasa artist-template-templatestabula-rasa-php single single-artist postid-3642 wp-custom-logo wp-embed-responsive has-post-thumbnail hide-avatars site-footer-has-background">
     <div id=site-wrapper class=uk-offcanvas-content>
         <div class=tm-header>
             <header id=site-header data-uk-scrollspy="cls: uk-animation-slide-top-small; delay: 500" style="visibility: hidden;" role=banner data-uk-sticky="cls-active: uk-background-primary;">
@@ -90,58 +90,35 @@
         </div>
 
         <main id=site-content class=uk-margin-remove role=main>
-            <article id=post-146 class="post-146 artist type-artist status-publish has-post-thumbnail hentry">
+            <article id=post-3642 class="post-3642 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#f8f4e4>
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#68ea89>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Художественный руководитель фестиваля</h6>
-                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Александр Николайчук</strong></p>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Симфонический оркестр Москвы «Русская филармония»</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.38%>
-                                        <p class="has-text-color has-extra-small-font-size" style=color:#000000>Александр Николайчук – исполнитель на  балалайке, выпускник РАМ имени Гнесиных, лауреат всероссийских и международных конкурсов, солист НАОНИР имени Н.П. Осипова.</p>
-                                        <p>Родился в Иркутске, в возрасте семи лет начал заниматься музыкой под руководством А. Глукман. В возрасте 18 лет переехал в Москву для продолжения обучения в РАМ имени Гнесиных (класс профессора А. Горбачева), в 2020 году закончил аспирантуру (научный руководитель, профессор О. Берак).</p>
-                                        <div class="wp-block-ainoblocks-arrow-button size__xxl">
-                                            <a class="wp-block-ainoblocks-arrow-button__link icon-after" style="color:#ff6900;line-height:1.5" href="https://alexandernikolaychuk.com/" target=_self rel=noopener><strong>Перейти на сайт</strong></a>
-                                            <span class=wp-block-ainoblocks-arrow-button__icon style=transform:rotate(135deg);fill:#ff6900>
-                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
-                                                    <path d="M7.82 43l-2.82-2.82 31.18-31.18h-23.18v-4h30v30h-4v-23.18z"></path>
-                                                </svg>
-                                            </span>
+                                    <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex">
+                                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:67%>
+                                            <figure class="wp-block-image size-large">
+                                                <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20693'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Moscow_Symphony_Orchestra.jpg')}}" alt="Симфонический оркестр Москвы «Русская филармония»" class="wp-image-32 lazy">
+                                            </figure>
+                                        </div>
+                                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
+                                            <p class="has-text-color has-extra-small-font-size" style=color:#ffffff>Вот уже четверть века Симфонический оркестр Москвы «Русская филармония» радует москвичей и гостей столицы, подтверждая свой статус официального оркестра города Москвы, являясь «визитной карточкой» столицы. В 2000 году Правительство Москвы впервые учредило официальный оркестр города Москвы – Симфонический оркестр Москвы «Русская филармония». Инициатор создания оркестра – почетный деятель искусств города Москвы Гаянэ Шиладжян – является его бессменным руководителем. Пост главного дирижера с 2016 года занимает маэстро Фабио Мастранджело.</p>
                                         </div>
                                     </div>
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <figure class="wp-block-image size-large">
-                                            <img fetchpriority=high decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20698%201024'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" alt="Александр Николайчук" class="wp-image-117 lazy">
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
-                                        <figure class="wp-block-image size-full">
-                                            <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20400%20600'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk_Biography_1.jpg')}}" alt="Александр Николайчук" class="wp-image-147 lazy">
-                                        </figure>
-                                    </div>
                                 </div>
-                                <p>За годы обучения стал лауреатом более 20 всероссийских и международных конкурсов, среди которых Международный конкурс исполнителей на балалайке имени М.Ф. Рожкова (Нижний Новгород, 2013), II Всероссийский музыкальный конкурс (Москва, 2017) и других. С 2011 по 2023 был солистом проекта "Трио балалаек". В 2016 году был принят по конкурсу в НАОНИР имени Н.П. Осипова.</p>
-                                <p>Ведет активную концертную деятельность в России и за ее пределами, выступал с концертами в США, Китае, Португалии, Франции, Сербии, Израиле, Кыргызстане, Мьянме. Выступал с такими оркестрами, как: НАОНИР им. Н.П. Осипова, Китайский Национальный традиционный оркестр, АОРНИ им. Н.Н. Некрасова, "Академический ансамбль песни и пляски войск национальной гвардии Российской Федерации", Белгородский академический народный оркестр, ОРНИ "Россияне", Липецкий государственный оркестр РНИ,  ОРНИ "Тула", Русский оркестр Хабаровской краевой филармонии, Симфонический оркестр Москвы "Русская филармония", Кубанский симфонический оркестр и др.</p>
-                                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:67%>
-                                        <figure class="wp-block-image size-large">
-                                            <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20693'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk_Biography_2.jpg')}}" alt="Александр Николайчук" class="wp-image-32 lazy">
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <p class="has-text-color has-extra-small-font-size" style=color:#000000>Представлял русскую культуру на концертах государственной важности, таких как 70  летие установления дипломатических отношений между Россией и Китаем (Большой театр, 2019), Открытие перекрестного года между Россией и Кыргызстаном (Государственный Кремлевский дворец, 2020), Закрытие перекрестного года между Россией и Кыргызстаном (Бишкек, 2022). 75-летие установления дипломатитческих отношений между Россией и Китаем (Пекин, 2024).</p>
-                                    </div>
-                                </div>
-                                <p>В 2021 году награжден Почетной грамотой Кыргызской Республики за большой вклад в укрепление и развитие сотрудничества двух стран в области культуры и искусства в рамках перекрестного года Кыргызстана и России. В 2022 награжден Благодарностью Министра Правительства г. Москвы.</p>
-                                <p>В 2021 году совместно с пианисткой Елизаветой Байковой записал свой дебютный альбом «Two sides», который был выпущен лейблом «Мелодия». В мае 2022 года выпустил сингл «Гляжу в озера синие».</p>
+                                <p>Сегодня оркестр «Русская Филармония» – один из лучших и наиболее востребованных оркестров России, который с огромным успехом проводит концерты в крупнейших концертных залах. Основные концертные площадки – Московский Международный Дом музыки, Большой зал Консерватории и Государственный Кремлевский Дворец.</p>
+                                <p>Звезды первой величины как в классическом искусстве, так и поп-, рокисполнители, однажды выступив оркестром «Русская Филармония», признаются, что это любовь навсегда.</p>
+                                <p>Абсолютно каждый концерт оркестра создан так, чтобы он нашел отклик, подарил бурю эмоций и приятное послевкусие на долгое время у своей многомиллионной зрительской аудитории – от самого маленького зрителя до самого искушенного.</p>
+                                <p>Уникальность оркестра «Русская филармония» состоит в том, что все мероприятия он проводит как самостоятельная концертная и продюсерская организация. Это единственный оркестр, который одинаково успешно и высокопрофессионально исполняет музыку различных стилей и жанров – от классики до рока, а также использует инновационные технологии для оформления пространства зрит зала, создавая эффект полного погружения в мир музыки.</p>
+                                <p>Каждая встреча с оркестром «Русская Филармония» – это настоящий праздник и заряд положительными эмоциями как для зрителей, так и для самих музыкантов оркестра.</p>
                                 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
                             </div>
                         </div>

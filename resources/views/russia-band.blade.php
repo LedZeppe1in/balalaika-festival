@@ -90,42 +90,32 @@
         </div>
 
         <main id=site-content class=uk-margin-remove role=main>
-            <article id=post-1417 class="post-1417 artist type-artist status-publish has-post-thumbnail hentry">
+            <article id=post-3642 class="post-3642 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e8d9b1>
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#68ea89>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <p class="has-text-align-center has-text-color" style=color:#000000;font-size:5vw;line-height:1.1><strong>Ансамбль «Россия» имени Людмилы Зыкиной</strong></p>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Государственный академический русский народный ансамбль «Россия» имени Л.Г. Зыкиной</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.38%>
-                                        <p>Государственный академический русский народный ансамбль «Россия» имени Л.Г. Зыкиной – коллектив с уникальной историей, созданный в 1977 году по инициативе великой русской певицы Людмилы Георгиевны Зыкиной. За эти годы оркестр выступил на 5 континентах, записал более 40 компакт-дисков и пластинок. В течение 30 лет ансамбль во главе с Людмилой Зыкиной был одним из ведущих гастролирующих коллективов нашей страны.</p>
-                                    </div>
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <p>Золотыми буквами в историю ансамбля вписано имя выдающегося музыканта, стоявшего вместе с Людмилой Зыкиной у истоков создания коллектива, баяниста, композитора и дирижёра, народного артиста РСФСР Виктора Федоровича Гридина. Ансамбль всегда славился своими талантливыми музыкантами, среди которых имена В. Красноярцева, В. Смолия, Г. Воробьевой, А. Архиповского, В. Пирского, В. Кормакова, Э. Ибадлаева и многих других.</p>
-                                    </div>
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
-                                        <p>Сегодня с неизменным успехом музыканты выступают на ведущих концертных площадках России и мира, достойно представляя русскую музыкальную культуру на международном уровне. В репертуаре ансамбля «Россия» оригинальные обработки классических инструментальных произведений русских и зарубежных композиторов, музыка народов мира, произведения современных композиторов, а также сочинения музыкантов ансамбля.</p>
-                                    </div>
-                                </div>
-                                <div style="height:10px" aria-hidden="true" class="wp-block-spacer"></div>
-                                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex">
-                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:67%>
-                                        <figure class="wp-block-image size-large is-resized">
-                                            <img fetchpriority=high decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20856'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia.jpg')}}" alt="Ансамбль «Россия» имени Людмилы Зыкиной" class="wp-image-3125 lazy" style="width:534px;height:auto">
-                                        </figure>
-                                    </div>
-                                    <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <p>В концертном сезоне 2022-2023 гг. коллектив отметил свое 45-летие!</p>
-                                        <p></p>
+                                    <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-3 wp-block-columns-is-layout-flex">
+                                        <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:67%>
+                                            <figure class="wp-block-image size-large">
+                                                <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20693'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia.jpg')}}" alt="Государственный академический русский народный ансамбль «Россия» имени Л.Г. Зыкиной" class="wp-image-32 lazy">
+                                            </figure>
+                                        </div>
+                                        <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
+                                            <p>Государственный академический русский народный ансамбль «Россия» имени Л.Г. Зыкиной – коллектив с уникальной историей, созданный в 1977 году по инициативе великой русской певицы Людмилы Георгиевны Зыкиной. За эти годы оркестр выступил на 5 континентах, записал более 40 компакт-дисков и пластинок. В течение 30 лет ансамбль во главе с Людмилой Зыкиной был одним из ведущих гастролирующих коллективов нашей страны.</p>
+                                        </div>
                                     </div>
                                 </div>
-                                <p></p>
+                                <p>Золотыми буквами в историю ансамбля вписано имя выдающегося музыканта, стоявшего вместе с Людмилой Зыкиной у истоков создания коллектива, баяниста, композитора и дирижёра, народного артиста РСФСР Виктора Федоровича Гридина. Ансамбль всегда славился своими талантливыми музыкантами, среди которых имена В. Красноярцева, В. Смолия, Г. Воробьевой, А. Архиповского, В. Пирского, В. Кормакова, Э. Ибадлаева и многих других.</p>
+                                <p>Сегодня с неизменным успехом музыканты выступают на ведущих концертных площадках России и мира, достойно представляя русскую музыкальную культуру на международном уровне. В репертуаре ансамбля «Россия» оригинальные обработки классических инструментальных произведений русских и зарубежных композиторов, музыка народов мира, произведения современных композиторов, а также сочинения музыкантов ансамбля. В концертном сезоне 2022-2023 гг. коллектив отметил свое 45-летие.</p>
                                 <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
                             </div>
                         </div>
