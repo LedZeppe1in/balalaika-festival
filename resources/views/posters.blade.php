@@ -87,38 +87,38 @@
                     <div class=entry-content>
                         <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-f51c6fd72ba56e36a9a7c1f2ea555130 is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#f68a3d;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
-                                <p class="has-white-color has-text-color has-medium-font-size" id=single><strong><strong>12 октября, Суббота, 19:00, ММДМ, Светлановский зал</strong></strong></p>
                                 <figure class="wp-block-image size-large">
-                                    <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="" alt class="wp-image-3402 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
+                                    <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="{{URL::asset('/images/opening-poster.jpg')}}" alt class="wp-image-3402 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
                                 </figure>
-                                <p style=font-size:16px><strong>19:00 Торжественное открытие фестиваля</strong></p>
-                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-5da6274a7bbf3460d1975f415e8979cd" data-afisha-button data-event-id=699569 data-event-provider=fund>Подробнее</button>
+                                <p class="has-white-color has-text-color has-medium-font-size" id=single><strong>12 октября, Суббота, 19:00, ММДМ, Светлановский зал</strong></p>
+                                <p style=font-size:16px><strong>Торжественное открытие фестиваля</strong></p>
+                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-5da6274a7bbf3460d1975f415e8979cd" data-afisha-button data-event-id=699569 data-event-provider=fund onclick="location.href='https://www.mmdm.ru/event/i-vserossijskij-festival-balalajka-xxi-veka?event_pk=5338';">Купить билеты</button>
                             </div>
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-27a7a2abd97f432463617dcb58bd4d6d is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#23ae9b;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
-                                <p class="has-white-color has-text-color has-medium-font-size" style=line-height:1.5><strong>16 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
                                 <figure class="wp-block-image size-large">
                                     <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="" alt class="wp-image-3404 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
                                 </figure>
-                                <p style=font-size:16px><strong>19:00 Камерный концерт</strong></p>
-                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-2631cc871f29add41b793bd45eac6f62" data-afisha-button data-event-id=699571 data-event-provider=fund>Подробнее</button>
+                                <p class="has-white-color has-text-color has-medium-font-size" style=line-height:1.5><strong>16 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
+                                <p style=font-size:16px><strong>Камерный концерт</strong></p>
+                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-2631cc871f29add41b793bd45eac6f62" data-afisha-button data-event-id=699571 data-event-provider=fund>Скоро</button>
                             </div>
                         </div>
                         <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-875ab933b5408b6da8fafc4a3271567f is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#d65b79;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
-                                <p class="has-white-color has-text-color has-medium-font-size" id=single><strong><strong><strong>30 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></strong></strong></p>
                                 <figure class="wp-block-image size-large">
                                     <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="" alt class="wp-image-3406 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
                                 </figure>
-                                <p style=font-size:16px><strong>19:00 Концерт ансамблей</strong></p>
-                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-6a99fae0e958ea6d23923002fd306bb1" data-afisha-button data-event-id=699573 data-event-provider=fund>Подробнее</button>
+                                <p class="has-white-color has-text-color has-medium-font-size" id=single><strong>30 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
+                                <p style=font-size:16px><strong>Концерт ансамблей</strong></p>
+                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-6a99fae0e958ea6d23923002fd306bb1" data-afisha-button data-event-id=699573 data-event-provider=fund>Скоро</button>
                             </div>
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-79423b2219a188ae5ec99bd5bca20e9a is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#1d88c5;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
-                                <p class="has-white-color has-text-color has-medium-font-size" style=line-height:1.5><strong><strong>23 ноября, Суббота, 19:00, Концертный зал РАМ имени Гнесиных</strong></strong></p>
                                 <figure class="wp-block-image size-large">
                                     <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="" alt class="wp-image-3408 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
                                 </figure>
-                                <p style=font-size:16px><strong>19:00 Закрытие фестиваля</strong></p>
-                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-9316a280e03250e97b27e466112dc232" data-afisha-button data-event-id=699575 data-event-provider=fund>Подробнее</button>
+                                <p class="has-white-color has-text-color has-medium-font-size" style=line-height:1.5><strong>23 ноября, Суббота, 19:00, Концертный зал РАМ имени Гнесиных</strong></p>
+                                <p style=font-size:16px><strong>Закрытие фестиваля</strong></p>
+                                <button type=button class="has-text-color has-white-color has-background has-black-background-color wp-block-buy-button wp-elements-9316a280e03250e97b27e466112dc232" data-afisha-button data-event-id=699575 data-event-provider=fund>Скоро</button>
                             </div>
                         </div>
                     </div>
