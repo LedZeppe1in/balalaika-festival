@@ -112,9 +112,20 @@
 
         <footer id=site-footer data-uk-scrollspy="cls: uk-animation-fade" style="visibility: hidden;">
             <div class="uk-container uk-container-large">
-                <div class="uk-grid uk-child-width-1-3@l" data-uk-gird>
-                    <div class="uk-flex-last uk-flex-first@l"></div>
-                    <div></div><div></div>
+                <div class="uk-grid uk-child-width-1-3@l row" data-uk-gird>
+                    <div class="col-sm-4 uk-text-center">
+                        <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="ratio: .8"></a>
+                        © 2024 Фестиваль «Балалайка XXI века»
+                    </div>
+                    <div class="col-sm-4 uk-text-center">
+                        <a target=_blank rel=nofollow href=https://vk.com/club226784201 class=uk-icon-button data-uk-icon="icon: eno-pro-vk; ratio: .8"><span class=screen-reader-text>Вконтакте</span></a>
+                        |
+                        <a target=_blank rel=nofollow href=https://t.me/balalaika21veka class=uk-icon-button data-uk-icon="icon: eno-pro-telegram; ratio: .6"><span class=screen-reader-text>Телеграм</span></a>
+                    </div>
+                    <div class="col-sm-4 uk-text-center">
+                        <a target=_blank rel=nofollow href=# class=uk-icon-button data-uk-icon="ratio: .8"></a>
+                        Разработано <a href=https://github.com/LedZeppe1in>Никита Дородных</a>
+                    </div>
                 </div>
             </div>
         </footer>
