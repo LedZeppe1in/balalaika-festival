@@ -93,7 +93,7 @@
             <article id=post-215 class="post-215 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e8d9b1>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ffcd36>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">

@@ -93,13 +93,13 @@
             <article id=post-264 class="post-264 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-white-color has-cyan-bluish-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ffcd36>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <h6 class="wp-white-heading has-text-color" id="ecosystem" style="color:#ffffff">Лауреат всероссийских и международных конкурсов</h6>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Никита Говоров</strong></p>
+                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Лауреат всероссийских и международных конкурсов</h6>
+                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Никита Говоров</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -108,9 +108,7 @@
                                         <p>Никита Говоров - победитель 50-ти Всероссийских и Международных конкурсов. Лауреат I премии III-го Всероссийского музыкального конкурса Министерства культуры РФ, обладатель семи золотых медалей на Молодежных Дельфийских играх России.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <p>Преподаватель Российской академии музыки имени Гнесиных и Музыкального училища имени Гнесиных.</p>
-
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
                                         <figure class="wp-block-image size-full">

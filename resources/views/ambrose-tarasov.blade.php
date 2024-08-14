@@ -93,7 +93,7 @@
             <article id=post-3277 class="post-3277 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#f2ebee>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ffcd36>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
@@ -108,7 +108,6 @@
                                         <p>Амвросий Тарасов (г. Санкт-Петербург) - Доцент кафедры народного инструментального искусства Санкт-Петербургского государственного института культуры, Солист Государственного оркестра русских народных инструментов «Метелица», Солист ансамбля “ЛАДЪ-квартет”, Преподаватель Санкт-Петербургских ДШИ им. И. О. Дунаевского и ДШИ им. С. М. Слонимского, Лауреат третьего Всероссийского музыкального конкурса, учрежденного Правительством Российской Федерации и Министерством культуры Российской Федерации.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <p>Родился в Санкт-Петербурге в 1994 г. Музыкой начал заниматься в 5 лет в Санкт-Петербургском музыкальном лицее Комитета по культуре по классу балалайки у Пенюгина Д. А. За время обучения был награждён премией правительства Санкт-Петербурга «Юные дарования», становился лауреатом городских, всероссийских и международных конкурсов.</p>
                                         <p>В 2011 г. поступил в Российскую академию музыки им. Гнесиных в класс профессора Горбачёва А. А., где окончил бакалавриат в 2015 г.</p>
                                     </div>
@@ -118,7 +117,6 @@
                                         </figure>
                                     </div>
                                 </div>
-                                <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
                                 <p>Окончив Российскую академию музыки имени Гнесиных, поступил в магистратуру в Санкт-Петербургский государственный институт культуры и окончил её в 2017 г. В 2019 году завершил обучение по программе ассистентуры-стажировки. Обучался в классах Заслуженного артиста России, доцента А.П. Щипицина и Заслуженного деятеля искусств РФ, кандидата искусствоведения, профессора Н.А. Кравцова.</p>
                                 <p>Является лауреатом престижных всероссийских и международных конкурсов:</p>
                                 <ul>
