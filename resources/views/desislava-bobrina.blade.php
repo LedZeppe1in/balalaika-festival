@@ -93,12 +93,12 @@
             <article id=post-3634 class="post-3634 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-white-color has-cyan-bluish-gray-background-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow">
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e090a9>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong><strong>Десислава Бобрина</strong></strong></p>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Десислава Бобрина</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -107,7 +107,6 @@
                                         <p>Десислава Бобрина начала обучаться игре на фортепиано в возрасте 7 лет в музыкальной школе им. Глинки в Москве. С 2003 года она продолжила свое образование в Центральной Музыкальной школе при Московской Государственной Консерватории им. Чайковского (класс М.А.Марченко). В 2011 году с отличием закончила Московскую Государственную Консерваторию им.Чайковского, класс проф. Ю.С.Айрапетяна.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <p>В 2014 году с отличием окончила аспирантуру МГК по классу фортепиано у проф. Ю.С.Айрапетяна, научный руководитель - проф. Е.Б. Долинская. В 2013-2014 г. обучалась в Академии «Альфред Шнитке» в Гамбурге у профессора Бренно Амброзини. С 2015 преподает фортепиано в Академии им. Маймонида (ФГБОУ ВО им. А.Н. Косыгина), c 2022 - доцент кафедры фортепиано, камерного ансамбля и концертмейстерского мастерства.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>

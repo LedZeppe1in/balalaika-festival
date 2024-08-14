@@ -93,12 +93,12 @@
             <article id=post-3632 class="post-3632 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ff8ea7>
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e090a9>
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong><strong>Луиза Минцаева</strong></strong></p>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Луиза Минцаева</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -107,11 +107,12 @@
                                         <p>Луиза Минцаева - лауреат международных конкурсов, солистка и концертмейстер МГАСО, солистка Оперного Театра им. А. С. Пушкина и оркестра «La Voce Strumentale» п/у Д. Синьковского, музыкант Театра Мастерской Петра Фоменко, соавтор проекта авторской музыки и неоклассики «RUNA duo».</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:50px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <p><b>Образование:</b></p>
-                                        <p>● МГДМШ им. Гнесиных, 2010 (класс Т.В. Борисовой)</p>
-                                        <p>● МГКМИ им. Ф. Шопена, 2014 (класс профессора Э.А. Москвитиной)</p>
-                                        <p>● МГК им. П.И. Чайковского (специалитет (2019) и ассистентура-стажировка (2022) с отличием, класс Народной артистки РФ, профессора Э.А. Москвитиной)</p>
+                                        <ul>
+                                            <li>МГДМШ им. Гнесиных, 2010 (класс Т.В. Борисовой).</li>
+                                            <li>МГКМИ им. Ф. Шопена, 2014 (класс профессора Э.А. Москвитиной).</li>
+                                            <li>МГК им. П.И. Чайковского (специалитет (2019) и ассистентура-стажировка (2022) с отличием, класс Народной артистки РФ, профессора Э.А. Москвитиной).</li>
+                                        </ul>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
                                         <figure class="wp-block-image size-full">

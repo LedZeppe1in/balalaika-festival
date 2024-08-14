@@ -93,12 +93,12 @@
             <article id=post-3292 class="post-3292 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ebedf2>
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e090a9>
                             <div class=wp-block-group__inner-container>
-                                <div style="height:90px" aria-hidden="true" class="wp-block-spacer"></div>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Наталья Шатохина</strong></p>
+                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Наталья Шатохина</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -112,7 +112,6 @@
                                         <p>С 2012 по 2016 гг. – декан факультета высшего профессионального образования Волгоградской Консерватории им. П.А. Серебрякова.</p>
                                         <p>С 2016 года – доцент кафедры Фортепиано Российской Академии Музыки имени Гнесиных.</p>
                                         <p>Педагогическую работу совмещает с исполнительской и концертмейстерской деятельностью. Работает концертмейстером кафедры струнных народных инструментов в классах народного артиста, профессора Зажигина В.Е.(балалайка) и профессора Гуниной И.А.(домра).</p>
-                                        <p>Концертмейстер высшей квалификационной категории.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
                                         <figure class="wp-block-image size-full">
@@ -120,6 +119,7 @@
                                         </figure>
                                     </div>
                                 </div>
+                                <p>Концертмейстер высшей квалификационной категории.</p>
                                 <p><b>Является лауреатом конкурсов:</b></p>
                                 <ul>
                                     <li>Международного конкурса фортепианных дуэтов и камерных ансамблей, Лауреат I премии (Латвия, г. Юрмала, 1997 г.).</li>

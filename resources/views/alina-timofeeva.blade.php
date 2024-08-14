@@ -93,12 +93,12 @@
             <article id=post-3287 class="post-3287 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#f2ebeb>
+                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#e090a9>
                             <div class=wp-block-group__inner-container>
-                                <div style="height:90px" aria-hidden="true" class="wp-block-spacer"></div>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
-                                        <p class=has-text-color style=color:#000000;font-size:5vw;line-height:1.1><strong>Алина Тимофеева</strong></p>
+                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Алина Тимофеева</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -107,7 +107,6 @@
                                         <p>Тимофеева Алина Ильдаровна начала обучение в классе фортепиано в ДМШ № 1 им. П. И. Чайковского. В 2014 году поступила в Среднюю специальную музыкальную школу при КГК им. Н. Г. Жиганова в класс профессора, народного артиста Татарстана Е. В. Михайлова. В 2017-2022 году продолжила обучение в КГК им. Жиганова.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <p>За время учебы неоднократно становилась лауреатом международных и всероссийских конкурсов, выступала сольно и с оркестрами, в составе камерных ансамблей и в качестве концертмейстера в городах Татарстана, Санкт-Петербурге. Так же проходила курсы мастер классов в Австрии. Стипендиат мэра г. Казань, Министерства культуры РТ.</p>
                                     </div>
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
