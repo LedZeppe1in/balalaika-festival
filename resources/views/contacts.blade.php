@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel=profile href=http://gmpg.org/xfn/11>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1'>
     <title>Фестиваль «Балалайка XXI века» 2024 - Контакты</title>
     <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Контакты.">
