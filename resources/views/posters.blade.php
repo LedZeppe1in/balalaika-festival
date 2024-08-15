@@ -87,7 +87,7 @@
                         <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-f51c6fd72ba56e36a9a7c1f2ea555130 is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#f9f4ec;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
                                 <figure class="wp-block-image size-large">
-                                    <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="{{URL::asset('/images/opening-poster.jpg')}}" alt class="wp-image-3402 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
+                                    <img decoding=async width=1024 height=576 src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201024%20576'%3E%3C/svg%3E" data-src="{{URL::asset('/images/opening-poster.png')}}" alt class="wp-image-3402 lazy" data-sizes="(max-width: 1024px) 100vw, 1024px">
                                 </figure>
                                 <p class="has-text-color has-medium-font-size" id=single><strong>12 октября, Суббота, 19:00, ММДМ, Светлановский зал</strong></p>
                                 <p style=font-size:16px><strong>Торжественное открытие фестиваля</strong></p>

@@ -274,8 +274,8 @@
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">
                         <div class="uk-panel uk-width-large">
                             <h3 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="">Государственный музей имени А.С. Пушкина</h3>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Камерный концерт в государственном музеи имени А.С. Пушкина пройдет в среду 16 октября 19:00,</p>
-                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Концерт ансамблей в государственном музеи имени А.С. Пушкина пройдет в среду 30 октября 19:00.</p>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Камерный концерт в государственном музее имени А.С. Пушкина пройдет в среду 16 октября 19:00,</p>
+                            <p data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 200" class=uk-text-bold>Концерт ансамблей в государственном музее имени А.С. Пушкина пройдет в среду 30 октября 19:00.</p>
                         </div>
                     </div>
                     <div class=uk-width-1-2@m>
