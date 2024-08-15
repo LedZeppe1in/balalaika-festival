@@ -90,29 +90,28 @@
                     <ul class="uk-slider-items uk-child-width-1-1" style="min-height: 90vh;">
                         <li class="slide has-thumbnail">
                             <div class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">
-{{--                                <div style data-bg="url({{URL::asset('/images/banner-scaled.png')}})" class="uk-flex uk-width-1-1 uk-height-1-1 uk-light uk-background-norepeat uk-background-cover uk-background-center-center lazy">--}}
+                                <div class="banner">
                                     <div class=uk-position-cover style="background-color: rgba(0, 0, 0, 0.01);"></div>
                                     <div class="uk-container uk-section-large uk-flex uk-flex-middle uk-padding-large border-box" style="margin-left: 0; padding-top: 25vh;">
                                         <div class=slide-content-wrapper style="max-width: 90vw;">
                                             <div class="slide-content uk-text-large uk-margin-medium-bottom">
+{{--                                                <div class="wp-block-group uk-margin-remove-bottom is-layout-flow wp-block-group-is-layout-flow">--}}
+{{--                                                    <div class=wp-block-group__inner-container>--}}
+{{--                                                        <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">--}}
+{{--                                                            <div class=wp-block-webminimalism-grid__inner>--}}
+{{--                                                                <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">--}}
+{{--                                                                    <figure class="wp-block-image">--}}
+{{--                                                                        <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="">--}}
+{{--                                                                    </figure>--}}
+{{--                                                                </div>--}}
+{{--                                                            </div>--}}
+{{--                                                        </div>--}}
+{{--                                                    </div>--}}
+{{--                                                </div>--}}
 
-                                                <div class="wp-block-group uk-margin-remove-bottom is-layout-flow wp-block-group-is-layout-flow">
-                                                    <div class=wp-block-group__inner-container>
-                                                        <div class="wp-block-webminimalism-grid alignwide uk-margin-remove-left">
-                                                            <div class=wp-block-webminimalism-grid__inner>
-                                                                <div class="wp-block-webminimalism-grid-item column-start-m_1 column-end-m_10 column-start-t_1 column-end-t_10 column-start-d_1 column-end-d_10 no-stacking margin-top-d_1 margin-top-t_1 margin-top-m_1 gutter-top-d_0 gutter-top-t_0 gutter-top-m_0 gutter-right-d_0 gutter-right-t_0 gutter-right-m_0 gutter-bottom-d_0 gutter-bottom-t_0 gutter-bottom-m_0 gutter-left-d_0 gutter-left-t_0 gutter-left-m_0">
-                                                                    <figure class="wp-block-image">
-                                                                        <img decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20300%20112'%3E%3C/svg%3E" data-src="{{URL::asset('/images/MINCULT_RUS_GORIZ_RGB.png')}}" alt="Министерство культуры Российской Федерации" class="wp-image-449 lazy" data-srcset="">
-                                                                    </figure>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-
-                                                <div class="uk-h3 uk-width-xlarge uk-scrollspy-inview uk-animation-slide-left-medium uk-margin-bottom uk-margin-remove-top" data-uk-scrollspy-class=uk-animation-slide-top-medium style><span class="tm-text-subheader uk-text-primary">С 12 октября по 23 ноября, Москва</span></div>
-                                                <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">Балалайка</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">XXI века</h2>
-                                                <p class="uk-width-xlarge">«Балалайка XXI века» - всероссийский фестиваль профессионального исполнительского искусства на балалайке, привлекающий лучших исполнителей на балалайке, лучшие симфонические оркестры, лучшие оркестры народных инструментов, лучшие ансамбли народных инструментов и лучшие концертные залы. На концертах фестиваля можно услышать музыку разных стилей и эпох: Концерты для балалайки с симфоническим оркестром, Концерты для балалайки с народным оркестром, камерную музыку для балалайки и фортепиано, музыку эпохи Барокко в переложении для балалайки и арфы и, конечно, балалайку в составе ансамбля народных инструментов как неотъемлемую его часть.</p>
+{{--                                                <div class="uk-h3 uk-width-xlarge uk-scrollspy-inview uk-animation-slide-left-medium uk-margin-bottom uk-margin-remove-top" data-uk-scrollspy-class=uk-animation-slide-top-medium style><span class="tm-text-subheader uk-text-primary">С 12 октября по 23 ноября, Москва</span></div>--}}
+{{--                                                <h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">Балалайка</h2><h2 class="wp-block-heading tm-heading-xlarge uk-text-uppercase uk-margin-remove-vertical">XXI века</h2>--}}
+                                                <p>«Балалайка XXI века» - всероссийский фестиваль профессионального исполнительского искусства на балалайке, привлекающий лучших исполнителей на балалайке, лучшие симфонические оркестры, лучшие оркестры народных инструментов, лучшие ансамбли народных инструментов и лучшие концертные залы. На концертах фестиваля можно услышать музыку разных стилей и эпох: Концерты для балалайки с симфоническим оркестром, Концерты для балалайки с народным оркестром, камерную музыку для балалайки и фортепиано, музыку эпохи Барокко в переложении для балалайки и арфы и, конечно, балалайку в составе ансамбля народных инструментов как неотъемлемую его часть.</p>
                                                 <ul>
                                                     <li>Художественный руководитель фестиваля – Александр Николайчук</li>
                                                     <li>Директор фестиваля – Алексей Вродливец</li>
@@ -122,7 +121,7 @@
                                             <div class="slide-buttons uk-margin uk-margin-bottom"></div>
                                         </div>
                                     </div>
-{{--                                </div>--}}
+                                </div>
                             </div>
                         </li>
                     </ul>
@@ -270,9 +269,9 @@
                 </div>
             </section>
 
-            <div style="width: 110vw;">
-                <div style="width: 100%; height: 430px;" data-src={{URL::asset('/images/Moscow.png')}} data-uk-img class="uk-background-bottom-center uk-margin-top"></div>
-            </div>
+{{--            <div style="width: 110vw;">--}}
+{{--                <div style="width: 100%; height: 430px;" data-src={{URL::asset('/images/Moscow.png')}} data-uk-img class="uk-background-bottom-center uk-margin-top"></div>--}}
+{{--            </div>--}}
 
             <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
                 <div class="uk-padding uk-text-center">
