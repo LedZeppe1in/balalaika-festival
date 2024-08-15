@@ -80,7 +80,7 @@
             <article id=artist-499 class="post-499 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#ffcd36>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow solo-artist-page">
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
@@ -126,7 +126,7 @@
             </article>
         </main>
 
-        <footer id=site-footer data-uk-scrollspy="cls" style="visibility: hidden; background-color:#ffcd36">
+        <footer id=site-footer data-uk-scrollspy="cls" class="solo-artist-page">
             <div class="uk-container uk-container-large">
                 <div class="uk-grid uk-child-width-1-3@l row" data-uk-gird>
                     <div class="col-sm-4 uk-text-center">

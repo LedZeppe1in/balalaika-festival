@@ -129,7 +129,7 @@
             </div>
             <section class="section-margin uk-container uk-container-large">
                 <div class="artists-header uk-padding">
-                    <h1 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-secondary">Участники</h1>
+                    <h1 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-secondary main-heading">Участники</h1>
                 </div>
                 <div class="artists-wrap uk-padding">
                     <div class="artists uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-wdith-1-5@l uk-grid" data-uk-grid>
@@ -269,13 +269,9 @@
                 </div>
             </section>
 
-{{--            <div style="width: 110vw;">--}}
-{{--                <div style="width: 100%; height: 430px;" data-src={{URL::asset('/images/Moscow.png')}} data-uk-img class="uk-background-bottom-center uk-margin-top"></div>--}}
-{{--            </div>--}}
-
             <div class="uk-section uk-section-large uk-padding-remove-vertical uk-container-expand">
                 <div class="uk-padding uk-text-center">
-                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary">Площадки</h2>
+                    <h2 data-uk-scrollspy="cls: uk-animation-slide-bottom-medium; repeat: true; delay: 100" class="tm-heading-large uk-text-primary main-heading">Площадки</h2>
                 </div>
                 <div class=uk-grid>
                     <div class="uk-width-1-2@m uk-flex uk-flex-middle uk-flex-center">

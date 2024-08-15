@@ -80,15 +80,15 @@
             <article id=post-3642 class="post-3642 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#68ea89>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow band-page">
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Национальный академический оркестр народных инструментов России имени Н.П. Осипова</strong></p>
+                                        <p class="has-text-color" style=font-size:5vw;line-height:1.1><strong>Национальный академический оркестр народных инструментов России имени Н.П. Осипова</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                         <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                            <p class="has-text-color has-extra-small-font-size" style=color:#ffffff><b>Художественный руководитель и главный дирижер – народный артист России, лауреат Премии Правительства РФ, профессор Владимир Андропов</b></p>
+                                            <p class="has-text-color has-extra-small-font-size" style=color:#000000><b>Художественный руководитель и главный дирижер – народный артист России, лауреат Премии Правительства РФ, профессор Владимир Андропов</b></p>
                                         </div>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
@@ -101,7 +101,7 @@
                                             </figure>
                                         </div>
                                         <div class="wp-block-column is-vertically-aligned-center is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
-                                            <p class="has-text-color has-extra-small-font-size" style=color:#ffffff>Трудно переоценить значение Национального академического оркестра народных инструментов России имени Н.П. Осипова для русской музыкальной культуры. Коллектив по праву считается национальным достоянием нашей страны. В 2024 году прославленному оркестру исполнится 105 лет.</p>
+                                            <p class="has-text-color has-extra-small-font-size" style=color:#000000>Трудно переоценить значение Национального академического оркестра народных инструментов России имени Н.П. Осипова для русской музыкальной культуры. Коллектив по праву считается национальным достоянием нашей страны. В 2024 году прославленному оркестру исполнится 105 лет.</p>
                                         </div>
                                     </div>
                                 </div>
@@ -124,7 +124,7 @@
             </article>
         </main>
 
-        <footer id=site-footer data-uk-scrollspy="cls" style="visibility: hidden; background-color:#68ea89">
+        <footer id=site-footer data-uk-scrollspy="cls" class="band-page">
             <div class="uk-container uk-container-large">
                 <div class="uk-grid uk-child-width-1-3@l row" data-uk-gird>
                     <div class="col-sm-4 uk-text-center">

@@ -80,13 +80,13 @@
             <article id=post-3283 class="post-3283 artist type-artist status-publish has-post-thumbnail hentry">
                 <div class="entry-content-wrapper uk-padding-remove">
                     <div class=entry-content>
-                        <div class="wp-block-group alignfull has-white-color has-text-color has-background is-layout-flow wp-block-group-is-layout-flow" style=background-color:#85acfa>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow conductor-page">
                             <div class=wp-block-group__inner-container>
                                 <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
                                     <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
                                         <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
-                                        <h6 class="wp-white-heading has-text-color" id="ecosystem" style="color:#ffffff">Дирижер НАОНИР им Н.П. Осипова</h6>
-                                        <p class="has-white-color has-text-color" style=font-size:5vw;line-height:1.1><strong>Даниил Стаднюк</strong></p>
+                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Дирижер НАОНИР им Н.П. Осипова</h6>
+                                        <p class="has-text-color" style=font-size:5vw;line-height:1.1><strong>Даниил Стаднюк</strong></p>
                                         <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
                                     </div>
                                 </div>
@@ -118,7 +118,7 @@
             </article>
         </main>
 
-        <footer id=site-footer data-uk-scrollspy="cls" style="visibility: hidden; background-color:#85acfa">
+        <footer id=site-footer data-uk-scrollspy="cls" class="conductor-page">
             <div class="uk-container uk-container-large">
                 <div class="uk-grid uk-child-width-1-3@l row" data-uk-gird>
                     <div class="col-sm-4 uk-text-center">
