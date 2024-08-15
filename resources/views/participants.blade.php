@@ -80,7 +80,6 @@
             <section class="section-margin uk-container uk-container-large">
                 <div class="artists-header uk-padding">
                     <h1 class="tm-heading-large uk-text-secondary" style="">Участники</h1>
-                    <p class="uk-text-bold uk-text-secondary" style>Ведущие музыканты и ансамбли из России представят свои лучшие программы на фестивале «Балалайка XXI века» в 2024 году!</p>
                 </div>
                 <div class="artists-wrap uk-padding">
                     <div class="artists uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-wdith-1-5@l uk-grid" data-uk-grid>

@@ -59,15 +59,15 @@ p.uk-text-secondary {
 }
 
 /** Стили блока текста под банером на главной странице **/
-.section-margin {
-    margin-top: 0 !important;
-}
+/*.section-margin {*/
+/*    margin-top: 0 !important;*/
+/*}*/
 
-@media (min-width: 1200px) {
-    .section-margin {
-        margin-top: 60px !important;
-    }
-}
+/*@media (min-width: 1200px) {*/
+/*    .section-margin {*/
+/*        margin-top: 60px !important;*/
+/*    }*/
+/*}*/
 
 @media (min-width: 319px) {
     .slide-content {
@@ -121,6 +121,13 @@ p.uk-text-secondary {
 .other-artists-page {
     background-color: #e4d5b3;
 }
+
+/*@media (min-width: 960px) {*/
+/*    .tm-heading-large {*/
+/*        font-size: 6rem;*/
+/*        line-height: 9rem;*/
+/*    }*/
+/*}*/
 
 /** Подключение шрифтов **/
 @font-face{
