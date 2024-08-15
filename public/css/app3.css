@@ -7,7 +7,7 @@ div#logo {
     background: center/cover url("../images/logo-black.png") no-repeat;
 }
 
-.uk-sticky-below > .uk-container > .uk-navbar-container > .uk-navbar-left > a#logo-link > div#logo {
+.uk-background-primary > .uk-container > .uk-navbar-container > .uk-navbar-left > a#logo-link > div#logo {
     height: 100px;
     width: 150px;
     margin-left: 10px;
@@ -32,33 +32,39 @@ div#logo {
     }
 }
 
-@media (min-width: 480px) {
+@media (min-width: 319px) {
     .slide-content {
-        margin-top: 170px;
+        margin-top: 150px;
     }
 }
 
-@media (min-width: 640px) {
+@media (min-width: 479px) {
     .slide-content {
-        margin-top: 270px;
+        margin-top: 230px;
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 639px) {
     .slide-content {
         margin-top: 350px;
     }
 }
 
+@media (min-width: 768px) {
+    .slide-content {
+        margin-top: 370px;
+    }
+}
+
 @media (min-width: 1023px) {
     .slide-content {
-        margin-top: 550px;
+        margin-top: 570px;
     }
 }
 
 @media (min-width: 1279px) {
     .slide-content {
-        margin-top: 750px;
+        margin-top: 770px;
     }
 }
 
