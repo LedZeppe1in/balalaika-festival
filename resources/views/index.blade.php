@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <meta name='robots' content='noindex, follow'>
+    <meta name="yandex-verification" content="f965f778021e8bc6" />
     <title>Фестиваль «Балалайка XXI века» 2024</title>
     <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Артисты с мировым именем. Лучшие площадки Москвы. Купить билеты можно на сайте.">
     <link rel=canonical href=https://balalaika21veka.ru/>
