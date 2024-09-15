@@ -5,14 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <title>Фестиваль «Балалайка XXI века» 2024 - Участники</title>
-    <meta name="description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее об участниках.">
-    <link rel=canonical href=https://balalaika21veka.ru/participants/>
+    <title>Алексей Моргунов</title>
+    <link rel=canonical href=https://balalaika21veka.ru/participants/alexey-morgunov/ >
     <meta property="og:locale" content="ru_RU">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Фестиваль «Балалайка XXI века» 2024 - Участники">
-    <meta property="og:description" content="Официальный сайт фестиваля «Балалайка XXI века» 2024. Подробнее об участниках.">
-    <meta property="og:url" content="https://balalaika21veka.ru/participants/">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Алексей Моргунов">
+    <meta property="og:description" content="Алексей Моргунов - выпускник Тамбовского государственного музыкально-педагогического института имени С.В. Рахманинова (класс балалайки А. Горбачева, класс дирижирования А. Артемьева). Участвовал в дирижерских мастер-классах Владимира Федосеева и Курта Мазура.">
+    <meta property="og:url" content="https://balalaika21veka.ru/participants/alexey-morgunov/">
     <meta property="og:site_name" content="Фестиваль «Балалайка XXI века» 2024">
 
     <link rel=stylesheet href="{{URL::asset('/css/app.css')}}" media=all>
@@ -25,7 +24,7 @@
     <style id=wp-custom-css>.lang-switcher{display:none !important}.page-id-56 .wp-block-table tr td:last-of-type{width:110px}@media screen and (max-width: 768px){.page-id-56 .wp-block-table tr td{font-size:14px}}#main-navigation>.uk-navbar-left{max-width:fit-content}@media screen and (max-width: 375px){.lang-switcher{display:none}#main-navigation>.uk-width-expand{display:none}}#menu-social li:nth-of-type(2) a{padding:3px}#site-header .header-social-menu .uk-icon-button{margin-left:5px}.dep-culture-logo{display:flex;align-items:center}.border-box{box-sizing:border-box}.visibility-hidden{visibility:hidden}.height-max-content{height:max-content}.margin-auto{margin:auto !important}.artists-header{text-align:center;margin:0 auto}@media screen and (max-width: 400px){.slider .tm-heading-xlarge{font-size:4.7rem;line-height:6rem}.slider .slide .uk-section-large{padding-right:0;padding-top:0;padding:20px}.slider .wp-block-webminimalism-grid.alignwide .wp-block-image{margin:0 !important}}@media screen and (min-width: 400px) and (max-width: 767px){.slider .uk-padding-large{padding:40px}}@media screen and (max-width: 767px){.slider .uk-margin-bottom{margin-bottom:5px !important}.slider .tm-heading-xlarge{font-size:5rem;line-height:5rem}.slider .buy-button{font-size:16px}.artists-wrap{padding:10px !important}.artists__artist{max-width:100% !important}}@media screen and (min-width: 1200px){.tm-heading-xlarge{font-size:10rem;line-height:11rem}}.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:14px;max-width:640px}@media screen and (min-width: 960px){.slide-content .desc{margin:10px 0 0 0;font-weight:bold;font-size:20px}}.slide .wp-block-webminimalism-grid.alignwide{max-width:600px}.page-id-44 .entry-header{display:none}.page-id-44 .entry-content-wrapper{padding:0}.page-id-44 #site-content{margin-bottom:0}.page-id-44 #site-footer{display:none}@media screen and (max-width: 690px){body.home .uk-slider-items .uk-panel h3{font-size:14px}body.home .uk-section .uk-panel.uk-width-large{padding:20px}body.home .uk-tile-secondary{max-width:80%}body.home .uk-countdown-number{font-weight:bold}body.home .uk-countdown{margin-top:10px !important;margin-bottom:10px !important}.page-id-44 h1{font-size:50px !important}.page-id-44 h3:nth-of-type(2){font-size:39px !important}.sm-text-align-center>*{text-align:center !important}}.alignwide .wp-block-group__inner-container .yoast-breadcrumbs{margin-left:0 !important}#site-header .header-social-menu .uk-icon-button{background-color:#fff;width:42px;height:42px;border-radius:42px}#site-header.uk-background-primary .header-social-menu .menu-item a{color:#202020}</style>
 </head>
 
-<body class="archive post-type-archive post-type-archive-artist wp-custom-logo wp-embed-responsive hide-avatars site-footer-has-background">
+<body class="artist-template artist-template-templates artist-template-tabula-rasa artist-template-templatestabula-rasa-php single single-artist postid-3638 wp-custom-logo wp-embed-responsive has-post-thumbnail hide-avatars site-footer-has-background">
     <div id=site-wrapper class=uk-offcanvas-content>
         <div class=tm-header>
             <header id=site-header data-uk-scrollspy="cls: uk-animation-slide-top-small; delay: 500" style="visibility: hidden;" role=banner data-uk-sticky="cls-active: uk-background-primary;">
@@ -38,7 +37,7 @@
                                     <li id=menu-item-1 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1">
                                         <a href="<?= url('about'); ?>">О фестивале</a>
                                     </li>
-                                    <li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2 current_page_item menu-item-2">
+                                    <li id="menu-item-2" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2">
                                         <a href="<?= url('participants'); ?>">Участники</a>
                                     </li>
                                     <li id=menu-item-3 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3">
@@ -76,214 +75,49 @@
             </header>
         </div>
 
-        <main id=site-content role=main>
-            <section class="section-margin uk-container uk-container-large">
-                <div class="artists-header uk-padding">
-                    <h1 class="tm-heading-large uk-text-secondary" style="">Участники</h1>
-                </div>
-                <div class="artists-wrap uk-padding">
-                    <div class="artists uk-child-width-1-1 uk-child-width-1-2@s uk-child-width-1-4@m uk-child-wdith-1-5@l uk-grid" data-uk-grid>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/alexander-nikolaychuk'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexander_Nikolaychuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Александр Николайчук</h3>
-                                    <p class="uk-text-secondary">Художественный руководитель фестиваля</p>
+        <main id=site-content class=uk-margin-remove role=main>
+            <article id=post-3638 class="post-3638 artist type-artist status-publish has-post-thumbnail hentry">
+                <div class="entry-content-wrapper uk-padding-remove">
+                    <div class=entry-content>
+                        <div class="wp-block-group alignfull has-background is-layout-flow wp-block-group-is-layout-flow conductor-page">
+                            <div class=wp-block-group__inner-container>
+                                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-1 wp-block-columns-is-layout-flex">
+                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+                                        <div style="height:100px" aria-hidden="true" class="wp-block-spacer"></div>
+                                        <h6 class="wp-block-heading has-text-color" id="ecosystem" style="color:#000000">Художественный руководитель АСО имени С.В. Рахманинова</h6>
+                                        <p class="has-text-color" style=font-size:5vw;line-height:1.1><strong>Алексей Моргунов</strong></p>
+                                        <div style="height:5px" aria-hidden="true" class="wp-block-spacer"></div>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/alexey-vrodlivets'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201706%202560'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexey_Vrodlivets.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Алексей Вродливец</h3>
-                                    <p class="uk-text-secondary">Директор фестиваля</p>
+                                <div class="wp-block-columns alignwide is-layout-flex wp-container-core-columns-layout-2 wp-block-columns-is-layout-flex">
+                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.38%>
+                                        <p>Выпускник Тамбовского государственного музыкально-педагогического института имени С.В. Рахманинова (класс балалайки А. Горбачева, класс дирижирования А. Артемьева). Участвовал в дирижерских мастер-классах Владимира Федосеева и Курта Мазура.</p>
+                                        <p>Лауреат Первого международного конкурса пианистов, композиторов и дирижёров имени С.В. Рахманинова (дирижирование) и Первого Всероссийского музыкального конкурса (дирижирование оркестром народных инструментов).</p>
+                                        <p>Лауреат всероссийских и международных музыкально-исполнительских конкурсов в качестве исполнителя на балалайке. Выступал в концертных залах России, Франции, Италии, Испании.</p>
+                                    </div>
+                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33%>
+                                        <p>С 2021 года художественный руководитель и главный дирижер Академического симфонического оркестра имени С.В. Рахманинова (Тамбов). За три сезона оркестр провел более 130 концертов. Вместе с оркестром исполнил премьеры сочинений А. Чайковского, М. Броннера, О. Викторовой, Д. Хорова. С оркестром были подготовлены более новых 60 программ, включая исполнение и запись всех симфоний и фортепианных концертов С.В. Рахманинова, исполнены крупные симфонические сочинения В. Моцарта, Л. Бетховена, И. Брамса, К. Сен-Санса, М. Равеля, К. Дебюсси, Дж. Гершвина, П. Чайковского, Д. Шостаковича, С. Прокофьева, В. Калинникова, М. Мусорского, И. Стравинского, С. Губайдулиной, Р. Щедрина и мн. других</p>
+                                    </div>
+                                    <div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow" style=flex-basis:33.62%>
+                                        <figure class="wp-block-image size-full">
+                                            <img fetchpriority=high decoding=async src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%201077%201616'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexey_Morgunov.jpg')}}" alt="Алексей Моргунов" class="wp-image-3639 lazy">
+                                        </figure>
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/andrey-gorbachev'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20428%20656'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Andrey_Gorbachev.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Андрей Горбачев</h3>
-                                    <p class="uk-text-secondary">Заведующий кафедрой домры, балалайки, гитары РАМ имени Гнесиных, профессор
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/oleg-piskunov'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Oleg_Piskunov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Олег Пискунов</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/ambrose-tarasov'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ambrose_Tarasov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Амвросий Тарасов</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/arthur-davletshin'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Arthur_Davletshin.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Артур Давлетшин</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/nikita-govorov'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Nikita_Govorov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Никита Говоров</h3>
-                                    <p class="uk-text-secondary">Лауреат всероссийских и международных конкурсов</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/dmitry-dmitrienko'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Dmitry_Dmitrienko.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Дмитрий Дмитриенко</h3>
-                                    <p class="uk-text-secondary">Заслуженный артист России, Художественный руководитель ГАРНА «Россия», профессор</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/alexey-morgunov'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexey_Morgunov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Алексей Моргунов</h3>
-                                    <p class="uk-text-secondary">Художественный руководитель АСО имени С.В. Рахманинова</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/daniil-stadnyuk'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Danil_Stadnyuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Даниил Стаднюк</h3>
-                                    <p class="uk-text-secondary">Дирижер НАОНИР им Н.П. Осипова</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/moscow-symphony-orchestra'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Moscow_Symphony_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Симфонический оркестр Москвы «Русская филармония»</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/osipov-orchestra'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Osipov_Orchestra_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Национальный оркестр народных инструментов России имени Н.П. Осипова</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/russia-band'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Ансамбль «Россия» имени Людмилы Зыкиной</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/young-soloists-band'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Young_Soloists_Band_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Ансамбль молодых солистов НАОНИР им. Н.П. Осипова</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/louise-mintsayeva'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Louise_Mintsayeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Луиза Минцаева</h3>
-                                    <p class="uk-text-secondary">Арфа</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/desislava-bobrina'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Desislava_Bobrina.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Десислава Бобрина</h3>
-                                    <p class="uk-text-secondary">Фортепиано</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/alina-timofeeva'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alina_Timofeeva.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Алина Тимофеева</h3>
-                                    <p class="uk-text-secondary">Фортепиано</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/natalia-shatokhina'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Natalia_Shatokhina.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Наталья Шатохина</h3>
-                                    <p class="uk-text-secondary">Фортепиано</p>
-                                </div>
+                                <p>В качестве дирижёра выступал с Симфоническим оркестром Мариинского театра, Большим симфоническим оркестром имени П.И. Чайковского, Государственным академическим симфоническим оркестром России имени Е.Ф. Светланова, Государственным академическим симфоническим оркестром Республики Татарстан, Уральским молодежным симфоническим оркестром, Красноярским академическим симфоническим оркестром, Воронежским академическим симфоническим оркестром, симфоническим оркестром Пермского оперного театра, Липецким симфоническим оркестром, камерными оркестрами Нижнего Новгорода и Липецка.</p>
+                                <p>С 2023 года дирижирует в Мариинском театре (Дж. Верди «Риголетто», Дж. Пуччини «Богема»). Дирижировал спектаклями Театра-студии оперы Российской академии музыки имени Гнесиных в Москве и Тамбове: Дж. Пуччини «Богема», П. Чайковский «Евгений Онегин» и «Пиковая дама», В. Моцарт «Свадьба Фигаро», Дж. Россини «Севильский цирюльник», Г. Доницетти «Дон Паскуале», Дж. Верди «Травиата», а также постановкой ландшафтной оперы А. Чайковского «Легенда о граде Ельце» Липецкой филармонии.</p>
+                                <p>В качестве дирижера выступал с выдающимися музыкантами: Д. Мацуевым, Б. Березовским, Н. Луганским, С. Давыдченко, И. Бессоновым (фортепиано), П. Милюковым (скрипка); А. Раммом, В. Степановым (виолончель) и др.</p>
+                                <p>С 2016 по 2023 год являлся художественным руководителем и главным дирижером Липецкого государственного оркестра народных инструментов. Дирижировал оркестрами народных инструментов: Национальным академическим оркестром народных инструментов России имени Н.П. Осипова, оркестрами Астрахани, Белгорода, Кирова, Красноярска, Н. Новгорода, Волгограда, Ульяновска, Череповца, Тамбова, Якутска и др.</p>
+                                <p>Преподает в Тамбовском государственном музыкально-педагогическом институте имени С.В. Рахманинова и ДМШ № 2 города Тамбова. Ученики класса Моргунова более 200 раз становились лауреатами всероссийских и международных конкурсов, в том числе конкурсов им. В. Андреева, М. Рожкова, Дельфийских игр, являются стипендиатами и участниками программ благотворительных фондов В. Спивакова и «Новые имена», выступают в эфире федеральных телеканалов.</p>
+                                <div style="height:40px" aria-hidden="true" class="wp-block-spacer"></div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
+            </article>
         </main>
 
-        <footer id=site-footer data-uk-scrollspy="cls: uk-animation-fade" style="visibility: hidden;">
+        <footer id=site-footer data-uk-scrollspy="cls" class="conductor-page">
             <div class="uk-container uk-container-large">
                 <div class="uk-grid uk-child-width-1-3@l row" data-uk-gird>
                     <div class="col-sm-4 uk-text-center">

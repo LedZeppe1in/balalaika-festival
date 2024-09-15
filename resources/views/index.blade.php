@@ -208,6 +208,17 @@
                         </div>
                         <div>
                             <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
+                                <a class=artists__permalink href="<?= url('participants/alexey-morgunov'); ?>">
+                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20425%20631'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Alexey_Morgunov.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
+                                </a>
+                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
+                                    <h3 class="uk-text-secondary">Алексей Моргунов</h3>
+                                    <p class="uk-text-secondary">Художественный руководитель АСО имени С.В. Рахманинова</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
                                 <a class=artists__permalink href="<?= url('participants/daniil-stadnyuk'); ?>">
                                     <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Danil_Stadnyuk.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
                                 </a>
@@ -234,16 +245,6 @@
                                 </a>
                                 <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
                                     <h3 class="uk-text-secondary">Национальный оркестр народных инструментов России имени Н.П. Осипова</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div>
-                            <div class="artists__artist uk-border-rounded uk-overflow-hidden uk-panel">
-                                <a class=artists__permalink href="<?= url('participants/russia-band'); ?>">
-                                    <img src="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%20443%20666'%3E%3C/svg%3E" data-src="{{URL::asset('/images/Ensemble_Russia_mini.jpg')}}" class="artists__img wp-post-image lazy" alt decoding=async>
-                                </a>
-                                <div class="uk-position-bottom-left uk-padding-small uk-panel uk-text-small artist-name">
-                                    <h3 class="uk-text-secondary">Ансамбль «Россия» имени Людмилы Зыкиной</h3>
                                 </div>
                             </div>
                         </div>
