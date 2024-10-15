@@ -102,7 +102,7 @@
                                 <p class="has-text-color has-medium-font-size" style=line-height:1.5><strong>16 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
                                 <p style=font-size:16px><strong>Камерный концерт</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030910/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегестрироваться</a>
+                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030910/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 <p class="has-text-color has-medium-font-size" id=single><strong>30 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
                                 <p style=font-size:16px><strong>Концерт ансамблей</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030921/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегестрироваться</a>
+                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030921/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
                                 </div>
                             </div>
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-79423b2219a188ae5ec99bd5bca20e9a is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#e4d5b3;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
