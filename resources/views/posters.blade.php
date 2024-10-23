@@ -92,7 +92,7 @@
                                 <p class="has-text-color has-medium-font-size" id=single><strong>12 октября, Суббота, 19:00, ММДМ, Светлановский зал</strong></p>
                                 <p style=font-size:16px><strong>Торжественное открытие фестиваля</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=https://www.mmdm.ru/event/i-vserossijskij-festival-balalajka-xxi-veka?event_pk=5338 class="uk-button uk-button-large uk-button-primary uk-border-rounded">Купить билеты</a>
+                                    <a href="https://www.mmdm.ru/event/i-vserossijskij-festival-balalajka-xxi-veka?event_pk=5338" class="uk-button uk-button-large uk-button-primary uk-border-rounded">Купить билеты</a>
                                 </div>
                             </div>
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-27a7a2abd97f432463617dcb58bd4d6d is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#f2ead9;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
@@ -102,7 +102,7 @@
                                 <p class="has-text-color has-medium-font-size" style=line-height:1.5><strong>16 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
                                 <p style=font-size:16px><strong>Камерный концерт</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030910/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
+                                    <a href="https://aleksandr-nikolaychuk.timepad.ru/event/3030910/" class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
                                 </div>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 <p class="has-text-color has-medium-font-size" id=single><strong>30 октября, Среда, 19:00, Государственный музей имени А.С. Пушкина</strong></p>
                                 <p style=font-size:16px><strong>Концерт ансамблей</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=https://aleksandr-nikolaychuk.timepad.ru/event/3030921/ class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
+                                    <a href="https://aleksandr-nikolaychuk.timepad.ru/event/3030921/" class="uk-button uk-button-large uk-button-primary uk-border-rounded">Зарегистрироваться</a>
                                 </div>
                             </div>
                             <div class="wp-block-column uk-border-rounded has-text-color has-background has-link-color wp-elements-79423b2219a188ae5ec99bd5bca20e9a is-layout-flow wp-block-column-is-layout-flow" style=color:#000000;background-color:#e4d5b3;padding-top:2em;padding-right:2em;padding-bottom:2em;padding-left:2em>
@@ -124,7 +124,7 @@
                                 <p class="has-text-color has-medium-font-size" style=line-height:1.5><strong>23 ноября, Суббота, 19:00, Концертный зал РАМ имени Гнесиных</strong></p>
                                 <p style=font-size:16px><strong>Закрытие фестиваля</strong></p>
                                 <div class="uk-text-center">
-                                    <a href=# class="uk-button uk-button-large uk-button-primary uk-border-rounded">Скоро</a>
+                                    <a href="https://gnesin-academy.ru/events/balalayka-xxi-veka-23-11-2024/" class="uk-button uk-button-large uk-button-primary uk-border-rounded">Купить билеты</a>
                                 </div>
                             </div>
                         </div>
